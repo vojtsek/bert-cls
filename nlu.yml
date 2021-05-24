@@ -1,0 +1,5380 @@
+version: "2.0"
+
+nlu:
+- intent: KB.retail.0001
+  examples: |
+    - Chci zrušení povoleného přečerpání.
+    - Jaký je postup pro zrušení účtu?
+    - Jak zrušit účet?
+    - Chci zrušit účet
+    - Chci vypovědět fond
+    - chci výpověď z fondu
+    - Co potřebuji pro zrušení spořícího účtu?
+    - Dá se zrušit účet?
+    - Jde vypovědět kreditní karta?
+    - Chci zrušit kreditní kartu.
+    - Jak zruším kreditní kartu.
+    - Jak mohu ukončit smlouvu?
+    - Jak můžu účet zrusit?
+    - chci zrušit běžný účet
+    - Jak se ukoncuje osobni ucet?
+    - Jak zrušit spořící účet?
+    - chci vypovědět spořící účet
+    - Jaký je postup při zrušení účtu?
+    - Jak  zrušit kreditní kartu?
+    - Je možné zrušit kontokorent?
+    - Jde kontokorent zrušit přes internet banking?
+    - Lze zadat výpověď účtu ze zahraničí?
+    - Lze zrušit smlouvu online?
+    - Můžu poslat výpověd?
+    - Můžu zrušit kontokorent online?
+    - Potřebuji u Vás zrušit účet
+    - Jak zrušit kontokorent?
+    - Už nechci využívat kreditní kartu.
+    - Kam poslat výpověď z účtu?
+
+- intent: KB.retail.0002
+  examples: |
+    - Chci změnit adresu, na kterou mi přijde kreditní karta.
+    - Můžu změnit adresu pro zaslání nové karty?
+    - Jde změnit adresa kam posíláte kreditku?
+    - Potřebuju změnit adresu kvůli kartě.
+    - Kde si změním adresu, kam mi nová karta dorazí?
+    - Muzete mi zmenit adresu pro doruceni nove debetni karty?
+    - Potřebuji změnit adresu pro zaslání nové karty.
+    - Jak mohu změnit adresu, kam chci poslat kartu?
+
+- intent: KB.retail.0003
+  examples: |
+    - Jste pořád obsazení
+    - hotline je obsazená
+    - Není možné se dovolat na hotline
+    - Nelze se dovolat na zakaznickou linku
+    - Nemůžu se vám dovolat
+    - Půl hodiny čekám na telefonu
+    - Snazim se dovolat na Hotline platebnich terminalu.
+    - Čekám na hotline ohledně termínálu přes půl hodiny!
+
+- intent: KB.retail.0004
+  examples: |
+    - Budete zavírat pobočky?
+    - Kde najdu nejbližší bankomat ČSOB?
+    - Kde najdu nejbližší bankomat
+    - Můžeš mi najít nejbližší bankomat.
+    - nejbližší bankomat
+    - Najdi mi nejbližší pobočku ČSOB.
+    - Pobočka covid?
+    - Kde je nejbližší bankomat?
+    - Je ve bankomat?
+    - Dejte mi kontakt na pobočku
+    - Do kdy budou mít pobočky otevřeno
+    - Kde je bankomat?
+    - Kde najdu bankomaty poštovní spořitelny?
+    - Dokdy má otevřeno pobočka
+    - Kde najdu kontakt na místní pobočku?
+    - Jaký je telefon na pobočku?
+    - Jsou vaše pobočky otevřené?
+    - Kde najdu kontakt a pobočky?
+    - Jaká je otevírací doba banky?
+    - Potřebuju číslo telefonu na pobočku
+    - Máte otevřené pobočky?
+    - Potřebuji informaci k provozu na pobočkách
+    - Kdy banka zavírá?
+    - Nemohu se dovolat na pobočku
+    - Otevírací doba pobočky v sobotu?
+    - Co když je pobočka zavřená?
+    - Kde je nejbližší otevřená pobočka?
+    - Potřebuji číslo na svojí pobočku
+    - Shanim kontakt na pobocku
+    - Máte v sobotu a neděli otevřeno?
+    - chci najít nejbližší pobočku
+    - Má banka zítra otevřeno?
+    - Je dnes otevřena pobočka?
+    - Na kterou pobočku mohu zajít rovnou?
+    - otevírací doba
+    - potřeboval bych kontakt na pobočku?
+    - Dáte mi kontakt na Vašeho pracovníka?
+    - Máte seznam poboček s hotovostní službou?
+    - Jaká je provozní doba?
+
+- intent: KB.retail.0005
+  examples: |
+    - Chtěla bych se zeptat na měnové kurzy.
+    - Dáte mi telefon na smluvní kurz?
+    - Chci dnešní kurzovní lístek
+    - Jaký je dnes kurz?
+    - Jaký je kurz EUR?
+    - Jaký je kurz USD?
+    - Jaký je kurz eura k dolaru?
+    - Jaký je kurz pro platbu do zahraničí?
+    - Jaký je kurz pro platbu v cizí měně?
+    - Jaký je kurz při platbě v cizí měně?
+    - Jakým kurzem půjde platba?
+    - Je možnost sjednání výhodnějšího kurzu?
+    - Kam se mám obrátit pro nejlepší kurz?
+    - Kde najdu kurzovní lístek?
+    - Kde najdu měnové kurzy?
+    - Kde sjednám smluvní kurz?
+    - potřebuji vyměnit GBP na CZK.
+    - Potřebuju telefonní číslo na dealing?
+    - Potřebuji vyměnit GBP na české koruny.
+    - Potřebuji vyměnit vyměnit libry na koruny.
+    - Chci kontakt na dealing
+    - Telefon na dealing je jaký?
+
+- intent: KB.retail.0006
+  examples: |
+    - Co je aktuální zůstatek?
+    - Co je to disponibilní zůstatek?
+    - Co znamená aktuální zůstatek?
+    - Co znamená disponibilní zůstatek?
+    - Jaký je rozdíl mezi aktuálním a disponibilním zůstatkem?
+    - V čem se liší disponibilní a aktuální zůstatek?
+
+- intent: KB.retail.0007
+  examples: |
+    - Jsou peníze na účtu Plus konto úročeny?
+    - Jaká je sazba na hypotéku?
+    - Kolik procent máš plus konto?
+    - Jak se mi úročí peníze na plus kontu?
+    - Jakou sazbu máte na spoření?
+    - Jaké máte úrokové sazby na účtech?
+    - Jaký je úrok?
+    - Jaké jsou úrokové sazby?
+    - Jak úročíte peníze na účtu?
+    - Jaké máte úrokové sazby?
+
+- intent: KB.retail.0008
+  examples: |
+    - Chci požádat o mimořádnou splátku půjčky.
+    - Chci provést mimořádnou splátku.
+    - Chci předčasně splatit spotřebitelský úvěr.
+    - Kolik zaplatím když splatím předčasně svůj úvěr?
+    - Chci předčasně splatit úvěr.
+    - Chtela bych provest predcasnou splatku vetsi castkou.
+    - Co vse je potreba pro zadost o predcasne splaceni uveru?
+    - Jak doplatím úvěr?
+    - Jak mám poslat větší měsíční splátku na můj úvěr?
+    - Jak provedu mimořádnou splátku úvěru?
+    - Jak předčasně splatit půjčku?
+    - Jak zadám mimořádné splacení úvěru?
+    - chci mimořádně splatit půjčku
+    - Je možné splatit úvěr předčasně?
+    - Kolik stojí předčasné splacení úvěru?
+    - Můžu jednorázově doplatit celý úvěr?
+    - Můžu předčasně splatit svoji půjčku?
+    - jaký je poplatek za předčasné splacení?
+    - Účtujete si něco za mimořádné splacení?
+
+- intent: KB.retail.0009
+  examples: |
+    - Dejte mi e-mailovou adresu na bankéře
+    - Jaká je e-mailová adresa na bankéře?
+    - Chci e-mail na svého bankéře.
+    - Potrebovala bych mailovou adresu na osobniho bankere.
+
+- intent: KB.retail.0010
+  examples: |
+    - mám účet již zrušený?
+    - Je můj účet už zrušený?
+    - Kdy mi zrušíte účet?
+    - kdy mi bude zrušený účet?
+
+- intent: KB.retail.0011
+  examples: |
+    - Jak mohu navýšit splátku úvěru?
+    - Jak mohu snížit splátku úvěru?
+    - Jak snížím limit kontokorentu do mínusu?
+    - Jak snížím úvěrový limit kontokorentu?
+    - Jak snížím úvěrový rámec kreditní karty?
+    - Jak upravím datum splátky?
+    - Jak změním datum splácení?
+    - Jak změním den splátky?
+    - Jak změním číslo účtu pro splácení úvěru?
+    - Jak zruším automatickou plnou splátku kreditky?
+    - Jak zruším automatickou plnou splátku kreditní karty?
+    - Kde mohu požádat o změnu data splátky?
+    - Potřebuji změnit účet ke stahování splátek půjčky.
+    - Jak nahlásím nové číslo účtu pro splácení půjčky?
+
+- intent: KB.retail.0012
+  examples: |
+    - Dáte mi kontakt na poradkyni?
+    - Dáte mi číslo na bankéřku?
+    - Potřeboval bych číslo na paní
+    - Kde najdu číslo na bankéřku?
+    - Shanim tel. cislo na bankerku.
+    - změna svého osobního bankéře
+    - nedostali jsme nového přiděleného bankéře?
+    - Náš osobní bankéř skončil 
+
+- intent: KB.retail.0013
+  examples: |
+    - Chci mluvit s člověkem
+    - Jak můžu získat druhou platební kartu ke svému účtu.
+    - Jak můžu telefonicky zadat platbu?
+    - Jak můžu změnit e-mail?
+    - Je možné změnit e-mail?
+    - Můžu si objednat platební samolepku?
+    - Poslali jste mi výpis někoho jiného.
+    - Jak si mám změnit email?
+    - Mohu mluvit s lidským kolegou?
+    - Můžete mě přepojit na člověka?
+    - Ráda bych si psala s živou osobou.
+    - mohla bych komunikovat s někým jiným?
+    - nefunguje mi identita
+    - nefunguje mi ČSOB ID
+    - nejde mi bankovní identita
+
+- intent: KB.retail.0014
+  examples: |
+    - mi bankomat nevydal zpět kartu.
+    - Nejde mi platit přes internet
+    - Chci poslat žádost a nefunguje to.
+    - Chci zrušit objednávku image karty.
+    - máme deaktivovaný smartklíč
+    - Nesouhlasím se stažením platby z mé karty
+    - Nemohu se přihlásit do internet banking?
+    - Nevyzvedl jsem si dopis s pin ke kartě.
+    - Ztratila jsem platební karty
+    - Nechodí mi sms klíče
+    - Nefunguje mi karta
+    - Vypršela mi platnost karty
+    - Dneska mi byla odmítnuta karta u obchodníka
+    - Evidujete výpadek u služby MasterPass?
+    - Hlásí mi to chybu
+    - Jak blokovat kartu?
+    - Jak zablokuji kartu?
+    - Jak si mám zablokovat všechny svoje karty?
+    - Jak zablokuji platbu kartou kterou jsem neprovedl?
+    - Jak změním ověřování k internetovému bankovnictví?
+    - Jaký je kontakt na IT oddělení?
+    - Jaký je kontakt na helplinku IB?
+    - Karta zatím nedorazila.
+    - Končí mi platnost karty.
+    - Mate nejaky vypadek spojeny se sluzbou MasterPass?
+    - Můžu získat bezpečnostní certifikát?
+    - Na jake cislo volat kvuli zablokovani karty?
+    - Nedorazila mi objednaná platební karta.
+    - nepřišel mi pin
+    - Nedostal jsem PIN k internetovému bankovnictví.
+    - Nestihla jsem zaktivovat kartu.
+    - Někdo se snaží platit moji kartou na internetu
+    - Potřebuji zablokovat kartu.
+    - Potřebují nahlásit poruchu bankomatu.
+    - pomůžeme mi zablokovat ukradené karty?
+    - Proč byla má karta několikrát zamítnutá?
+    - Proč je nefunkční bankomat?
+    - Proč mi nefunguje platba kartou?
+    - Proč mi nefunguje platná platební karta?
+    - Proč mi nefungují online platby?
+    - Proč mi nejde platit kartou?
+    - Proč mi nejde provést platba?
+    - Proč mi nejde vybrat z bankomatu?
+    - Proč mi nepřišla platební karta?
+    - Proč mi stále posíláte smsky na staré číslo
+    - Proč mi to psalo, že mám neplatnou kartu?
+    - Proč mám zablokovanou kartu?
+    - Proč nefunguje bezkontaktní placení?
+    - Proč nejde načíst karta do telefonu?
+    - Proč nemohu posílat peníze na účet?
+    - Proč přestala fungovat bezkontaktní platba kartou?
+    - Proč se mi zablokovala karta?
+    - Proč se po kliknutí na odkaz zobrazí server nenalezen?
+    - Proč si nemůžu dočasně zablokovat kartu?
+    - Při přihlášení se mi posouvá rámeček.
+    - Ukradli mi kartu
+    - Jak si mám zablokovat karty, když mi ukradli peněženku?
+    - Vypadla vám služba MasterPass?
+    - Vyprší mi platnost certifikátu.
+    - Manžel má zablokovanou kartu k mému účtu
+    - Zablokovala se mi karta.
+    - Zajímalo by mě tel číslo na IT asistence.
+    - Ztratil jsem bankovní kartu.
+    - Zítra mi končí platební karta a stále nemám novou.
+    - Mám se z důvodu zabezpečení platební karty dostavit?
+
+- intent: KB.retail.0015
+  examples: |
+    - Jak zrusim reklamaci?
+    - Potřebuju zrušit reklamaci.
+    - Zrušte reklamaci.
+    - Můžu nějak zrušit reklamaci?
+    - Chci zrušit reklamaci.
+
+- intent: KB.retail.0016
+  examples: |
+    - nefunguje EET v terminálu
+    - na prodejně přestal fungovat terminál?
+    - chci platební terminál?
+    - nefunguje terminál
+    - Máme od Vás platební terminál
+    - Můžete mi pomoci s platebním terminálem?
+    - Nefunguje mi EET v terminálu!
+    - Potřebuji technika k přenastavení terminálu?
+    - Prosím o hotlinku na EET platebního terminálu
+    - Přestal mi na obchodě fungovat terminál.
+    - potřebuji nutně technika na EET.
+    - Dodáváte platební terminály do kaváren a jiných provozoven?
+
+- intent: KB.retail.0017
+  examples: |
+    - Co je to ta chytrá platba?
+    - Chci chytrou platbu
+    - Jak zadám chytrou platbu?
+    - Kde najdu chytrou platbu?
+    - K čemu je dobrá chytrá platba?
+
+- intent: KB.retail.0018
+  examples: |
+    - Chci vybrat vyšší částku peněz
+    - Zajistíte větší výběr peněz?
+    - Musím se objednávat na pobočku pro větší výběr hotovosti?
+    - Potřebuji nadlimitní výběr.
+    - Potřebuji vybrat větší hotovost.
+    - Potřebuju ze svého účtu vybrat větší sumu peněz.
+    - Jak si mohu objednat větší obnos peněz?
+    - Musím hlásit předem výběr 600 tisíc korun?
+
+- intent: KB.retail.0019
+  examples: |
+    - Chtěl bych Cool kartu.
+    - Co to je Cool karta.
+    - Chci coolkartu
+    - Karta bez účtu ?
+
+- intent: KB.retail.0020
+  examples: |
+    - mohu podat stížnost?
+    - Chci si stěžovat
+    - Kde podám stížnost?
+    - Kde si mohu stěžovat na manažera pobočky?
+    - Nejsem spokojený s jednáním pobočky?
+    - chci podat stížnost
+    - Jak si mohu stěžovat?
+    - Kam mohu oznámit nespokojenost s bankou?
+
+- intent: KB.retail.0021
+  examples: |
+    - Chtěl bych si něco koupit ve světě odměn.
+    - Co je to svět odměn?
+    - Jak se přihlásím do světa odměn?
+    - Kde najdu svět odměn?
+    - Kde utratím body ze světa odměn?
+    - Za co můžu utratit body ve světe odměn?
+    - jak to funguje ve světě odměn?
+    - Chci se podívat do pravidel Světa odměn.
+    - Jaká máte pravidla ve Světě odměn?
+    - Kde najdu pravidla pro získávání bodů ve Světě odměn?
+
+- intent: KB.retail.0022
+  examples: |
+    - Jak si zkontroluji svoje investice?
+    - Kde najdu investiční portál?
+    - Investiční portál
+    - Chci si prohlédnout své investice
+    - Kde najdu v internetovém bankovnictví investice?
+    - Kde najdu investice ve smartu?
+    - Kde najdu ve smartbankingu investice?
+    - Kde uvidim na portale svůj investiční fond?
+    - Kde uvidím jak se daří mým investicím?
+
+- intent: KB.retail.0023
+  examples: |
+    - Jakou minimální částku můžu vložit do bankomatu?
+    - Jde do bankomatů vkládat eura?
+    - Je v Brně vkladomat, který přijímá mince?
+    - Kde je možné vložit peníze na účet?
+    - Kde najdu bankomat s vkladem mincí ?
+    - Kolik Kč nejméně můžu vložit do bankomatu?
+    - Kolik máte vkladomatů na mince?
+    - Můžu vkládat do bankomatu cizí měnu?
+    - Od kolika Kč se da vkladat v bankomatu?
+    - máte málo vkladomatů.
+    - chtěla bych využít vkladového bankomatu
+    - hledám bankomat na vkládání mincí
+    - kde je nejbližší vkladomat?
+    - seznam vkladových bankomatů
+    - Jak probíhá vklad bankomatem?
+
+- intent: KB.retail.0024
+  examples: |
+    - Jak se dostanu na svoje pojistné smlouvy
+    - Kde najdu své pojistky?
+    - Kde mohu vidět svoje pojistné smlouvy?
+    - Kde uvidím moje sjednané pojistky?
+    - Potřebuji zobrazit mé pojištěni
+    - jak se přihlásit do portálu pojištění
+    - portál pojišťovny
+    - Chci informace o své pojistce
+    - Kde najdu detailní popis své pojistky?
+    - mám uhrazeno havarijní pojištění na tento rok?
+    - Prosím pošlete mi údaje o mém pojištění.
+    - potřeboval bych informaci ohledně pojistné smlouvy.
+
+- intent: KB.retail.0025
+  examples: |
+    - Je aktualni zalozeni Era sporici ucet Duo profit?
+    - Chci spořící účet duo profit
+    - mam dotaz ohledne produktu Duo Profit
+    - mohu se zeptat na duo profit?
+    - Chtěl bych duo profit
+
+- intent: KB.retail.0026
+  examples: |
+    - Dejte mi aktuální e-mail.
+    - Jaká je vaše e-mailová adresa?
+    - Jaký je prosím mail?
+    - Jaký je váš aktuální e-mail?
+    - Na jaký e-mail zaslat?
+    - POTŘEBUJI EMAIL NA PODPORU
+    - SHÁNÍM EMAILOVOU ADRESU
+    - Dáte mi e-mail na banku?
+    - Jaký je email do banky?
+    - Jaký je prosím kontaktní email na ČSOB?
+    - Kam můžu poslat e-mail?
+    - Kam vám můžu napsat?
+    - Na jakou e-mailovou adresu mohu odeslat e-mail?
+    - Kde mohu najít emailovou adresu?
+    - Kde mohu najít kontaktní e-mail?
+    - Komu mohu napsat email ohledně účtu?
+    - Potřebovala bych nějaký kontaktní email.
+    - Potřebuji obecnou mailovou schránku pro dotazy.
+    - Mohu poprosit o emailový kontakt?
+    - Můžete mi prosím zaslat emailovou adresu ČSOB?
+
+- intent: KB.retail.0027
+  examples: |
+    - Investice v rámci Duo Profitu končí za rok?
+    - Do kdy jsou peníze v Duo profitu?
+    - Kdy končí Duo Profit?
+    - Na jakou dobu mám sjednaný Duo profit?
+    - Na jak dlouho je duo profit?
+
+- intent: KB.retail.0028
+  examples: |
+    - Hlášení škody
+    - Chci nahlásit pojistou událost
+    - Nemůžu najít formulář pro hlášení pojistné události
+    - Potřebuji formulář na nahlášení pojistné události.
+    - Jaký je postup při nahlášení pojistné události?
+    - Kde nahlásím rozbité sklo?
+    - Mohu vás poprosit o získání formuláře na vyplnění nahlášení úrazu?
+    - Musím kvůli nahlášení pojistné události jít na pobočku?
+    - Potřebuji nahlásit škodnou událost
+    - Potřebuju nahlásit pojistnou událost
+
+- intent: KB.retail.0029
+  examples: |
+    - Chci zřídit kartu k podnikatelskému účtu.
+    - Jak objednám kartu k účtu?
+    - Kde požádám o novou kartu?
+    - Můžu si zřídit kartu po telefonu?
+    - Mohu mít ke kontu dvě platební karty?
+    - Je možné pořídit kartu pro manžela?
+
+- intent: KB.retail.0030
+  examples: |
+    - výběr hotovosti v bankomatu
+    - Mate hotovostni prepažku?
+    - Můžu si vybrat hotovosti na pobočce nebo z bankomatu?
+    - Kde mohu výběr provést?
+
+- intent: KB.retail.0031
+  examples: |
+    - Chci si sjednat sporici ucet k plus kontu.
+    - Chtěla bych spořit
+    - Můžu začít spořit
+    - Chci si zřídit spořicí účet jak mám postupovat?
+    - Chci založit spořící účet.
+    - Chci se podívat na spoření.
+    - Chci spořící účet.
+    - Chci zařídit spořící účet.
+    -  je spořící účet bez výpovědi vkladu?
+    - Jak si pořídím spořící účet?
+    - Jak si zřídím spořicí účet?
+    - Jak založit spoření v internetovém bankovnictví?
+    - Potřebuju spořící účet
+    - Jde objednat spoření online?
+    - Lze zřídit spořící účet s bonusem?
+    - Můžu dostat spořící účet online?
+    - Rád bych si zařídil Spořící účet.
+    - jaké nabízíte spoření?
+    - jde zřídit spořící účet online?
+    - ráda bych se zeptala na spořící účet
+    - spoření s bonusem
+    - Jaké jsou úroky, když si chci uložit peníze na jeden až dva roky?
+
+- intent: KB.retail.0032
+  examples: |
+    - jaké LTV nyní poskytujete na koupi nemovitosti?
+    - Kolik si mám naspořit na hypotéku,
+    - Dostanu u vás hypotéku v celé hodnotě nemovitosti?
+    - Jaké nejvyšší hypotéky na rodinné domy poskytujete?
+    - Je mozne dostat 100% hypoteku?
+    - Dá se sjednat až 90% hypotéka?
+    - Jsou možné i hypotéky do 90% LTV?
+    - Můžu mít hypotéku ve výši 100 %?
+    - Stačí mi pro sjednání hypotéky 10 % mých úspor?
+
+- intent: KB.retail.0033
+  examples: |
+    - Můžu si zajít na pobočku pro sjednání hypotéky?
+    - Jde hypotéku sjednat online?
+    - Je lepší si sjednat hypotéku online nebo raději na pobočce?
+
+- intent: KB.retail.0034
+  examples: |
+    - Chtěl bych hypoteční smlouvu.
+    - Chci hypotéku
+    - Co potřebuju k zastaveni nemovitosti ?
+    - Dostanu hypotéku, když nejsem občan ČR?
+    - Dáváte hypotéky i cizincům s trvalým bydlištěm v ČR?
+    - Dáváte hypotéky na družstevní byty?
+    - Dáváte hypotéky na pozemky?
+    - Jakou mi dáte nabídku refinancování hypotéky?
+    - Jaké jsou vaše hypoteční podmínky pro cizince?
+    - Jde hypoteka predcasne splatit bez nejakych sankci?
+    - Jde předčasně splatit hypotéku bez sankce?
+    - Je možné poslat kopii hypoteční smlouvy emailem?
+    - Je možné vzít hypoteční úvěry na koupi zahrady v zahrádkářské kolonii?
+    - Je možné získat hypotéku na byt v družstevním vlastnictví?
+    - Jaká je nabídka refinancování hypotéky.
+    - Kam se můžu obrátit s dotazy ohledně hypotéky?
+    - Kolik budu platit navíc při předčasném splacení hypotéky?
+    - Lze hypotéku splatit předčasně?
+    - Musí být družstevní byt v OV, pokud chci hypotéku?
+    - Mám šanci získat hypotéku?
+    - Chci hypotéku na dům.
+    - Můžu dostat hypotéku po insolvenci?
+    - Můžu předčasně splatit hypotéku?
+    - Potřebuju poradit s hypotékou
+    - Poradíte mi s hypotékou?
+    - vyčíslit doplatek na hypotéku
+    - zaplacené úroky z hypotéky ?
+    - Co je to zástavní právo u hypotéky?
+
+- intent: KB.retail.0035
+  examples: |
+    - Máte transparentní účty?
+    - Chci transparentní účet
+    - Kde si zřídím transparentní účet?
+    - Kde najdu seznam společností, které mají transparentní účet?
+    - Potřebujeme transparentní účet.
+    - Kde jsou informace k transparentním účtům?
+
+- intent: KB.retail.0036
+  examples: |
+    - je bankovní účet aktivní?
+    - Chci informace o cizím účtu
+    - Je možné zjistit, jestli je účet aktivní?
+    - Můžu dostat informace o účtě
+
+- intent: KB.retail.0037
+  examples: |
+    - Mám dotaz ohledně karty
+    - Nejde mi platit online
+    - nevidím kartu ve smartbankingu
+    - nan
+    - Platnost mojí karty?
+    - Kolik mám platebních karet?
+    - Kdy mi končí platnost karet?
+    - Kdy mi končí platnost platební karty?
+    - Chtel bych platit kartou na internetu
+    - upozornění na končící platnost platební karty
+    - Chtela bych si na karte zapnout platby na internetu.
+    - Chtěl bych si aktivovat online platby.
+    - Jak vypnu platby na internetu?
+    - Dají se zprovoznit platby přes internet online?
+    - Jak bych mohl povolit platby online?
+    - Jak mam pres internet platit kartou?
+    - Jak si aktivovat platby přes internet?
+    - Jak si mám aktivovat platby přes internet?
+    - Jak si zobrazím PIN?
+    - Jak zakážu platby na internetu?
+    - Kdy končí moje kreditní karta?
+    - Jak zjistím PIN ke kartě?
+    - Jak zjistím podrobnosti ke své platební kartě?
+    - Jak zřídit online platby?
+    - Kde máte v bankovnictví platební karty?
+    - Kde najdu limity na kartě?
+    - Kde najdu PIN ke kartě?
+    - Kde najdu detaily k platební kartě?
+    - Kde najdu informace o platební kartě?
+    - Kde najdu podrobnosi o mojí platební kartě?
+    - Kde najdu povoleni pro internetove platby?
+    - Kde najdu v internetovem bankovnictvi zalozku Platebni karty?
+    - Kde si povolim platby přes internet?
+    - Kde v internetovem bankovnictvi najdu platebni karty?
+    - Kde zjistím PIN ke kartě?
+    - Kde zjistím, kolik mám registrovaných karet?
+    - mi nefungují platby přes internet.
+    - Musím jít osobně do banky pro povolení plateb přes internet?
+    - Mám platby přes internet automaticky povolené?
+    - Můžu někde zjistit PIN ke kartě?
+    - Nabizite take kartu, se kterou se da platit po internetu?
+    - Kde v IB najdu údaje o platebních kartách?
+    - Nechci mít povolené platby na internetu.
+    - Nejdou mi platby přes internet.
+    - Nemuzu najit zalozku platebni karty.
+    - Nevím jak zjistím PIN k platební kartě.
+    - Nikde v bankovnictví nevidím svoji kartu.
+    - Platby přes internet musím někde povolit?
+    - Potřebuji najít karty v internetovém bankovnictví.
+    - Potřebuji si zablokovat platební kartu.
+    - Nejde mi platit kartoíu na internetu.
+    - Zapomněl jsem PIN ke kartě.
+    - jak dlouho trvá než přijde pin ke kartě?
+    - nevím PIN ke kartě
+    - jaky mam PIN na nove karte
+
+- intent: KB.retail.0038
+  examples: |
+    - Do kolika dni prijde uver na ucet?
+    - Dokdy můžu čekat půjčku na účtu?
+    - Kdy mi dorazí peníze ze sjednané půjčky?
+    - Kdy mi přijdou peníze ze schválené půjčky?
+    - peníze z půjčky mi ještě nedorazily.
+
+- intent: KB.retail.0039
+  examples: |
+    - Chci si zalozit internetove bankovnictvi.
+    - Chci si zařídit IB.
+    - Jak požádat o internetové bankovnictví?
+    - Jak si aktivovat IB?
+    - Jak si mohu zazadat o internetbanking?
+    - Jak si zalozit internetove bankovnictvi?
+    - Jaký je postup pro zařízení IB?
+    - Lze IB zřídit bez pobočky?
+    - Lze sjednat internetové bankovnictví online?
+    - Jak aktivuju internetbanking
+    - Potrebuji zridit internetove bankovnictvi.
+    - Chci internetové bankovnictví
+
+- intent: KB.retail.0040
+  examples: |
+    - Můžu si požádat o půjčku, když beru invalidní důchod?
+    - Je důchod stupně příjem?
+    - Počítáte jako příjem invalidní důchod 1. stupně?
+    - Počítá se invalidní důchod druhého stupně jako příjem?
+    - Je možné si zažádat o půjčku s ID 1. stupně?
+    - Akceptujete jako příjem invalidní důchod 1. stupně?
+    - Pujcujete i tem, kdo ma ÚP a ma duchuod 1. stupne?
+
+- intent: KB.retail.0041
+  examples: |
+    - chtěl bych refinancovat hypotéku
+    - Jaké jsou podmínky refinancování hypotéky?
+    - Chci refinancovat hypotéku.
+
+- intent: KB.retail.0042
+  examples: |
+    - Jak rychle vyřídíte kontokorent?
+    - Jak dlouho trvá vyřídit kontokorent?
+    - Kdy bude aktivní kontokorent?
+    - Za jak dlouho mi zpřístupníte kontokorent?
+
+- intent: KB.retail.0043
+  examples: |
+    - Chci změnit pin ke kartě.
+    - Co musím udělat pro změnu PINu v bankomatu?
+    - zapomenutý pin
+    - Chci resetovat pin.
+    - Jak mohu zmenit PIN sve platebni karty?
+    - Jak si mohu zmenit pin na karte Mastercard?
+    - Jak si u vás změním PIN?
+    - Jak si změním PIN v bankomatu?
+    - Je možnost změnit pin?
+    - Kde je mozná zmena pinu?
+    - Lze si změnit pin online?
+    - kde se mění pin ke kartě
+    - potřebuju změnit PIN?
+
+- intent: KB.retail.0044
+  examples: |
+    - Můžu si vybrat z bankomatu v rámci bezúročného období?
+    - Mají vaše kreditní karty bezúročné období i na výběry z bankomatu?
+    - Platí bezúročné období i na výběry z bankomatu?
+
+- intent: KB.retail.0045
+  examples: |
+    - Limit pro pošty?
+    - Jaký mám limit pro pošty?
+    - Jaký je limit pro výběr hotovosti na poště?
+    - Jak mám nastavený limit výběru na poště?
+
+- intent: KB.retail.0046
+  examples: |
+    - Plánujete navýšit sazby na spoření?
+    - Budou se zvyšovat úrokové sazby na spořících účtech?
+    - Budete navyšovat úroky na spořící účtech?
+    - Kdy zvýšíte úrokovky na spoření?
+
+- intent: KB.retail.0047
+  examples: |
+    - Chci si pojistit kartu.
+    - Jak si mohu pojistit platebni kartu?
+    - Jak si sjednám pojištění ke kartě?
+    - Kde najdu nabídky pojištění ke kartě?
+    - Zahrnuje karta cestovní pojištění?
+
+- intent: KB.retail.0048
+  examples: |
+    - Dostanu k nové kartě i nový PIN?
+    - Dostanu novou kartu až po ukončení platnosti té staré?
+    - Jaký je pin k nové kartě?
+    - Je nová karta zaslána automaticky?
+    - Kdy bude moje karta k vyzvednutí na pobočce?
+    - Kdy chodí nové karty?
+    - Kdy mi dorazí nová karta?
+    - Kdy mi pošlete novou kartu?
+    - Kdy mi přijde nový PIN ke kartě?
+    - Kdy mám čekat na kartu?
+    - Kdy si můžu přijít pro novou kartu k novému účtu?
+    - Končí mi stará karta a nevím, kdy dostanu novou.
+    - O novou kartu si musím žádat?
+    - Požádala jsem si o novou kartu a nevím, kdy si ji můžu vyzvednout.
+    - Prijde mi automaticky nova karta, nebo si o ni musim pozadat?
+    - Prisla mi SMS, ze mi bude zaslana nova platebni karta.
+    - Za jak dlouhou dobu mi přijde platební karta?
+    - Změní se mi pin u nové karty?
+
+- intent: KB.retail.0049
+  examples: |
+    - Jak požádám o zvýhodnění účtu, když jsem maminka na mateřské dovolené?
+    - Kde si vyřídím účet zdarma jako matka na MD?
+    - Mate nejake vyhody pro maminky na rodicovske dovolene?
+    - Máte výhodnější účet nebo půjčky pro maminky na mateřské dovolené?
+    - Můžu mít u vás účet zdarma, když jsem na MD?
+    - Platím za účet, když jsem na MD?
+    - Máte účet zdarma pro maminky na mateřské dovolené?
+
+- intent: KB.retail.0050
+  examples: |
+    - Co mám udělat pro zrušení penzijka v invalidním důchodu?
+    - Jak se dá zrušit penzijní fond?
+    - Jak zruším penzijní spoření?
+    - Jaké doklady mám předložit pro zrušení pezijka?
+    - Jaké je číslo na důchodové pojištění?
+    - Mám invalidku a chtěl bych zrušit penzijní pojištění.
+    - Potřebuji zrušit penzijko a jsem, co dělat?
+    - Mohu se zeptat na vyplacení důchodového spoření?
+
+- intent: KB.retail.0051
+  examples: |
+    - Jak si můžu změnit doručovací adresu?
+    - Mám novou korespondenční adresu.
+    - Potrebuji zmenit dorucovaci adresu.
+    - Změňte mi doručovací adresu.
+    - Přestěhoval jsem se a mám novou doručovací adresu.
+
+- intent: KB.retail.0052
+  examples: |
+    - Chtěl bych u vás kreditní kartu
+    - Můžu si o novou kartu zažádat online?
+    - Chci kreditní kartu
+    - Chci kreditku
+    - Co je to kreditní karta?
+    - Jak si můžu požádat o kreditní kartu?
+    - Jde poslat kreditka online?
+    - Jde založit kreditní karta online?
+    - Můžu dostat kreditní kartu online?
+    - Můžu si pořídit kreditku online?
+    - chci požádat o kreditku
+    - jak mám postupovat v online žádosti o kreditní kartu ?
+
+- intent: KB.retail.0053
+  examples: |
+    - Kdy mi přijde kreditní karta?
+    - Kdy posíláte kreditní karty po schválení žádosti?
+    - Kdy mi příjde domů nová kreditní karta, kterou jsem sjednala?
+    - Za jak dlouho mi přijde kreditní karta, o kterou jsem žádala?
+
+- intent: KB.retail.0054
+  examples: |
+    - Kdy mi přijde nový kód do IB?
+    - Za jak dlouho mi tak prijde kod pro obnoveni pristupu?
+    - Do kdy mám čekat na kód pro obnovení přístupu?
+
+- intent: KB.retail.0055
+  examples: |
+    - Chci se dozvedet, jaky je muj limit pro platbu kartou.
+    - Chci si snížit limit na kartě.
+    - Jaký mám limit na kartě?
+    - Chci si změnit limity plateb v internetovém bankovnictví.
+    - Chci zvýšit limit plateb, jde to i z bankovnictví
+    - Chtela bych zvednout limit platebni karty
+    - Co mám dělat při přečerpaném limitu?
+    - Hledám limity výběru.
+    - Jak mam zmenit denni limit pro odchozi platbu?
+    - Jak mohu zvysit denni limit pro platby ci prevody z uctu?
+    - Jak mám změnit limit v internetovém bankovnictví?
+    - Jak poznám, kolik mám limit na platby?
+    - Jak si můžu zvýšit týdenní limit pro výběry?
+    - Jak si změním denní limit a kolik budu platit?
+    - Jak si zvýším denní limit pro jednorázový příkaz?
+    - Jak si zvýším limit pro posílání plateb?
+    - Jak zmenim denni a tydeni limit v internetovem bankovnictvi ?
+    - Jak změnit limit na kartě?
+    - Jak změním limit ke kartě?
+    - Jak změním limity na kartě?
+    - limity karet
+    - Jak zvýšit týdenní limit výběru z bankomatu?
+    - Jak zvýším limit pro platební kartu?
+    - Jaky je denní limit pro zaslání peněz na běžný účet u jiné banky?
+    - Jaké jsou limity v rámci Premium konta?
+    - Jaký je limit pro platby přes internet?
+    - Jaký mám denní limit k účtu?
+    - Jde změnit denní limit online?
+    - Jde zvýšit limit pro jednorázový příkaz?
+    - Je možné si nastavit limity pro převod peněz
+    - Je možné změnit denní limit přes internetové bankovnictví?
+    - Je stanovený nějaký limit pro převod financí z ČSOB Premium konta?
+    - Kde mohu zmenit limit na podani jednorazove platby?
+    - Kde najdu informace o denních limitech k účtu?
+    - Kde najdu informaci o limitu vyberu, pripadne zadani zmeny?
+    - Kde najdu limit pro výběry?
+    - Kde najdu, jaké mám limity pro převody v rámci účtu?
+    - Kde se dozvim, jaky mam limit pro vyber kartou v bankomatu?
+    - Kde si muzu zmenit denni limit platby?
+    - Kde si můžu zvýšit limit pro výběr z bankomatu?
+    - Kde si prenastavim denni limit?
+    - Kde si zvýšim limit pro platby a převody?
+    - Kde v internetovém bankovnictví změním limity?
+    - Kde zjistím denní limit pro platby kartou?
+    - Kolik je denni limit pro platby přes ib?
+    - Kolik je limit na mojí platební kartě?
+    - Kolik můžu maximálně poslat peněz na jiný účet?
+    - Komu mám zavolat, pro změnu limitu u plateb?
+    - Lze si změnit denní limit v internetovém bankovnictví?
+    - Lze zvýšit limit na kartu bez docházení na pobočku?
+    - Musím kvůli změně denního limitu na pobočku?
+    - Muzu si v internetovem bankovnictvi sama nastavit limit?
+    - Můžu si změnit limity online?
+    - Můžu si zvýšit limit pro výběr z bankomatu?
+    - Můžu změnit denní limit online?
+    - Na koho se obrátit ohledně nastavení limitů?
+    - Najdu v internetovém bankovnictví možnost změnit limity??
+    - Navedete mě, jak si změnit týdenní limity v IB?
+    - Nemůžu najít, jak si změnit denní limit online.
+    - Nemůžu najít, jak změnit limity v internetovém bankovnictví.
+    - Potřebuji hned odeslat platbu, která je nad limit.
+    - ¨Nevím, kde zkontrolovat limity ke své kartě.
+    - Potřebuji zaplatit kartou, jak si platby povolim?
+    - Potřebuji zvýšit limit pro převod peněz v inter. bankovnictví.
+    - Potřebuju si nastavit limit pro větší částku
+    - Potřebuju zvýšit denní limit pro platby a převody.
+    - Prosim o informaci o moznosti zmeny limitu vyse plateb na int. bank.
+    - Prosím o navýšení týdenního limitu na účtě.
+    - V jake sekci najdu limit pro tydenni vyber kartou?
+    - jak změním limit pro elektornické bankovnictví
+    - kde změním limit pro smartbanking
+    - Kde najdu jaký je můj limit na kartě?
+    - potřebovala bych navýšit limit u karty
+    - Chci přes internet banking nastavit limity.
+
+- intent: KB.retail.0056
+  examples: |
+    - Chci odhlásit osobu z mého účtu.
+    - Chci přidat další osobu k účtu.
+    - Chci přidat disponenta k účtu.
+    - Chci zrušit dispoziční oprávnění.
+    - Chci zrušit přístup další osobě k mému účtu.
+    - Chci zřídit přístup jiné osobě k mému účtu.
+    - Chela bych zrusit pristup cloveka na muj ucet.
+    - Jde k osobnimu uctu poverit druhou osobu?
+    - Je možné umožnit přístup k mému účtu Plus Konto i mému manželovi
+    - Lze pri zalozeni postovniho uctu online stanovit i disponenta?
+    - Mám u vás účet a chci aby k němu měl přístup i manžel.
+    - Může můj manžel mít přístup k mému účtu?
+    - Může můj účet spravovat i můj známý?
+    - Můžeme účet spravovat s manželkou?
+    - Můžu ke svému účtu dát práva i někomu jinému?
+    - Můžu u svého účtu mít další osobu?
+    - Zmena oprávněné osoby k účtu.
+
+- intent: KB.retail.0057
+  examples: |
+    - Co je to maximální splátka?
+    - Co to znamena "maximalni splatka" u ERA kreditky
+    - Jak dlouho se muze splacet kreditka od Vas?
+    - Jaká je minimální splátka kreditky za měsíc?
+    - Musím u kreditní karty splatit každý měsíc nějakou částku?
+    - Nechápu výraz maximální splátka u kreditní karty.
+    - bezurocne obdobi
+    - co znamená maximální splátka?
+    - jak funguje kreditka Standard
+
+- intent: KB.retail.0058
+  examples: |
+    - Je mozne sjednat zivotni pojisteni pro duchodkyni?
+    - Může si člověk v důchodu sjednat životko?
+    - Můžu sjednat životní pojištění pro člověka v důchodu?
+
+- intent: KB.retail.0059
+  examples: |
+    - nepřišel mi klíč SMS k internetovému bankovnictví?
+    - nefunguje mi internetové bankovnictví?
+    - Proč mi nefunguje přihlášení do internetového bankovnictví?
+    - nefunguje mi přihlášení do Smartbanking?
+    - Elektronické bankovnictví je mimo provoz?
+    - Funguje už internetové bankovnictví?
+    - Jak se mám přihlásit do IB, když nefunguje přihlašovací ikona?
+    - Jak spravit chyby ve Smartbankingu?
+    - Jak to, že se mi nejde přihlásit do internetového bankovnictví?
+    - Jak zjistím, že máte odstávku internetového bankovnictví?
+    - Je výpadek internetového bankovnictví?
+    - Kde najdu stránku provozních informací?
+    - Kdy bude dostupný internetbanking?
+    - Kdy bude fungovat interent banking?
+    - Kdy konečně začne normálně fungovat Smartbanking?
+    - Kdy zprovozníte IB?
+    - Máte nějaký výpadek?
+    - Máte výpadek v IB?
+    - Nemohu se přihlásit do internetového bankovnictví.
+    - Nemůžu se svým PINem přihlásit do internetového bankovnictví.
+    - Není v internetovém bankovnictví porucha?
+    - Pomůžete mi s přihlášením do internetového bankovnictví?
+    - Proč mi nechodí SMS klíč k internetovému bankovmnictví?
+    - Probíhají nějaké úpravy prosím ?
+    - Proč Vám nefungují SMS klíče?
+    - Proč Vám nefungují aplikace?
+    - Proč dnes máte děsně zpomalené elektronické bankovnictví?
+    - Proč mi nechodí sms kod?
+    - Proč mi nechodí smsky k přihlášení do online bankovnictví?
+    - Proč mi nejde přihlášení k účtu?
+    - Proč mi nejde stáhnout výpis za minulý měsíc?
+    - Proč mi nejdou posílat platby přes IB?
+    - Proč mi nepřišel SMS klíč na telefon?
+    - Proč mi nepřišel kód k potvrzení platby?
+    - Proč mi nepřišel kód k přihlášení?
+    - Proč mi přestal fungovat Face ID?
+    - Proč mi při pokusu o přihlášení k účtu háže error?
+    - Proč mě internetové bankovnictví po přihlášení ihned odhlásí?
+    - Proč mě to odhlásilo, když jsem zadal ID?
+    - Proč nefunguje internetové bankovnictví?
+    - Proč nefunguje stránka internetového bankovnictví?
+    - Proč nefungují políčka k přihlášení do IB?
+    - Proč nejdou dnes stránky?
+    - Proč některé funkce v internetovém bankovnictví nefungují?
+    - Proč se dlouho načítají stránky pro přihlášení do IB?
+    - Proč se mi nenačítá stránka internetového bankovnictví?
+    - Proč se mi neustále nedaří se přihlásit na internetové bankovnictví?
+    - Proč se nemohu dostat do internetbanking?
+    - Proč se nemohu dostat ke svému účtu?
+    - Proč se nemohu dostat na svoje internetové bankovnictví?
+    - Proč se nemohu přihlásit do svého internetového bankovnictví?
+    - Proč se nemůžu dostat do IB?
+    - Proč se nemůžu přihlásit k účtu?
+    - Proč se stránky dlouho načítají?
+    - Proč u Vás internetové bankovnictví nefunguje?
+    - Proč vám nefunguje IB?
+    - Registrujete u vás nějakou chybu nebo odstávku?
+    - Z jakého důvodu se mi nejde podívat na účet?
+    - Není náhodou výpadek skrz přihlášení na účet?
+
+- intent: KB.retail.0060
+  examples: |
+    - Bylo by mozne vzit si jeste jednu pujcku?
+    - Chci navyseni stavajici pujcky.
+    - Chtela bych skonsolidovat pujcky.
+    - Daly by se sjednotit půjčky?
+    - Jak dlouho trvá sjednotit půjčky?
+    - Jde mít víc konsolidací?
+    - Kdy lze zažádat o konsolidaci úvěru?
+    - Kdy si můžu sjednotit půjčky?
+    - Lze navýšit limit u staré půjčky?
+    - Muzu mit u vasi banky dve konsolidace?
+    - Můžu požádat o sloučení půjček?
+    - Můžu si k vám převést všechny své půjčky?
+    - Můžu u vás mít víc než jednu konsolidaci?
+    - Kdy mohu udělat konsolidaci úvěru?
+    - Potřeboval bych u vás ještě jednu půjčku
+    - Potřebuji sjednotit půjčky.
+    - Sjednocujete půjčky?
+
+- intent: KB.retail.0061
+  examples: |
+    - Máte PSD2 Open Banking?
+    - Nabízíte klientům otevřené bankovnictví?
+    - Umožňujete klientům PSD2?
+    - Říká Vám něco otevřené bankovnictví?
+
+- intent: KB.retail.0062
+  examples: |
+    - jak volat na call centrum
+    - chci číslo na call centrum
+    - Chci telefon do poštovní spořitelny
+    - Jaké jsou kontakty do banky?
+    - Jaké je telefonní číslo ze zahraničí?
+    - call centrum
+    - chci volat na call centrum
+    - callcentrum
+    - Jaké máte bezplatné kontakty?
+    - Je tato linka zdarma?
+    - Jsou vase kontakty vsechny bezplatne?
+    - Kam mohu zavolat zdarma?
+    - Kolik zaplatím, když vás kontaktuju?
+    - Linka 24
+    - Můžete mě přepojit na živého operátora?
+    - Telefonní bankovnictví
+    - Volání ze zahranici?
+    - chci to řešit s člověkem
+    - chci živého člověka jako podporu
+    - do kolika hodin mohu využít telefonní bankovnictví
+    - jaké je číslo na vás
+    - jaký je váš telefon?
+    - kam můžu zavolat
+    - prosím o přepojení na online podporu
+    - číslo na infolinku
+    - Chci spojit s operátorem
+
+- intent: KB.retail.0063
+  examples: |
+    - Bylo by mozne mi zaslat posledni vypis z uctu?
+    - Chci výpis z účtu
+    - Kde najdu výpisy v IB?
+    - Mohu se zeptat na výpis z účtu?
+    - Jak se mohu podívat na výpis z mého účtu pomocí emailu?
+    - Jak se mám dostat k výpisům z účtu?
+    - Jak se mám dostat ke starým výpisům z účtu?
+    - Jak staré výpisy najdu v mém bankovnictví?
+    - Jakým způsobem se k výpisům dostanu ?
+    - Kde je možné najít své odeslané platby?
+    - Kde najdu měsíční výpisy z účtu?
+    - Kde najdu platby, které jsem posílal v tomto roce?
+    - Máte někde uložené platby z roku?
+    - Jak najít výpisy z účtu v internetovém bankovnictví?
+    - Posíláte staré výpisy poštou?
+    - Jak získám výpis z účtu?
+    - Potřebuji vytisknout výpis z účtu za 3 měsíce.
+    - Potřebuji výpisy z účtu pět let staré
+    - Potřebuji výpisy z účtu z roku 2016.
+    - Potřebuji výpisy z účtu.
+    - Proč mi pošta nedoručila výpis z účtu?
+    - Je možné poprosit o zaslání měsíčních výpisů?
+    - Jak získám bankovní výpis?
+    - Chybí mi posledních pár výpisů
+    - Jak získám výpis ze zrušeného účtu?
+
+- intent: KB.retail.0064
+  examples: |
+    - Potřebuji hypotéku.
+    - Chci si koupit dům.
+    - Chtěl bych koupit nemovitost
+    - Chtěl bych hypotéku.
+    - Jaký je postup při sjednání hypotéky?
+    - Mohu dostat kalkulaci na hypotéku?
+    - Kde najdu více informací k hypotékám?
+    - Jak mohu získat hypotéku?
+
+- intent: KB.retail.0065
+  examples: |
+    - Jak je na pobočce zpoplatněna přeměna valut?
+    - Je možné na pobočce směnit peníze?
+    - Je možné provést směnu ve vašich pobočkách?
+    - Kolik u vás stojí přeměna valut?
+    - Lze vyměnit CZK za EUR na pobočce?
+    - Kde najdu směnárnu ČSOB?
+    - Kde najdu směnárenské kurzy od ČSOB?
+    - Můžu si u vás změnit valuty?
+
+- intent: KB.retail.0066
+  examples: |
+    - potřebuji vyměnit malý peníze na větší
+    - Mám hodně drobných a chtěl bych je vás vyměnit.
+    - Můžu k vám dojít si rozměnit peníze?
+    - Vyměníte mi na pobočce drobný za větší?
+    - Můžu vyměnit kovové peníze za papírové?
+    - je moznost smeny za vetsi bankovky?
+
+- intent: KB.retail.0067
+  examples: |
+    - Jsou pobočky nějak chráněné a dezinfikované?
+    - Je návštěva pobočky bezpečná?
+    - Jsou pobočky bezpečné?
+
+- intent: KB.retail.0068
+  examples: |
+    - Máte k dispozici mobilní bankovnictví?
+    - Jak se jmenuje online bankovnictví?
+    - Jak se jmenuje vaše online bankovnictví?
+    - Jak se jmenuje vaše mobilní bankovnictví?
+    - Co je Smart?
+    - Co je Smartbanking?
+    - Co je to Smartbanking?
+    - Co je Smart banking?
+    - mobilní aplikace
+    - Podporujete smartbanking operační systém Windows?
+    - Potrebuji zaktivovat Smartbanking, ale mam Windows 7.
+    - Proč mi nejde Smartbanking ve Windows?
+
+- intent: KB.retail.0069
+  examples: |
+    - Nemuzu najít aplikaci dokapsy
+    - Kde najdu aplikaci dokapsy?
+    - Jak aktivuju do kapsy od ČSOB?
+    - Jak aktivuju dokapsy ČSOB?
+    - Mám dotaz k aplikaci Do Kapsy.
+    - mám dotaz k aplikaci dokapsy
+    - znáš aplikaci Do kapsy?
+    - znáš Dokapsy?
+
+- intent: KB.retail.0070
+  examples: |
+    - Co je to zpětné volání?
+    - Jak Vám můžu zavolat?
+    - Jak funguje zpětné volání?
+    - můžete mi zavolat?
+    - Zavoláte mi prosím?
+
+- intent: KB.retail.0071
+  examples: |
+    - částka v hotovosti se mi nepřipsala na účet.
+    - Když vložím peníze v hotovosti, kdy budou na účtu?
+    - Kdy se peníze připíšou, když si je vložím v hotovosti?
+    - Dnes jsem na poste na kartu vlozila velky obnos penez.
+    - Kdy budou peníze na účtu, když vložím na poště?
+    - Když si vložím peníze na poště na kartu, kdy se připíšou?
+    - Vložil jsem velký obnos peněz na poště na kartu.
+
+- intent: KB.retail.0072
+  examples: |
+    - musím mít ke spořícímu účtu běžný účet?
+    - Chci si u vás založit spořicí účet, ale běžný účet mám jinde. 
+    - Potřebuji ke spořicímu účtu i normální účet?
+
+- intent: KB.retail.0073
+  examples: |
+    - Máte v nabídce Americké hypotéky?
+    - Chci Americkou hypotéku
+    - Chci bezúčelovou hypotéku
+    - Lze si sjednat bezúčelovou hypotéku?
+    - Potřebuji bezúčelovou hypotéku.
+
+- intent: KB.retail.0074
+  examples: |
+    - Co je to notifikace?
+    - Co je notifikace?
+    - Notifikace znamená co?
+    - Vysvětlete mi notifikaci.
+
+- intent: KB.retail.0075
+  examples: |
+    - Chci nastavit sms o pohybech na účtu.
+    - Jak nastavit smsky s informací když přijdou peníze na účet?
+    - Chci dostávat sms o změnách na účtu.
+    - Jak v nastavit upozornění o pohybech na účtě?
+    - Kde najdu prichod penez na ucet sms zpravou?
+    - Lze se informovat o pohybech na účtu prostřednictvím sms?
+    - Je možné někde nastavit upozornění pro přijaté a odchozí platby?
+
+- intent: KB.retail.0076
+  examples: |
+    - Jak fungují účty zdarma pro seniory?
+    - Jak si mám zažádat o účet zdarma pro důchodce?
+    - Jak získat účet zdarma pro seniory?
+    - Jaké jsou podmínky účtu zadarmo pro seniora?
+    - Musím si zažádat o zvýhodněné vedení účtu?
+    - Od kolika let jde požádat o účet zdarma pro seniory?
+    - Musím požádat o senior podmínku nad 58 let?
+    - Jsem senior a nemám účet zdarma
+    - chci pozadat o zvyhodnene vedeni uctu pro seniory.
+
+- intent: KB.retail.0077
+  examples: |
+    - Nemůžu nikde najít definici slova meziúvěr.
+    - K čemu je meziúvěr?
+    - Co je meziúvěr?
+
+- intent: KB.retail.0078
+  examples: |
+    - Jaké číslo je na oddělení pohledávek?
+    - Jaký je kontakt na pohledávky?
+    - Potřebuji email na oddělení vymáhání pohledávek.
+    - Potřebuji kontakt na zaplacení dluhů.
+    - Potřebuji telefonní číslo na ranné vymáhání.
+    - chci informace o pohledávkách
+
+- intent: KB.retail.0079
+  examples: |
+    - Jak zjistit odesílatele platby?
+    - Od koho mi přišly peníze na účet?
+    - kdo mi poslal peníze na účet?
+    - Kdo odeslal platbu na můj účet?
+    - potřebuji identifikovat platbu
+
+- intent: KB.retail.0080
+  examples: |
+    - Jaký je poplatek za pojištění schopnosti splácet hypoteční úvěry?
+    - Kde si můžu sjednat pojištění k hypotéce?
+    - Kolik se měšíčně platí u pojištění pro hypotéky?
+    - Máte pojištění k hypotéce?
+    - Potřebuji pojistit schopnost splácet hypotéku.
+    - V jaké výši se platí pojištění schopnosti splácet hypotéku?
+    - Z jaké částky se vypočítává pojištění schopnosti splácet hypotéku?
+
+- intent: KB.retail.0081
+  examples: |
+    - potřebuji zjistit, na koho je tento účet veden.
+    - Komu patří účet?
+    - Na koho je tenhle účet veden?
+
+- intent: KB.retail.0082
+  examples: |
+    - Můžu si u vás začít spořit na penzi jako cizinec?
+    - Jde založit penzijní spoření pro cizince?
+    - musím být občanem ČR k založení penzijního spoření?
+    - Chtěl bych si začít spořit na penzi, ale jsem cizinec
+    - Cobudu potřebovat k tomu abych si u vás založil penzijko?
+
+- intent: KB.retail.0083
+  examples: |
+    - Nemám na splátku úvěru.
+    - Jak se řeší zpoždění splátky půjčky?
+    - zpozdím se se splátkou
+    - budu mít zpoždění se splátkou
+
+- intent: KB.retail.0084
+  examples: |
+    - Jak zadám příkaz
+    - Chci zadat příkaz
+    - Chtěl bych zadat příkaz k úhradě
+    - Chci zadat platbu
+    - Chci někomu poslat peníze
+    - Jak poslat peníze na účet jiné osobě?
+    - Jak převézt někomu peníze
+    - Jak zadám platbu?
+    - Rád bych převedl peníze
+    - pomůžete mi se zadáním platby?
+    - Dá se platit z účtu na účet?
+
+- intent: KB.retail.0085
+  examples: |
+    - nemám dostatek peněz na účtu po odeslání platby
+    - kdy se platba odešle?
+    - Jak funguje odeslání plateb?
+    - Jaky je termin pro provedeni trvalych platebnich prikazu.
+    - jak dlouho trvá převod platby
+
+- intent: KB.retail.0086
+  examples: |
+    - Je se změnou účtu spojena i změna karty?
+    - Je pri prevodu na postovni ucet nutna výměna karty?
+    - Musím měnit kartu, když u vás měním účet?
+
+- intent: KB.retail.0087
+  examples: |
+    - Bude tato karta funkcni v USA?
+    - Budu moct s mojí VISA kartou, vybírat peníze i v Německu?
+    - Fungují vaše karty mimo ČR?
+    - Fungují vaše karty v USA?
+    - Kdy může moje dítě dostat kartu ke svému účtu?
+    - Kdybych zridila synovi ucet, dostal by i platebni kartu?
+    - Kolik mě budou stát platby kartou?
+    - Mohu provádět výběry z bankomatu v zahraničí?
+    - Mohu s kartou platit i v zahranici?
+    - Mohu kartu Mastercard používat i v USA?
+    - Můžu platit kartou na dovolené v Egyptě?
+    - Máte zpoplatněné platby kartou?
+    - Můžu platební kartu použít v kterémkoli bankomatu?
+    - Od kolika let vydáváte platební karty?
+    - V jakých bankomatech funguje platebni karta?
+    - Ve kterých bankomatech můžu použít platební kartu?
+    - jsou zpoplatneny internetove platby kartou?
+    - nastavení platby kartou v cizině
+    - Můžu používat kartu do bankomatu v zahraničí?
+
+- intent: KB.retail.0088
+  examples: |
+    - Šlo by změnit podnikatelský účet na osobní?
+    - Je možné změnit podnikatelský účet na běžný účet?
+    - Můžu si změnit podnikatelský účet na osobní?
+    - Jde změnit účet k podnikání na běžný účet?
+
+- intent: KB.retail.0089
+  examples: |
+    - co dokládá podnikatel pro sjednání půjčky?
+    - Chci půjčku pro podnikatele
+    - Co musím doložit jako podnikatel pro půjčku?
+    - chci úvěr pro živnotstníky
+    - Dáváte půjčky podnikatelům?
+    - Můžu si zažádat o úvěr jako živnostník?
+
+- intent: KB.retail.0090
+  examples: |
+    - Chci zrušit pojištění u půjčky.
+    - Jak si můžu zrušit pojištění u úvěru?
+    - Jde v dobe trvani uveru zrusit pojisteni úvěru?
+    - Kde najdu formulář na zrušení pojistky?
+    - Rád bych zrušil pojištění
+
+- intent: KB.retail.0091
+  examples: |
+    - Jak správně používat kartu na internetu
+    - Platím přes internet kartou, nepřijde mi ověřovací sms
+    - co je 3d secure
+    - jak zaplatit na internetu?
+    - nechceme používat hotovost
+    - nechci platit hotovostí
+    - Platby kartou přes internet
+    - Jak pošlu QR platbu?
+    - Poprvé nakupuju online
+    - Mohu zažádat o QR platbu?
+    - Máte QR platby?
+
+- intent: KB.retail.0092
+  examples: |
+    - Jak mi příjde SMS klíč, když mi byla schválena půjčka?
+    - sms klíče k schválené půjčce
+    - Nepřišel mi SMS klíč, přitom mám schválenou půjčku online.
+    - Schváli jste mi půjčku online, ale nepřišly mi SMS klíče.
+
+- intent: KB.retail.0093
+  examples: |
+    -  jsem v mínusu
+    - informujete o nedostatku peněz na účtu?
+    - jsem na svém účtě v mínusu?
+    - Kdy posilate upominky ohledne nedostatku prostredku?
+
+- intent: KB.retail.0094
+  examples: |
+    - Kdy dostanu výsledek k žádosti o půjčku?
+    - Jak dlouho trva cely proces vyrizeni pujcky?
+    - Dokdy schválíte půjčku?
+    - Jak dlouho trva schvaleni pujicky?
+    - Je vyřizování půjčky rychlé?
+    - Kdy mi schválite půjčku?
+    - Opravdu muze schvaleni pujcky trvat 24 hodin?
+    - Proces schvalování půjčky trvá příliš dlouho
+    - Půjčky schvalujete do 24 hodin?
+    - Schválíte mi půjčku ten samý den?
+    - V internetovém bankovnictví není výsledek žádosti o půjčku.
+    - Za jak dlouho mi schválíte úvěr?
+    - Za jak dlouho budu mít peníze na účtě z půjčky?
+    - Za jak dlouho odpovidate na online zadost o uver?
+    - Za jak dlouho se může vyřídit žádost o půjčku?
+    - Schvalování žádosti o úvěr trvá příliš dlouho.
+    - Už několik dní mi nejde žádost o půjčku.
+
+- intent: KB.retail.0095
+  examples: |
+    - Stačí mi občanka ke zřízení kontokorent na poště?
+    - Jaké doklady potřebuji pro založení kontokorentu na pobočce?
+    - Co potřebuju pro kontokorent na pobočce?
+    - Co vše mám mít s sebou když chci založit kontokorent?
+    - Jaké doklady musím předložit při kontokorentu?
+
+- intent: KB.retail.0096
+  examples: |
+    - Bude se mesicni splatka strhavat automaticky?
+    - kdy se platí měsíční splátky u úvěru?
+    - musím peníze na půjčku někam posílat?
+    - Jak splatím úvěr v internetovém bankovnictví?
+    - Při splácení půjčky se částka strhava z uctu?
+    - Strháváte si splátky u půjček sami?
+    - jak probíhá splácení půjčky?
+    - strhne splatka automaticky z uctu?
+    - strhnete si splátky sami?
+
+- intent: KB.retail.0097
+  examples: |
+    - Jakou maximalni castku lze prevest na ucet v ramci CR?
+    - Kde navýším limit pro maximálně převeditelnou částku?
+    - Jakou maximální částu můžu převést?
+    - Můžu najednou převést větší sumu?
+    - Je mozne větší částku provest jednorazove?
+    - Jde najednou převést vyšší sumu?
+
+- intent: KB.retail.0098
+  examples: |
+    - Kontaktujte mě znovu
+    - Mám od vás nepřijatý hovor.
+    - můžete mi prosím zavolat znovu?
+    - Nestihl jsem telefon zavoláte mi?
+    - Volali jste mi, ale nestihl jsem to vzít.
+    - Volali jste mi, můžete mi zavolat znovu?
+
+- intent: KB.retail.0099
+  examples: |
+    - Bude platit odklad splátek kvůli covid-19 i pro kreditní kartu?
+    - Chci odložit splátky úvěrů
+    - Chtela bych pozastavení splátek
+    - Chtěl bych si odložit splátku.
+    - Jak je to s odkladem splátek u úvěrů?
+    - Jak sjednat odložení splátek u hypotéky?
+    - Mohu si odložit splátky?
+    - Jak probíhá odklad splácení hypoték?
+    - Odkládáte splátky u půjček?
+    - Potřeboval bych odložit splátky hypotéky.
+    - Potřeboval bych vyřídit odklad splátek
+    - Potřebuji odložit splátku.
+    - Potřebuji podat žádost o odklad měsíční splátky
+    - jak dlouho trvá odklad splátek?
+    - jak mohu pozada o odklad splatek
+    - jak požádám o odklad hypoteky
+    - jak si mohu odložit splátky?
+    - jaké jsou podmínky pro odklad splátek hypotéky?
+    - je možné mi odložit splátku?
+    - jsem v karanténě odložíte splátku?
+    - kde najdu formulář pro odklad splátek z důvodu coronaviru?
+    - kdy se muze pozadat o odklad splatek hypotek?
+    - Odložíte splátku, když nemůžu chodit do práce?
+    - odložíte mi splátku u kreditky?
+    - ráda bych se zeptala na pozastavení splátek v rámci hypotéky.
+    - Čekám na bližší informace o odkladu splátek u úvěru
+    - Řešení pro odklad splátek úvěrů na bydlení ?
+
+- intent: KB.retail.0100
+  examples: |
+    - Kolik stojí devizový účet?
+    - Chci devizový účet.
+    - Jak založím dolarový účet?
+    - Jak založím účet v cizí měně?
+    - Potřebuji otevřít eurový účet.
+    - máte cizoměnové účty?
+    - můžu si založit eurový účet?
+    - Účet v USD?
+    - Chtela bych se zeptat na devizovy ucet.
+
+- intent: KB.retail.0101
+  examples: |
+    - Jak mám splácet povolené přečerpání?
+    - Jak nejlépe splatit kontokorent?
+    - Jak často musím doplatit přečerpání účtu?
+    - Můžu kontokorent splácet postupně?
+    - Nechápu, kam mám poslat splátku za kontokorent.
+    - Jak se splácí povolené přečerpání účtu?
+    - Potřebuji splatit účet v mínusu.
+
+- intent: KB.retail.0102
+  examples: |
+    - Budu potřebovat občanku?
+    - Budu potřebovat řidičák?
+    - Jak mám postupovat při sjednání Konto Plus?
+    - Poradíte mi jak si u vás zřídit běžný účet?
+    - Chci si založit Plus konto.
+    - Chci si zřídit běžný účet.
+    - Co musím udělat, abych u vás měl účet?
+    - Co vše potřebuji k založení účtu online?
+    - Jak dlouho trvá založeni učtu online?
+    - Jak funguje zřízení plus konta?
+    - Jak probíhá sjednání běžného účtu?
+    - Jak se dá založit účet?
+    - Jaké doklady musím mít pro zřízení Plus konta?
+    - Jaké doklady potřebuji pro založení účtu?
+    - Jde plus konto zřídit on-line ?
+    - Je Plus konto pro mě vhodné?
+    - Je nutné mít dva doklady k zřízení účtu?
+    - Kde najdu obchodní podmínky pro platební účet?
+    - Kde si mohu založit novy účet?
+    - Mohla bych dostat více informací o plus kontu?
+    - Mohu si zřídit účet online?
+    - Musím něco doložit ke zřízení účtu?
+    - Musím pro založení účtu na pobočku?
+    - Můžu si pořídit běžný účet?
+    - Můžu si u vás sjednat účet i když teď nemám občanku?
+    - Potřebuji ke sjednání běžného účtu druhý doklad?
+    - Potřebuji ke sjednání účtu druhý doklad?
+    - Stačí mi k založení účtu občanka?
+    - Stačí mi k založení účtu řidičák?
+    - Chci sjednat osobní účet.
+    - Chci plus konto.
+    - Můžu si na internetu založit běžný účet?
+    - Chtěla bych si zařídit účet online.
+    - Co potřebuji ke sjednání běžného účtu Plus konto?
+    - Jak lze získat odměnu 500 Kč za kód RADIM?
+    - Jak probíhá sjednání běžného účtu Plus konto?
+    - Jak sjednám běžný účet?
+    - Jaké doklady potřebuji ke sjednání běžného účtu Plus konto?
+    - Jde vyřídit účet online?
+    - Mohu si otevřít účet online?
+    - Mohu vám zavolat a zařídit účet po telefonu?
+    - Můžu si u vás otevřít účet?
+    - Můžu si založit účet online?
+    - Můžu založit účet po telefonu?
+    - Rád bych založil účet online.
+    - Mohu se zeptat na založení účtu?
+
+- intent: KB.retail.0103
+  examples: |
+    - Chci e-mail na exekuční oddělení a ředitelství!
+    - kontakt na exekuční oddělení a ředitelství ČSOB.
+    - Exekuční oddělení banky
+    - Potřebuji email do ČSOB na exekuční oddělení.
+    - Sháním email na oddělení
+    - kontakt na marketing
+
+- intent: KB.retail.0104
+  examples: |
+    - Jak si rychle můžu převést peníze mezi svými účty?
+    - Jaký je postup převedení peněz mezi svými účty?
+    - jak si převést peníze ze spořicího účtu na běžný.
+    - Potřebuji si poslat peníze ze spořicího účtu na osobní.
+
+- intent: KB.retail.0105
+  examples: |
+    - Chci poslat peníze ze spořícího na běžný účet.
+    - Jak si převedu peníze ze spoření?
+    - Mohu si poslat peníze ze spořícího účtu?
+    - Jak zadat částečnou výpověď ze spořícího účtu?
+
+- intent: KB.retail.0106
+  examples: |
+    - Jak zadat platbu aby jí měl příjemce ještě dnes?
+    - Jak zadám okamžitou platbu?
+    - Jak zaplatím prioritně, aby měl příjemce peníze ihned?
+    - Když pošlu platbu, dojde ten stejný den?
+    - Potřebuji, aby příjemce dostal platbu okamžitě.
+
+- intent: KB.retail.0107
+  examples: |
+    - Chci poslat trvalou platbu.
+    - Chtěl bych zadat trvalý příkaz.
+    - Jak uložím trvalý příkaz?
+    - Jak zadám trvalou platbu?
+    - Můžu si uložit trvalou platbu?
+    - Nejde mi zadat opakovanou platbu.
+    - Jak dám trvalý příkaz?
+
+- intent: KB.retail.0108
+  examples: |
+    - Jak najdu plaby, které se neprovedly?
+    - Jak najdu čekající platby?
+    - Jak zobrazím blokace na účtu?
+    - Jak zobrazím pohyby na účtu?
+    - Jak zobrazím čekající platby?
+    - Jak zruším odeslanou platbu?
+    - Kde najdu blokace na kartě?
+    - Kde uvidím pohyby na účtu?
+    - Kde vidím blokace na účtu?
+    - Kde zobrazím čekající platby?
+    - Lze zrušit platbu, kterou jsem omylem poslala?
+    - Můžu si zobrazit pohyby na účtu?
+    - Uvidím někde blokace na kartě?
+    - Uvidím někde čekající platby na mém účtu?
+    - čekající platba
+    - Dá se zrušit podaná platba
+
+- intent: KB.retail.0109
+  examples: |
+    - Zablokoval se mi účet
+    - zapomněla jsem heslo do smart bankingu
+    - zapomněla jsem heslo do smartu
+    - zapomněla jsem heslo do smartbankingu
+    - jsem třikrát zadala špatně pin?
+    - Jak získám aplikaci Smart Banking?
+    - Jak odblokuji Internetové bankovnictví?
+    - Jak si mohu zresetovat PIN do elektronického bankovnictví?
+    - Jak si mám odblokovat účet?
+    - Jak si můžu odblokovat in. Bankovnictví?
+    - Jak si odblokuji přístup do internetového bankovnictví?
+    - Jak zjistím PIN k internetovému bankovnictví?
+    - Kde mohu odblokovat pristup do internetoveho bankovnictvi?
+    - Lze odblokovat ucet online?
+    - Mám zablokované Internetové bankovnictví.
+    - Mám zablokované elektronické bankovnictví
+    - Nefungujou mi některé funkce v bankovnictví
+    - Nejde mi nacist na tabletu bankovnictvi.
+    - Nejde mi zadat příkaz k úhradě.
+    - Nepamatuji si ID.
+    - Nepřišel mi pin v SMS pro první přihlášení do internetnabkingu.
+    - Odblokujete mi prosím internetové bankovnictví?
+    - Odblokujete mi prosím smartbanking?
+    - Odblokujete mi prosím účet?
+    - Omylem jsem si zablokovala pristup na svuj ucet.
+    - Jde odblokovat zablokovaný smartbanking?
+    - Pomalu se načítá internetové bankovnictví.
+    - Potřebuji obnovit certifikát pro přihlášení do IB24
+    - Potřebuji odblokovat Smartbanking.
+    - Potřebuji odblokovat přístup do internetového bankovnictví.
+    - Prosím odblokujete mi moje IB?
+    - Proč se mi zablokoval Smartbanking?
+    - Proč se mi zablokovalo internetové bankovnictví?
+    - Seká se mi internetové bankovnictví.
+    - V aplikaci smartbanking nelze zadat číslo účtu příjemce platby
+    - Zablokoval jsem si Internetové bankovnictví.
+    - Zablokoval jsem si Smart banking.
+    - Zablokovalo se mi IB.
+    - Zadal jsem několikrát špatně heslo
+    - Zapomněla jsem heslo k účtu
+    - aplikace smartbanking pise zablokovano
+    - zablokoval jsem si přístup jak to odblokuji?
+    - je moje číslo blokované?
+
+- intent: KB.retail.0110
+  examples: |
+    - Jaké nabízíte fondy?
+    - Jaká je aktuální hodnota fondu?
+    - Do kterého fondu můžu investovat?
+    - Jaká je cena fondu Bohatství?
+    - Do jakého fondu investovat?
+
+- intent: KB.retail.0111
+  examples: |
+    - Můžu si převést kontokorent z jiné banky k vám?
+    - Lze u Vás mít účet a v něm kontokorent z jiné banky?
+
+- intent: KB.retail.0112
+  examples: |
+    - Za jak dlouho budu mít aktivní nově založený účet?
+    - Jak dlouho trva zalozeni uctu online?
+    - Lze založit účet okamžitě?
+    - Kdy budu moct použít účet, který jsem si založil online?
+    - Kdyz zalozim ucet online, kdy bude aktivni?
+    - Za jak dlouho budu moct používat účet sjednaný online?
+
+- intent: KB.retail.0113
+  examples: |
+    - je možnost přijímat platby na terminálu také v EUR?
+    - Chci nastavit přijímání plateb v eurech na terminálu.
+    - Můžu na terminálu přijímat  platby v EUR?
+    - Kde si nastavím přijímání plateb na terminálu v eurech?
+
+- intent: KB.retail.0114
+  examples: |
+    - Kdy mi dorazí prioritní platba?
+    - Čekám na platbu z jiné banky a trvá to dlouho
+    - Kdy přijde na účet příchozí platba?
+    - Trvá dlouho připsat částku na účet.
+    - Proč jeste nemám peníze na účtu?
+    - Nedošla mi výplata a zaměstnavatel tvrdí, že to poslal
+    - Kolikrat denne se pripisuji platby z jine banky?
+    - Jak rychle mi dojde platba z jiné banky?
+
+- intent: KB.retail.0115
+  examples: |
+    - Jak fungují půjčky u pracovního poměru na dobu určitou?
+    - Mam sanci na ziskani uveru ve zkušební době?
+    - Půjčíte mi, když jsem ve zkušební době a mám smlouvu na dobu určitou?
+
+- intent: KB.retail.0116
+  examples: |
+    - U Půjčky na bydlení se dokládá na co byly peníze použity?
+    - Je půjčka na bydlení bezúčelová?
+    - co se dá koupit z půjčky na bydlení?
+    - Kontrolujete, jak se použila půjčka na bydlení?
+    - Kde najdu, co si lze pořídit z půjčky na bydlení?
+    - Co všechno se dá hradit Půjckou na bydlení?
+
+- intent: KB.retail.0117
+  examples: |
+    - Jak funguje půjčka po ruce?
+    - Jak zažádat o půjčku po ruce?
+    - Existuje ještě půjčka po ruce?
+    - Nabízíte ještě půjčku po ruce?
+
+- intent: KB.retail.0118
+  examples: |
+    - Chci podat reklamaci
+    - Chci reklamovat
+    - Dostal jsem cizi vypis z uctu.
+    - Jak podám reklamaci?
+    - Jak vyřešit reklamaci?
+    - Mám špatně napsané číslo účtu.
+    - Nechodí mi výpisy poštou.
+    - Jak je možné, že mi přišel dopis, že jsem služník?
+    - Přišel mi výpisy někoho jiného
+    - kam odeslat formulář o reklamaci
+    - potřebuji reklamovat chybně odeslanou platbu
+    - prosím o email na reklamace
+    - prosím o zaslání e-mailu na reklamaci
+    - přišla mi SMS i přes to že u vás nic nemám založeného
+    - Kam poslat vyplněný reklamační formulář?
+
+- intent: KB.retail.0119
+  examples: |
+    - CO je to penzijko?
+    - co je penzijním připojištění 
+    - Jak je to s penzijnim pojistenim?
+    - K čemu je penzijko?
+
+- intent: KB.retail.0120
+  examples: |
+    - Pošlete peníze z mého účtu na účet exekutora?
+    - Mohu požádat odeslání peněz na účet exekutora?
+    - Můžete posílat peníze na účet exekutora?
+    - Potřebuji pomoct s platbou pro exekutora.
+
+- intent: KB.retail.0121
+  examples: |
+    - Chci sjednat pojištění.
+    - Kde si sjednám povinné ručení?
+    - Chci zrušit povinné ručení.
+    - Chci životní pojištění.
+    - chci poslat přílohu na pojistku auta.
+    - Jak funguje právní ochrana řidiče?
+    - Jak mohu změnit povinné ručení?
+    - Jak postupovat při ukončení povinného ručení?
+    - Jak ukončit Havarijní pojištění?
+    - Jak vypovědět pojištění vozidla?
+    - Jak zrušit pojistné?
+    - Jaká je adresa pojišťovny?
+    - Jaká je adresa ČSOB pojišťovny?
+    - Co potřebuju pro zrušení pojistky?
+    - Jaké jsou potřebné dokumenty ke zrušení pojistné smlouvy?
+    - Jaký je kontakt do vaší pojišťovny?
+    - Jaký je kontakt na oddělení, které řeší pojistky?
+    - Jaký je mail nahlášení pojistné události u pojištění nemovitosti?
+    - Je možné vypovědět pojistnou smlouvu elektronicky?
+    - Kam nahlásit škodu?
+    - Kam se mohu obrátit ohledně uzavření pojistky?
+    - chci přerušit placení povinného ručení?
+    - Kam volat v případě nehody
+    - Kam zaplatit pojištění majetku?
+    - Kde můžu vyřešit nehodu?
+    - Kde nahlásím dopravní nehodu?
+    - Lze pojistit zahradu?
+    - Mohl bych mluvit s někým ohledně pojistné události?
+    - Musím se jako poškozený hlásit?
+    - Měl bych dotaz ohledně povinného ručení.
+    - Na jakou adresu mám zaplatit pojištění?
+    - Na koho se mám obrátit s fakturou z pojistné události?
+    - Potřebovala bych pomoc se zrušení pojistky.
+    - Potřebuji poradit s pojistkou.
+    - Chci pojistit auto
+    - Potřebuji zaplatit pojištění auta složenkou.
+    - Potřebuji zaplatit složenkou pojištění auta
+    - Potřebuji zjistit adresu ČSOB Pojišťovny.
+    - Zaslal jsem žádost o ukončení pojistného.
+    - Kam mohu zaslat výpověď povinného ručení?
+
+- intent: KB.retail.0122
+  examples: |
+    - Co je to SIPO?
+    - Kde najdu spojovací číslo pro SIPO?
+
+- intent: KB.retail.0123
+  examples: |
+    - Je využít možnost sjednání pojištění schopnosti splácet?
+    - Můžu si pojistit půjčku?
+    - Můžu sjednat pojištění pro případ neschopnosti splácet?
+    - Nabízíte k půjčkám pojištění?
+
+- intent: KB.retail.0124
+  examples: |
+    - je možné dostat půjčku když pracuji v zahraničí.
+    - Žiju ale v zahraničí a chci půjčku
+    - Můžu si zažádat o úvěr, když žiju v zahraničí?
+
+- intent: KB.retail.0125
+  examples: |
+    - Lze si snížit výši splátky u úvěru?
+    - Potřebuji změnit splátku u půjčky.
+    - Je možné u současných půjček změnit výši měsíční splátky?
+
+- intent: KB.retail.0126
+  examples: |
+    - Chtel bych prevest osobni ucet do Postovni spořitelny.
+    - Chci si převést účet do ČSOB
+    - Jak si mám převést slovenský účet k vám?
+    - Je možnost převedení účtu ze Slovenska do vaší banky?
+    - Je možné si účet převést jinam?
+    - Jak zařídit přestup z jiné banky?
+
+- intent: KB.retail.0127
+  examples: |
+    - chtěl bych si navýšit limit na kreditku
+    - chci změnit limit kreditní karty
+    - jak si můžu navýšit úvěrový limit u mé kreditní karty
+    - je možné navýšit limit kreditní karty
+
+- intent: KB.retail.0128
+  examples: |
+    - Co musím udělat v Apple Pay při výměně karty? 
+    - Jak proběhne aktualizace karty v Apple pay? 
+    - Jak si aktivuji Apple Pay 
+
+- intent: KB.retail.0129
+  examples: |
+    - Co musím udělat v google pay při výměně karty? 
+    - Jak proběhne aktualizace karty v google pay? 
+    - Jak si aktivuji Google pay? 
+
+- intent: KB.retail.0130
+  examples: |
+    - Podporuje CSOB Apple pay
+    - Podporuje CSOB google pay?
+
+- intent: KB.retail.0131
+  examples: |
+    - Jak platit hodinkami?
+    - Chci platit hodinkami
+
+- intent: KB.retail.0132
+  examples: |
+    - Chci si sjednat schůzku na pobočku
+    - Domluvíte mi schůzku na pobočce
+    - Domluvíte mi schůzku?
+    - Dá se na pobočce v sjednat schůzka
+    - Je možné si sjednat na pobočce schůzku
+    - Mohu si sjednat schůzku?
+    - Můžu si přes vás sjednat schůzku?
+    - Potřebuji sjednat schůzku
+    - Ráda bych si sjednala schůzku
+    - setkání na pobočce
+    - Chci schůzku s bankéřem
+
+- intent: KB.retail.0133
+  examples: |
+    - Chtel bych si snizit splatky kontokorentu.
+    - Lze domluvit nižší splátky u povoleného přečerpání?
+    - Snížíte mi splátky na kontokorentu?
+    - jak postupovat při snížení splátek ke kontokorentu?
+    - Jde snížit přečerpání na mém účtu ?
+
+- intent: KB.retail.0134
+  examples: |
+    - kolik bych platila při hypotéce?
+    - jak si spočítam hypotéku?
+    - Jde nezávazně spočítat hypotéku?
+    - jak vysokou hypotéku bych dostala na bydlení?
+
+- intent: KB.retail.0135
+  examples: |
+    - Chci odebrat zasílání kódů k přihlašování.
+    - Co to je smart klíč?
+    - Dají se vypnout SMS k přihlášení?
+    - Jak si deaktivuji  Smart klíč?
+    - Jak si deaktivuji  Smartklíč?
+    - Jak funguje Smartklíč?
+    - Jak si aktivuji Smartklíč?
+    - Jak si aktivuji Smart klíč?
+    - Jak zprovozním Smart klíč?
+    - Můžete mi deaktivovat SMS ověření?
+    - a nejde se přihlásit Smart klíčem?
+    - Potřebuji aktivovat smartklíč na novém zařízení.
+    - Chci používat smart klíč
+    - jak načíst QR kod na smart klici
+    - potřebuji aktivovat Smart klíč
+    - Co je Smartklíč?
+
+- intent: KB.retail.0136
+  examples: |
+    - Co znamena souhlas s pouzivani osobnich udaju?
+    - Proč musím souhlasit se zpracováním osobních udajů?
+    - Co je souhlas s osobními údaji?
+    - Souhlas s osobními údaji znamená co přesně?
+
+- intent: KB.retail.0137
+  examples: |
+    - Jak pošlu peníze na kreditní kartu?
+    - Jak vyrovnám dluh na kreditce?
+    - Kde zaplatím kreditku?
+    - Chci zaplatit kreditní kartu.
+    - Kdy musím splatit kreditku?
+    - Jak splatím kreditní kartu?
+
+- intent: KB.retail.0138
+  examples: |
+    - Akceptujete jako příjem důchod?
+    - Můžu dostat půjčku jako důchodce?
+    - Berete starobní důchod jako příjem k půjčce?
+    - Můžu si požádat o půjčku, když beru starobní důchod?
+
+- intent: KB.retail.0139
+  examples: |
+    - Je možné sjednat dodatky ke starým půjčkám?
+    - Je možné upravit stávající půjčku?
+    - Můžu navýšit limit u staré půjčky?
+
+- intent: KB.retail.0140
+  examples: |
+    - Chci souhlas k inkasu.
+    - Chtěla bych zaplatit inkaso.
+    - Chtela bych oznámit povoleni inkasa.
+    - Jak zadám inkaso v internetbankingu?
+    - Jak zadám svolení k inkasu?
+    - Jak zřídit inkaso?
+    - Je možné zřídit inkaso online?
+    - Kde najdu kolonku pro inkaso?
+
+- intent: KB.retail.0141
+  examples: |
+    - Je stará platební karta platná?
+    - Můžu používat starou platební kartu?
+    - Do kdy mi platí stará karta?
+
+- intent: KB.retail.0142
+  examples: |
+    - Co je to IPPID?
+    - Jak se přihlásím do internetového bankovnictví?
+    - Jak ziskam identifikacni číslo k registraci smartbanking?
+    - Jak se prvně přihlásím do IB?
+    - Jak se přihlásím do IB bez identifikačního čísla?
+    - Jak zjistím IPPID?
+    - Jak zjistím své přihlašovací údaje?
+    - Jak získám údaje pro přihlášení?
+    - Jaké je moje identifikační číslo?
+    - Kam jste mi poslali identifikační číslo?
+    - Kam si mám zavolat pro identifikační číslo?
+    - Kde najdu identifikacni cislo k prvnimu prihlaseni?
+    - Kde najdu identifikační číslo?
+    - Kde najdu údaje k přihlášení do Smartbankingu a identifikační číslo?
+    - Kde najdu číslo pro přihlášení do internetového bankovnictví?
+    - Kde získám identifikační číslo k přihlášení do bankovnictví?
+    - Můžete mi sdělit ID na přihlášení k účtu?
+    - Můžu někde najít přihlašovací jméno?
+    - Nemůžu najít identifikační číslo k přihlášení
+    - Neobdržela jsem pin kód do internetového bankovnictví.
+    - Nepamatuji si přihlašovací údaje.
+    - Nepřišlo mi identifikační číslo do internetového bankovnictví.
+    - Neznám přihlašovací údaje do Internetového bankovnictví
+    - Potřebuji pro aplikaci Smartbanking identifikační číslo?
+    - Sdělíte mi moje identifikační číslo?
+    - Zapomněl jsem přihlašovací údaje do Internetového bankovnictví.
+    - potřeboval bych zjistit idefikacni číslo
+    - Kde najdu PIN k aktivaci internetového bankovnictví?
+
+- intent: KB.retail.0143
+  examples: |
+    - moje investice
+    - Chci prodat své investice.
+    - Chci převedení svých fondů.
+    - Chtěl bych pravidelně investovat do podílových fondů.
+    - Do čeho mám investovat?
+    - Jak nakoupím investice?
+    - Jak podám žádost o podílové fondy?
+    - Jaké jsou nejlepší fondy v ČSOB?
+    - Kde prodám nakoupené investice?
+    - Mohu sjednat pravidelné investice online?
+    - Můžu nakoupit investice?
+    - Chci investovat peníze.
+    - Kdo mi poradí s investicí?
+
+- intent: KB.retail.0144
+  examples: |
+    - Jak zjistím zůstatek na účtu?
+    - Jde zjistit stav a aktivita účtu?
+    - je můj účet stále aktivní?
+    - Jaký je zůstatek na účtu
+
+- intent: KB.retail.0145
+  examples: |
+    - Kde najdu osobního bankéře?
+    - Kdo je můj osobní bankéř?
+
+- intent: KB.retail.0146
+  examples: |
+    - Jak dlouho budu splácet půjčku?
+    - Kolik budu splácet?
+    - Kolik mi nejvíc půjčíte?
+    - Kolik mi vyjde splátka?
+
+- intent: KB.retail.0147
+  examples: |
+    - Chtel bych uver po telefonu
+    - Mohu zažádat o půjčku po telefonu?
+    - Můžete mi dát půjčku po telefonu?
+    - dáte mi půjčku po telefonu?
+    - Nejde mi dokončit rozpracovaná půjčka
+
+- intent: KB.retail.0148
+  examples: |
+    - Kolik si můžu půjčit na mateřské?
+    - Dáváte úvěry maminkám na mateřské?
+    - můžu si vzít půjčku na mateřské dovolené?
+
+- intent: KB.retail.0149
+  examples: |
+    - Chci si spořit na bydlení
+    - Chci stavebko
+    - kolik dostanu úrok na stavební spoření?
+    - Chtěl bych u vás stavebko.
+    - Jde zařídit stavební spoření online?
+    - Chci stavební spoření
+
+- intent: KB.retail.0150
+  examples: |
+    - Dostala jsem podvodný mail. 
+    - Obdržel jsem scam email. 
+    - Přišel mi divný e-mail. 
+    - Přišel mi e-mail s odkazem na aktualizaci údajů bankovnictví. 
+    - Přišel mi podezřelý e-mail. 
+    - Přišel mi podvodný e-mail. 
+    - dorazil mi podvodný email 
+    - email, který se tváří jako od ČSOB 
+    - podle mne jde o podvodný email 
+    - podvodnou emailovou zprávu 
+    - podvodná zpráva 
+    - Přišel mi spam. 
+
+- intent: KB.retail.0151
+  examples: |
+    - Kam nahlásit pokus o phishing? 
+    - kde muzu ohlasit phishing? 
+    - nahlášení podvodného emailu 
+    - stal jsem se obeti phishingu. 
+    - Mám podezření na napadení účtu.  
+
+- intent: KB.retail.0152
+  examples: |
+    - Co potřebuju pro zrušení povinného ručení?
+    - Jak si zruším povinné ručení?
+    - potrebuji zrusit povinne ruceni.
+    - Kam mám poslat informaci ohledně likvidace vozidla?
+    - Kam mám poslat velký techničák?
+    - Mám u vás povinné ručení a nechal jsem zlikvidovat auto.
+
+- intent: KB.retail.0153
+  examples: |
+    - Chci si aktivovat ČSOB ID pro připojení s účtem.
+    - Co je to ČSOB ID?
+    - co víš o bankid?
+    - Co víš o bankovní identitě?
+    - chci si sjednat ČSOB Identitu.
+    - ID identita
+
+- intent: KB.retail.0154
+  examples: |
+    - Vrátili se mi peníze ze zahraničí
+    - U zahraniční platby mi banka vrátila peníze.
+    - Zasílám peníze do zahraničí, ale vrací se mi zpět.
+
+- intent: KB.retail.0155
+  examples: |
+    - Chci změnit telefonní číslo
+    - Jak si změním telefonní číslo?
+    - Jak změním číslo pro sms klíče?
+    - Kde můžu nahlásit nové číslo pro zasílání zpráv?
+    - Lze změnit telefonní číslo pro přihlášení?
+    - Mohu změnit telefonní číslo pro IB?
+    - chci si aktivovat nové telefonní číslo v internetovém bankovnictví.
+    - Kde mám nahlísit nové telefoní číslo?
+    - Můžete mi změnit číslo pro SMS kódy?
+    - Potřeboval bych změnit telefonní číslo.
+    - Potřebuji změnit číslo pro potvrzení plateb.
+    - je možné změnit telefonní číslo v internetovém bankovnictví?
+    - Jak zadat nové telefonní číslo do internetového bankovnictví?
+
+- intent: KB.retail.0156
+  examples: |
+    - Je vaše cestovní pojištění na koronavirus?
+    - Vztahuje se cestovní pojištění na situaci s koronavirem.
+    - Platí cestovní pojištění na coronavirus?
+    - Proplatíte náklady spojené s covidem?
+
+- intent: KB.retail.0157
+  examples: |
+    - Chci proplatit šek.
+    - Jakým způsobem mi proplatíte šek?
+    - Jde vyplatit šek?
+    - Může mi ČSOB na můj účet vyplatit šek?
+    - Proplatíte mi šek?
+    - Proplácíte šeky z USA?
+    - Proplácíte šeky?
+    - jak vyplácíte šeky?
+
+- intent: KB.retail.0158
+  examples: |
+    - Jak se dostanu k účtu po zemřelém rodiči?
+    - jak zrušit účet zemřelého rodiče?
+    - Maminka pred mesicem zemrela.
+    - Můj zemřelý otec u vás má účet.
+    - Potrebuji zrusit ucet zemreleho otce.
+    - Jak postupovat při úmrtí majitele účtu?
+    - Jakým způsobem mohu nahlásit úmrtí?
+    - Nahlášení úmrtí?
+    - Co budete potřebovat nahlásit, když u nás nastalo úmrtí otce.
+    - oznámení smrti ?
+
+- intent: KB.retail.0159
+  examples: |
+    - Kontakt na personalistu?
+    - Mohl bych u vás pracovat?
+    - Mám zájem o práci ve Vaší společnosti.
+    - Prosím o kontakt na pracovníka náboru.
+
+- intent: KB.retail.0160
+  examples: |
+    - Nechci od vás dostávat nabídky.
+    - Nepřeji si dostávat emaily s nabídkami ČSOB. 
+    - Už mi nepište obchodní sdělení!
+
+- intent: KB.retail.0161
+  examples: |
+    - Chybně zadaná platba.
+    - Platba na chybný účet.
+    - Platba na nesprávný účet.
+    - Odeslal jsem platbu na účet, který již neexistuje.
+    - odeslání platby na špatný účet
+    - Omylem jsem zadala dvakrát stejnou platbu.
+    - Omylem poslaná platba.
+    - Poslala jsem platbu a omylem zadala špatně kód banky.
+    - Jak zažádám o vrácení chybně provedené transakce?
+    - do příkazu jsem uvedla špatné číslo účtu?
+    - poslala jsem špatně příkaz
+
+- intent: KB.retail.0162
+  examples: |
+    - Jake je cislo na zakaznickou linku?
+    - Jaká je vaše infolinka?
+    - Máte zdarma linku?
+    - Na jakou kontaktní linku mám zavolat?
+    - Jaké máte číslo přímo na operátora?
+
+- intent: KB.retail.0163
+  examples: |
+    - neumíte dávat mikro půjčky?
+    - Umíte mi půjčit malou částku?
+    - Chci mikro půjčku
+    - Potřeboval bych malou půjčku
+    - Dáváte i menší půjčky?
+
+- intent: KB.retail.0164
+  examples: |
+    - Jde vyměnit poškozenou bankovku?
+    - Vyměníte roztrženou bankovku?
+    - Vyměňujete poškozené bankovky?
+    - Kde mohu vyměnit poškozenou bankovku?
+
+- intent: KB.retail.0165
+  examples: |
+    - Chci zrušit platbu do zahraničí.
+    - Chci zrušit příkaz k úhradě.
+    - Jde zrušit platbu?
+    - Jak mohu stornovat platby?
+    - Jak stornuji příkaz k úhradě?
+    - Jak vystornovat platby v internetovém bankovnictví?
+    - Jak zrušit platební příkaz v internetovém bankovnictví:
+    - Jak zrušit příkazy k platbě bez internetového bankovnictví?
+    - Jak zrušit čekající platbu?
+    - Jak zrušit čekající příkaz k úhradě?
+    - Jak zruším platbu?
+    - Jak zruším trvalý příkaz?
+    - Lze stornovat platbu?
+    - Potřebuji zrušit zadanou platbu.
+
+- intent: KB.retail.0166
+  examples: |
+    - Je možné sjednotit půjčky?
+    - Jde  konsolidovat nebankovní půjčky?
+    - Jde refinancovat nebankovní půjčky?
+    - Je možná konsolidace nebankovní půjčky?
+    - Konsolidace úvěrů z jiných bank
+    - Lze sjednit půjčky z jiné banky?
+    - Můžu si nechat sjednotit nebankovní půjčky?
+    - mohu více půjček převést do ČSOB?
+    - chci konsolidaci půjček
+
+- intent: KB.retail.0167
+  examples: |
+    - Autopůjčka.
+    - Chci si koupit auto.
+    - Máte půjčku přímo na auto?
+    - Jaký máte leasing?
+    - Jde si půjčit na auto?
+    - Kde najdu kalkulačku na leasing?
+    - Nemůžu najít kalkulačku na autopůjčky.
+    - Potřebuju spočítat půjčku na auto.
+    - Půjčíte mi na auto?
+    - Chci od Vás autopůjčku.
+
+- intent: KB.retail.0168
+  examples: |
+    - Bude mi transakce zpoplatnena?
+    - Bude mi uctován nejaky poplatek?
+    - Platím za výběr z bankomatů cizích bank?
+    - Jak je to s vybery z bankomatu jinych bank?
+    - Jake jsou poplatky za prevedeni?
+    - Jaky je poplatek za vyber z bankomatu v cizine?
+    - Jaky poplatek se plati za pouziti kreditky u obchodnika?
+    - Jaky je poplatek pri zahranicni platbe
+    - Jaké jsou poplatky za převod z české ČSOB do ČSOB slovenské?
+    - Jaké jsou poplatky za přidatné služby?
+    - kolik stojí výběr z bankomatu v zahraničí?
+    - Jaký je poplatek při převodu peněz ze zahraničí?
+    - Jaký je poplatek za převedení hypotéky?
+    - Jaký je poplatek za výběr hotovosti v jiné bance?
+    - Jaký přesně je poplatek za?
+    - Jaký se poplatek za vyber z cizi banky?
+    - Jaký zaplatím poplatek za úhradu SEPA?
+    - Jsou nějaké poplatky za přijaté platby ze zahraničí?
+    - Jsou platby kreditní kartou zdarma?
+    - Jsou platby z plus konta zadarmo?
+    - Kde najdu kolik stojí výběr z bankomatu?
+    - Kde najdu poplatek za placení kreditní kartou?
+    - Kde najdu poplatky za výběry mimo EU?
+    - jaký je poplatek při platbě kartou v zahraničí?
+    - Kolik mě bude stát platba do jiné země?
+    - Kolik mě bude stát platba na Slovensko do VUB banky?
+    - Kolik mě bude stát převedení půjčky z jiné banky?
+    - Kolik mě bude stát výběr z bankomatu v zahraničí?
+    - Kolik mě bude stát výběr z bankomatu?
+    - Kolik si účtujete při platbě na Slovensko do VUB Banky?
+    - Kolik si účtujete za platby v cizí zemi?
+    - Kolik si účtujete za výběry v zahraničí?
+    - Kolik stoji vyber z bankomatu jine banky:
+    - Kolik stojí měsíčně?
+    - Kolik stojí služba Moje info?
+    - Kolik to stojí?
+    - Kolik stojí
+    - Kolik zaplatím za výběr z účtu?
+    - Mám u svého bankovního účtu nějaké poplatky?
+    - Máte poplatky při použití karty v zahraničí?
+    - Nebudete mi strhávat nějaký poplatek?
+    - platím u  účtu nějaké poplatky?
+    - Kolik stojí platba do zahraničí?
+    - Platím nějaký poplatek za platbu kartou v cizí měně?
+    - Poplatek za plus konto
+    - Vysoký poplatek
+    - Zaplatím něco za výběry z bankomatů cizích bank?
+    - Jaký bude poplatek?
+    - Jaký je poplatek za valutové operace?
+    - Je zpoplatněna služba o platbách přes sms?
+    - kolik je poplatek?
+    - kolik si účtujete za odchozí platbu
+    - kolik stojí výběr z bankomatu v EU?
+    - kolik zaplatím za platbu na účet v zahraničí?
+    - Jaký je poplatek za platbu na slovenský účet?
+    - Kolik mi strhne banka peněz na poplatek?
+
+- intent: KB.retail.0169
+  examples: |
+    - Jde jít na účtu do mínusu?
+    - Mohu u svého základního účtu jít do mínusu?
+    - potřebuji jít na účtu do mínusu.
+
+- intent: KB.retail.0170
+  examples: |
+    - Potřeboval bych potvrzení o účtu.
+    - Potřeboval bych zaslat tiskopis, že jsem majitel účtu.
+    - Kdo mi vystaví potvrzení o účtu?
+    - Kde získám potvrzení o vedení účtu?
+    - Vydáte mi potvrzení o účtu?
+
+- intent: KB.retail.0171
+  examples: |
+    - Sjednáte mi účet i když mám insolveci?
+    - Jsem v insolvenčním řízení a chci u vás účet.
+    - Muzeme si zalozit ucet v jiz bezici insolvenci?
+    - Potřebuji účet, ale mám insolvenci.
+    - Je možné zřídit účet, když jsem v insolvenci?
+    - Mohu si udelat ucet i presto, ze mam insolvenci?
+
+- intent: KB.retail.0172
+  examples: |
+    - Fungují platby kartou, když mám zablokované IB?
+    - Kdyz jsem si zablokovala pristup k uctu, muzu platit platebni kartou?
+    - Můžu používat platební kartu, než se mi odblokuje iB?
+
+- intent: KB.retail.0173
+  examples: |
+    - Chci vstoupit do elektronického náhledu do své hypotéky.
+    - Kde najdu detaily své hypotéky online?
+    - Nevidím svoji hypotéku ve svém bankovnictví.
+    - Jak se dostanu do své hypotéky v bankovnictví?
+    - Kde uvidím detail k mé hypotéce?
+
+- intent: KB.retail.0174
+  examples: |
+    - Chci si uložit vzor platby.
+    - Chci změnit vzor platby
+    - Chtel bych upravit vzor na ucte
+    - Jak lze změnit vzory pro platby?
+    - Jak změnit číslo účtu z uloženého vzoru?
+    - Jak odstranim uložený vzor platby?
+    - Jak přidám vzor platby?
+    - Jak si muzu upravovat vzory?
+    - Jak zadám vzor platby?
+    - Jak zrušit vzory příkazů?
+    - Jdou měnit uložené vzory po platby?
+    - Kde najdu vzory plateb?
+    - Mohu spravovat vzory plateb?
+    - jak upravit vzory pro platby?
+    - jak zrusit prikazy z ulozeneho vzoru?
+    - Potřebuji odstranit neplatný vzor platby.
+
+- intent: KB.retail.0175
+  examples: |
+    - jak si zažádat o půjčku pro rekonstrukci bytu?
+    - jak financovat rekonstrukci bydlení?
+    - Chci půjčku na bydlení.
+    - Chci úvěr na rekonstrukci bytu
+    - Máte půjčku na rekonstukci bytu?
+    - Měli bychom zájem o úvěr na výstavbu přístavku.
+    - Půjčíte mi na bydlení?
+
+- intent: KB.retail.0176
+  examples: |
+    - Kdy dostanu výpis ke kreditce?
+    - Kdy obdržím výpis ke kreditní kartě?
+    - Kdy přijde výpis ke kreditní kartě?
+    - Nedostal jsem výpis z kreditní karty
+
+- intent: KB.retail.0177
+  examples: |
+    - Chci si sjednat půjčku
+    - Musím kvůli půjčce na pobočku?
+    - Chci si u vás zřídit úvěr.
+    - Jak dlouho trvá vyhodnocení žádosti o půjčku online?
+    - Jak funguje sjednání půjčky online?
+    - Jak rychle vyřídit půjčku?
+    - Jak si zažádám o půjčku online?
+    - Jde půjčku vyřídit online?
+    - Jde si půjčit online?
+    - Je nutné pro dokončení půjčky chodit vždy na pobočku?
+    - Mohu si zařídit půjčku online?
+    - Mohu si zažádat o půjčku online?
+    - Musím chodit na pobočku kvůli půjčce?
+    - Muzu mit dotaz ohledne pujcky?
+    - Chci si zařídit bydlení
+    - Můžu požádat o půjčku online?
+    - Můžu úvěr vyřídit online?
+    - Nabizite i spotrebitelske uvery?
+    - Potřebuji peníze online?
+    - Půjčíte mi online?
+    - Chtěla bych si půjčit peníze
+    - potřebuju úvěr
+    - chci půjčku
+    - Jak bych si jednal online půjčku?
+    - Jak si sjednám půjčku online přes IB?
+    - Dáte mi půjčku online?
+    - Jak probíhá online sjednání?
+    - Jak vám doručím smlouvu?
+    - Je možné vyřídit půjčku online?
+    - Lze požádat o půjčku online?
+    - Mohu dostat půjčku i přes internetové bankovnictví?
+    - Mohu si sjednat úvěr online?
+    - mám zájem o půjčku
+
+- intent: KB.retail.0178
+  examples: |
+    - Co znamená částka v blokaci?
+    - Jak ziskam potvrzeni o provedene platbe z uctu?
+    - Kde najdu odchozí platby?
+    - kde najdu pohyby na účtu.
+    - Proč se po nákupu objevila částka v blokaci?
+    - V BLOKACI mám částku v Kč za nákup v obchodě.
+
+- intent: KB.retail.0179
+  examples: |
+    - Kde najdu číslo pojistné smlouvy ke kartě?
+    - nemohu nikde najít číslo pojistné smlouvy ke kartě
+    - Číslo pojistné smlouvy u pojištění karty?
+
+- intent: KB.retail.0180
+  examples: |
+    - Chci poslat peníze do jiné země
+    - Chtěl bych se zeptat na iban.
+    - jak platit zahraniční platbu?
+    - Jak funguje zasílání plateb do zahraničí?
+    - Jak poslat peníze na slovenský účet?
+    - Jak poslat platbu do zahraničí?
+    - Jak provést platbu do zahraničí?
+    - Jak zadat platbu do zahraničí?
+    - Jak zadám převod peněz do zahraničí?
+    - Jak zaplatím fakturu v Eurech?
+    - Jak zjistim IBAN ke svemu uctu?
+    - co potřebuji k zadání zahraniční platby?
+    - Jaký je prosím Swift banky CSOB?
+    - Jaký máte SWIFT kód?
+    - Kde najdu IBAN
+    - Kde najdu možnost poslat platbu do zahraničí?
+    - Kde najdu možnost poslat platbu na Slovensko?
+    - Kde prosím najdu IBAN k účtu?
+    - Můžeš mi napsat IBAN  banky?
+    - Nemůžu najít platby do zahraničí.
+    - Nemůžu najít zahraniční platby
+    - jak mám poslat platbu kamarádce do zahraničí.
+    - jak poslat peníze do zahraničí.
+    - Platba na Slovensko ?
+    - Potřeboval bych poslat platbu na Slovensko.
+    - Potřebovala bych IBAN
+    - Potřebuji platit na Slovensko.
+    - Potřebuji poslat údaje k platbě do zahraničí.
+    - Potřebuji provést platbu do zahraničí.
+    - Potřebuji vědět IBAN.
+    - Pošlete mi prosím IBAN:
+    - Pro platby ze zahraničí potřebují číslo účtu, IBAN a BIC?
+    - Jak získám číslo Iban učtu?
+
+- intent: KB.retail.0181
+  examples: |
+    - kolik jsem zaplatila na urocich pri cerpani kontokorentu?
+    - Kde najdu výpis z povoleného přečerpání?
+    - kolik mě stál kontokorent?
+    - kolik jsem zaplatil za kontokorent?
+
+- intent: KB.retail.0182
+  examples: |
+    - Jak požádat o chargeback?
+    - Umíte chargeback?
+    - Kde podám žádost o chargeback?
+    - Je možný chargeback?
+    - Jak je možné zažádat o chargeback?
+    - Jak uplatnit chargeback?
+    - Jak uplatit charge back?
+
+- intent: KB.retail.0183
+  examples: |
+    - Jak mohu požádat o životní minimum?
+    - Jak z účtu vyberu životní minimum?
+    - Kde požádám o životní minimum?
+
+- intent: KB.retail.0184
+  examples: |
+    - Chci Premium účet.
+    - jak si založím premium konto?
+    - Chci kontakt na Premium bankéře.
+    - Chci mít prémiový účet.
+    - Chci ČSOB Premium.
+    - Jak změnit účet na prémiový?
+    - Jaké jsou podmínky prémiového účtu?
+    - Měl bych zájem o prémiové bankovnictví.
+    - Nabízíte prémiový účet?
+    - Chci informace k ČSOB Premium.
+    - Máte nějaký produkt pro VIP klienty?
+    - Máte nějaký produkt pro movité klienty?
+
+- intent: KB.retail.0185
+  examples: |
+    - Chci vkladomatem dát peníze na slovenský účet.
+    - Jak můžu vložit a účet, když nemám platební kartu?
+    - Jake jsou poplatky pri vkladu v hotovosti?
+    - Jaký je nejrychlejší způsob vložení  hotovosti?
+    - Jde přes vkladový bankomat vložit hotovost na účet ve slovenské ČSOB?
+    - kolik máte k dispozici vkladomatů?
+    - Kolik je poplatek za vlozeni penez na ucet?
+    - Kolik mate v soucasne dobe vkladomatu?
+    - Kolik si účtujete za vklad hotovosti na účet?
+    - Kolik zaplatím za vklad peněz na účet na poště?
+    - Kolik zaplatím za vklad peněz na účet?
+    - Můžu vložit peníze na účet slovenské ČSOB?
+    - Potřebuji udělat vklad na můj účet.
+    - muzu z vaseho vkladomatu vlozit penize na ucet Equa bank?
+    - Jak vkladat na České poště na můj účet u ČSOB
+    - Účtujete si poplatek za vklady na účet přes poštu?
+
+- intent: KB.retail.0186
+  examples: |
+    - Jak mohu změnit trvalou adresu?
+    - Je možné vyřídit změnu bydliště online?
+    - mám nový občanský průkaz?
+    - konec platnosti občanky
+    - Kde si můžu změnit trvalou adresu?
+    - zmenila trvale bydliste musím na pobočku?
+    - Je třeba vám hlásit novou OP?
+    - Mám novou občanku, musím na pobočku?
+    - Potřebuji nahlásit změnu trvalé adresy
+    - Potřebuju změnit trvalou adresu.
+    - Změna jména ?
+    - Změna trvalého bydliště ?
+    - Změna trvalého pobytu?
+    - Změňte mi trvalou adresu.
+    - aktualizace osobních údajů
+    - jak nahlásit změnu trvalého pobytu
+    - kde najdu formulář na změnu údajů?
+    - nedávno jsem změnila trvalé bydliště.
+    - potřebuji zaslat naskenovaný nový občanský průkaz
+    - JAk nahlásím změnu příjmení?
+    - Je nutné oznámit změnu jména po sňatku?
+
+- intent: KB.retail.0187
+  examples: |
+    - Jaké je věkové omezení u úvěrů?
+    - Potřebuji potvrzení o příjmech při sjednání půjčky online?
+    - Co je potřeba k poskytnutí půjčky?
+    - Kdo může požádat o půjčku?
+    - Jaké doklady musím mít v případě půjčky online?
+    - Jaké jsou podmínky pro úvěr?
+    - Co vše musím mít kvůli půjčce?
+    - od kolika let poskytujete půjčky.
+    - Co potřebuju pro žádost o půjčku?
+    - Do kolika let poskytujete úvěry?
+    - Co potřebuji k sjednání půjčky online?
+    - Co musim splnovat k ziskani pujcky?
+
+- intent: KB.retail.0188
+  examples: |
+    - Do jake hodiny odesilate platby ihned?
+    - Do kdy připíšete ihned platby na druhý účet?
+    - Do kolika hodin mohu ještě dnes odeslat platbu?
+    - Do kolika hodin odesíláte platby?
+    - Jak dlouho prosím trvá převod peněz?
+    - Jak dlouho trva okamzita platba?
+    - Jak dlouho trvá odeslat platbu do jiné banky?
+    - Jak dlouho trvá převedení peněz?
+    - Jak dlouho trvá převod do slovenské banky?
+    - Jak rychle je zaúčtována platba na účtu protistrany?
+    - Jaké jsou lhůty pro obržení plateb?
+    - Je nejaka urcena hodina, kdy prestavaji probihat transakce?
+    - Kdy dojte platba z účtu ČSOB na účet u jiné banky?
+    - Kdy nejpozději zprocesujete mnou odeslanou platbu?
+    - Kdy přibližně dorazí platba po odeslání na účet příjemce?
+    - Kdyz se odesle platba v urcity den na jiny ucet?
+    - Za jak dlouho se provede převod peněz?
+    - do kdy dorazí platba
+    - jak dlouho trva prevod z uctu na ucet v nedeli
+    - jak dlouho trvá než mi přijdou peníze
+
+- intent: KB.retail.0189
+  examples: |
+    - Kolik je prodloužená záruka u kreditní karty?
+    - O kolik delší mám záruku na zboží s vaší kreditní kartou?
+    - Prodlouzena zaruka u kreditky je o 1, nebo 3 roky?
+    - Jak je to s prodlouženou zárukou u kreditní karty?
+
+- intent: KB.retail.0190
+  examples: |
+    - Jak založit účet pro svého syna?
+    - Jak založit účet pro dceru?
+    - Do kolika let věku dítěte poskytujete účet zdarma?
+    - Jak můžu založit účet pro dítě?
+    - Jaký účet je nejlepší pro moje dítě?
+    - Je možné zřídit běžný účet i pro děti?
+    - Kdy je možné založit účet pro své děti?
+    - Který účet mám založit pro svého syna?
+    - Máte u vás účet zřízení pro dítě zdarma?
+    - Od kolika let můžu založit účet pro své děti?
+    - Chci založit běžný účet dceři.
+    - Chci založit běžný účet synovi.
+    - Jak založit dětské účty mým dětem?
+    - Jak zřídím dětský běžný účet?
+    - Jak zařídit účet pro dceru?
+    - Mohu zařídit běžný účet pro dítě online?
+    - Od kolika let poskytujete běžný účet?
+    - Mohu účet pro svou dceru založit online?
+
+- intent: KB.retail.0191
+  examples: |
+    - Chci si u vás zřídit výhodný účet.
+    - Je založení účtu zpoplatněno?
+
+- intent: KB.retail.0192
+  examples: |
+    - Co nabízí váš účet?
+    - Jaké jsou výhody vašeho účtu:
+    - Kolik musí přijít na účet peněz, abych měla účet zdarma.
+    - Kolik stojí vedení účtu?
+    - Máte účet bez poplatku?
+    - Máte účet zdarma?
+    - Platí se něco při založení účtu?
+    - Proč si založit účet u vás?
+
+- intent: KB.retail.0193
+  examples: |
+    - Jak si zřídím kontokorent?
+    - Jak si založím kontokorent?
+    - Má váš účet možnost povoleného přečerpání?
+    - Jak si u vás založím kontokorent?
+    - Chci kontokorent
+    - Mám zájem o povolené přečerpání.
+    - Mohu si zažádat o čerpání do mínusu?
+
+- intent: KB.retail.0194
+  examples: |
+    - Je možné si hypotéku započíst do daní?
+    - Započítává se hypotéka do daní?
+    - muzu si hypotéku uplatnit pri rocnim zuctovani dani?
+    - Můžu si hypotéku u vás započíst do daní?
+
+- intent: KB.retail.0195
+  examples: |
+    - Poskytuje úvěry obcím?
+    - Nabídka pro obce?
+    - Jak lze získat úvěr pro obec?
+    - chtěl bych úvěr pro obecní záležitosti.
+
+- intent: KB.retail.0196
+  examples: |
+    - Co je to ČSOB Drobné?
+    - Jak si zřídím ČSOB Drobné?
+    - Co mi poskytuje ČSOB Drobné?
+    - Chtěl bych aktivovat ČSOB Drobné?
+    - Jak si aktivuji službu drobné?
+    - Co potřebuji při založení ČSOB Drobných?
+    - Jak funguje ČSOB Drobné?
+    - Jak můžu sjednat ČSOB Drobné?
+    - Kde se ČSOB Drobné investují?
+    - Kde se částky z ČSOB Drobných shromažďují než se investují?
+    - Kolik mohu do ČSOB Drobných zainvestovat?
+
+- intent: KB.retail.0197
+  examples: |
+    - Jak se jmenuje banka celým jménem?
+    - Jaký je celý název banky?
+    - Jaká je adresa centrály?
+    - Jaká je oficiální adresa ČSOB?
+    - Jaká je adresa ČSOB banky?
+    - Kde má ČSOB banka sídlo?
+
+- intent: KB.retail.0198
+  examples: |
+    - Co kryje pojištění pro psa?  
+    - Jak vaše pojištění ochrání mého psa? 
+    - Umíš pojistit pejska? 
+    - Umíš pojistit kočičku? 
+    - Umíš pojistit psa? 
+    - Umíš pojistit kočku? 
+
+- intent: KB.retail.0199
+  examples: |
+    - Co kryje pojištění pro kočku?  
+    - Jak vaše pojištění ochrání moji kočku? 
+
+- intent: KB.retail.0200
+  examples: |
+    - Mohu si pojistit vzácného papouška? 
+    - Umíš pojistit papouška? 
+    - Pojistíte mi i vzácnýho papouška? 
+    - Pojistíte mi koně? 
+    - Můžu pojistit svého koně? 
+    - Chtěl bych pojistit koně. 
+    - Pojistíte mi andulku? 
+    - Pojistíte mi křečka? 
+    - Můžu pojistit své rybičky? 
+
+- intent: KB.retail.0201
+  examples: |
+    - Od kolika korun měsíčně si mohu pojistit kočku? 
+    - Kolik stojí pojištění kočky? 
+    - Za kolik mi pojistíte kočku? 
+    - Od kolika korun měsíčně si mohu pojistit psa? 
+    - Kolik stojí pojištění psa? 
+    - Za kolik mi pojistíte psa? 
+
+- intent: KB.retail.0202
+  examples: |
+    - Jak staré psy pojišťujete? 
+    - Kolik musí psovi být, abyste ho pojistili? 
+    - Jak musí být pes starý, aby se dal pojistit? 
+
+- intent: KB.retail.0203
+  examples: |
+    - Jak staré kočky pojišťujete? 
+    - Kolik musí kočce být, abyste ji pojistili? 
+    - Jak musí být kočka stará, abyste ji pojistili? 
+
+- intent: KB.retail.0204
+  examples: |
+    - Pojistíte mi psa, který je už nemocný? 
+    - Pojistíte mi kočku, která je už nemocná? 
+    - Pojišťujete už nemocného psa? 
+    - Pojišťujete už nemocnou kočku? 
+    - Mám nemocného psa, pojistíte mi ho? 
+    - Mám nemocnou kočku, pojistíte mi ji? 
+
+- intent: KB.retail.0205
+  examples: |
+    - Kde najdu PIN ke své platební kartě?
+    - Kdy mi expiruje karta?
+    - Kdy mi končí platnost karty?
+    - Kde najdu PIN ke své platební kartě?
+    - Kdy mi bude expirovat moje karta?
+
+- intent: KB.retail.0206
+  examples: |
+    - Jak si aktivuji novou kartu?
+    - Musím si obnovenou novou kartu znovu aktivovat?
+
+- intent: KB.retail.0207
+  examples: |
+    - Do kdy musím změnu způsobu dodání provést, aby mi karta přišla včas?
+
+- intent: KB.retail.0208
+  examples: |
+    - Kde najdu nastavení Kate?
+    - Kde najdu nastavení aplikace?
+    - Mám zájem o zasílání notifikací
+    - Chci zasílat notifikace
+    - Jak nastavit notifikace?
+    - Kde najdu nastavení notifikací?
+
+- intent: KB.retail.0209
+  examples: |
+    - K čemu je DoKapsy?
+    - K čemu je Do Kapsy?
+    - Co je Do Kapsy?
+    - Co je aplikace Do Kapsy?
+
+- intent: KB.retail.0210
+  examples: |
+    - Proč mám mít svět odměn?
+    - K čemu mi je Svět odměn užitečný?
+    - Jak funguje Svět odměn?
+    - K čemu je dobrý Svět odměn?
+    - Proč si mám aktivovat Svět odměn?
+    - Co pro mě znamená Svět odměn?
+    - Jaké výhody má Svět odměn?
+    - Jaké jsou výhody Světa odměn?
+    - Co získám díky Světu odměn?
+    - Na co mi je Svět odměn?
+
+- intent: KB.retail.0211
+  examples: |
+    - Jaké jsou podmínky zřízení Světa odměn?
+    - Jaké jsou podmínky aktivace Světa odměn?
+    - Kdo se může stát členem Světa odměn?
+    - Co musím splnit, abych se stal členem Světa odměn?
+    - Jaké jsou podmínky pro vstup do programu Svět odměn?
+    - Kdo si může aktivovat Svět odměn?
+
+- intent: KB.retail.0212
+  examples: |
+    - Pro koho je Svět odměn?
+    - Kdo se může zúčastnit Světa odměn?
+
+- intent: KB.retail.0213
+  examples: |
+    - Jak se dostanu do Světa odměn?
+    - Jak probíhá aktivace programu Světa odměn?
+    - Jak si zaktivuju Svět odměn?
+    - Jak se aktivuje Svět odměn?
+    - Co musím udělat pro aktivaci Světa odměn?
+    - Jak se mohu zaregistrovat do Světa odměn?
+
+- intent: KB.retail.0214
+  examples: |
+    - Můžu sbírat odměny do Světa odměn, i když nemám běžný účet?
+    - Můžu mít Svět odměn bez běžného účtu?
+    - Nemám běžný účet u ČSOB, můžu mít Svět odměn?
+    - Je potřeba mít běžný účet, abych měl Svět odměn?
+    - Musím se zaregistrovat, abych měl Svět odměn?
+    - Můžu mít Svět odměn bez účtu?
+
+- intent: KB.retail.0215
+  examples: |
+    - Jak prokážu, že jsem členem Světa odměn?
+    - Je potřeba se nějak prokázat, že jsem členem Světa odměn?
+    - Je potřeba se nějak prokázat, že jsem v programu Světa odměn?
+    - Co potřebuju k tomu, abych sbíral body do Světa odměn?
+    - Potřebuju nějakou kartičku pro sbírání bodů do Světa odměn?
+    - Potřebuju se nějak prokazovat, že jsem ve Světě odměn?
+    -  Jak se načtou body do Světa odměn?
+    -  Nemám věrnostní kartičku do Světa odměn.
+    -  Musím mít nějakou kartičku ke Světu odměn?
+
+- intent: KB.retail.0216
+  examples: |
+    - Musím u akčních slev Světa odměn předložit poukázku nebo voucher?
+    - Kde najdu slevový kód k nabídce ve Světě odměn?
+    - Jak mohu využít slevu u obchodníka Světa odměn?
+    - Jakým způsobem dostanu slevu u akční nabídky ve Světě odměn?
+    - Co mám udělat proto, abych dostal slevu do Světa odměn?
+    - Dostanu slevu u partnera Světa odměn automaticky?
+    -  Jak funguje sleva u akční nabídky Světa odměn?
+
+- intent: KB.retail.0217
+  examples: |
+    - Mohu dostávat informace o účtu Světa odměn e-mailem?
+    - Bude mi chodit nějaký výpis ze Světa odměn?
+    - Dostanu nějaký přehled bodů ve Světě odměn každý měsíc?
+    - Bude mi chodit nějaký výpis o stavu bodů ve Světě odměn?
+    - Můžu dostat každý měsíc přehled o svém účtu Světa odměn?
+
+- intent: KB.retail.0218
+  examples: |
+    - Za co mohu získávat body do Světa odměn?
+    - Jak můžu získávat body do Světa odměn?
+    - Jak získám body do Světa odměn?
+    - Jakým způsobem se mi budou načítat body do Světa odměn?
+    - Jak to funguje se sběrem bodů ve Světě odměn?
+    - Za co všechno můžu získat body do Světa odměn?
+    - Jaké jsou možnosti sběru bodů do Světa odměn?
+    -  Za co dostanu body ve Světě odměn?
+    -  Jak se mi načtou body ve Světě odměn?
+    -  Co musím dělat, abych dostal body ve Světě odměn?
+    -  Kdy se mi načtou body do Světa odměn?
+
+- intent: KB.retail.0219
+  examples: |
+    - Za co můžu svoje body ze Světa odměn využít?
+    - Za co můžu svoje body ze Světa odměn vyměnit?
+    - Co si můžu koupit na body Světa odměn?
+    - Co si můžu pořídit za body Světa odměn?
+    - Za co můžu vyměnit nasbírané body ve Světě odměn?
+    - Kde najdu možnosti využití bodů ve Světě odměn?
+    - K čemu mi jsou body ve Světě odměn?
+    - Na co jsou body ve Světě odměn?
+    -  Jaké jsou odměny ve Světě odměn?
+
+- intent: KB.retail.0220
+  examples: |
+    - Získávám body do Světa odměn za každou platbu kartou?
+    - Jakým způsobem získám body do Světa odměn?
+    - Kolik bodů do Světa odměn získám za platby kartou?
+    - Kolik bodů do Světa odměn získám za placení?
+    - Dostanu body do Světa odměn i za výběry kartou?
+    - Dostanu body do Světa odměn i když mám premium účet?
+    -  Když platím, kolik bodu mi jde do Světa odměn?
+
+- intent: KB.retail.0221
+  examples: |
+    - Můžu ve Světě odměn sbírat body debetní i kreditní kartou?
+    - Sbírám ve Světě odměn body jen debetní kartou?
+    - Sbírám ve Světě odměn body jen kreditní kartou?
+    - Můžu sbírat body zároveň debetní a kreditní kartou ve Světě odměn?
+    - Když mám od vás více karet, sbírám body do Světa odměn se všema?
+    - Sbírám body do Světa odměn premium kartou?
+    - Jakou kartou sbírám body do Světa odměn?
+
+- intent: KB.retail.0222
+  examples: |
+    - Kolik bodů mám nasbíráno ve Světě odměn? a jaká je jejich platnost?
+    -  Jaká je platnost bodů ve Světě odměn?
+    - Kde zjistím, kolik bodů mám ve Světě odměn nasbíráno?
+    - Kde najde platnost bodů ve Světě odměn?
+    - Kde zjistím, kdy mi body ve Světě odměn expirují?
+    - Kde zjistím aktuální stav bodů Světa odměn?
+    - Jak zjistím, kolik bodů jsem už ve Světě odměn nasbíral?
+    -  Kolik bodů mám ve Světě odměn?
+
+- intent: KB.retail.0223
+  examples: |
+    - Jsou body Světa odměn přenosné?
+    - Můžu body ve Světě odměn někomu darovat?
+    - Můžu body ve Světě odměn na někoho převést?
+    - Mohou být body ve Světě odměn dárovány někomu jinému?
+    - Jsou body Světa odměn přenositelné?
+    - Mohu převést body Světa odměn na někoho jiného?
+
+- intent: KB.retail.0224
+  examples: |
+    - Můžu o svoje body ve Světě odměn přijít, když mi někdo ukradne kartu?
+    - Může mí někdo body Světa odměn odcizit?
+    - Mohou být body Světa odměn zneužity?
+    - Když ztratím kartu, může mi někdo ukrást body ve Světě odměn?
+    - Můžu přijít o svoje body ve Světě odměn v případě krádeže karty?
+
+- intent: KB.retail.0225
+  examples: |
+    - Jak dlouho trvá vyřízení objednávky ze Světa odměn? 
+    -  kolik stojí poštovné a balné objednávky ze Světa odměn?
+    - Jak dlouho budu čekat na dárek ze Světa odměn?
+    - Kolik stojí poštovné objednávek ze Světa odměn?
+    - Za jak dlouho dorazí objednávka ze Světa odměn?
+    - Budu něco platit za poštovné a balné za objednávku ze Světa odměn?
+    - Za jak dlouho dostanu objednávku ze Světa odměn?
+    -  Kdy dostanu objednávku ze Světa odměn?
+
+- intent: KB.retail.0226
+  examples: |
+    - Do kdy mohu čerpat odměny u partnerů Světa odměn?
+    - jakou platnost má nabídka ve Světě odměn?
+    - Jakou platnost mají akční nabídky ve Světě odměn?
+    - Jsou akční nabídky ve Světě odměn nějak omezené?
+    - Mají nabídky u partnerů Světa odměn nějakou omezenou platnost?
+
+- intent: KB.retail.0227
+  examples: |
+    - Budu si moci dokupovat body do Světa odměn?
+    - Chybí mi body do světa odměn
+    - Je možné si přikoupit body do Světa odměn?
+    - Je možné doplatit chybějící částku na dárek ve Světě odměn?
+    - Co když mi chybí body ve Světě odměn pro nakoupení dárku?
+    - Mohu si koupit body do Světa odměn?
+
+- intent: KB.retail.0228
+  examples: |
+    - Vztahuje se na odměny ze Světa odměn záruka?
+    - Uplatňuje se na zakoupené dárky ze Světa odměn záruka?
+    - Jsou dárky ze Světa odměn v záruce?
+    - Jak dlouhá je záruka na zboží zakoupené ve Světě odměn?
+    - Můžu reklamovat zakoupené dárky ze Světa odměn?
+    - Vztahuje se na dárky ze Světa odměn záruka?
+    - Je nějaká záruka na dárky ze Světa odměn?
+
+- intent: KB.retail.0229
+  examples: |
+    - Jak mohu vyřešit reklamaci bodů ve Světě odměn?
+    - Chci reklamovat připsané body ve Světě odměn, co mám dělat?
+    - Nepřipsaly se mi body ve Světě odměn, na koho se můžu obrátit?
+    - Jak mohu vyřešit reklamaci dárku ve Světě odměn?
+    - Chci reklamovat zakoupený dárek ze Světa odměn, co mám proto udělat?
+    - Jak dlouho trvá reklamace dárku ze Světa odměn?
+
+- intent: KB.retail.0230
+  examples: |
+    - Jak poznám, že partner poskytuje odměny v rámci programu Svět odměn?
+    - Kde najdu přehled partnerů programu Světa odměn?
+    - Kde najdu přehled partnerů Světa odměn?
+    - U jakých partnerů Světa odměn mohu sbírat body?
+    - Kde je seznam partnerů Světa odměn?
+
+- intent: KB.retail.0231
+  examples: |
+    - Proč je zelená karta bílá?
+
+- intent: KB.retail.0232
+  examples: |
+    - Mám chybu v údaji na zelené kartě.
+    - mám chybu v údaji na zelené kartě?
+    - Proč mi zelená karta nepřišla?
+
+- intent: KB.retail.0233
+  examples: |
+    - Proč mi zelená karta přišla na e-mail?
+    - Zelená karta přišla mailem.
+
+- intent: KB.retail.0234
+  examples: |
+    - Je dostačující mít zelenou kartu v telefonu?
+    - Stačí mít zelenou kartu v telefonu?
+    - Můžu mít zelenou kartu jen v telefonu?
+    - Musím zelenou kartu tisknout?
+    - Proč se zelená karta musí tisknout?
+
+- intent: KB.retail.0235
+  examples: |
+    - Proč má zelená karta platnost pouze měsíc?
+    - Proč zelená karta platí jen měsíc?
+
+- intent: KB.retail.0236
+  examples: |
+    - Co je automatická plná splátka?
+    - Co znamená automatická plná splátka?
+    - K čemu je automatická plná splátka?
+
+- intent: KB.retail.0237
+  examples: |
+    - Co za automatickou plnou splátku zaplatím?
+    - Kolik automatická plná splátka stojí?
+    - Kolik mě automatická plná splátka bude stát?
+
+- intent: KB.retail.0238
+  examples: |
+    - Kdy mi automatickou plnou splátku nastavíte?
+    - Od kdy mi automatickou plnou splátku nastavíte?
+    - Od kdy začne automatická plná splátka platit?
+
+- intent: KB.retail.0239
+  examples: |
+    - Můžu automatickou plnou splátku zrušit?
+    - Jak můžu automatickou plnou splátku zrušit?
+    - Kde mohu službu automatické plné splátky zrušit?
+    - Kdy můžu automatickou plnou splátku vypovědět?
+    - Mohu automatickou plnou splátku zrušit kdykoliv?
+    - Jde automatickou plnou splátku vypovědět?
+
+- intent: KB.retail.0240
+  examples: |
+    - Co když nebudu mít peníze na zaplacení automatické plné splátky?
+    - Co když nebudu mít prostředky na účtě na automatickou plnou splátku?
+    - Co když nebudu mít peníze na automatickou plnou splátku?
+    - Co když se automatická plná splátka sama nestrhne?
+    - Automatická plná splátka se sama nestrhla.
+    - Nemám na účtě peníze na automatickou plnou splátku.
+
+- intent: KB.retail.0241
+  examples: |
+    - Budete mě informovat, když se automatická plná splátka nestrhne?
+    - Budete mě informovat, když se automatická plná splátka neprovede?
+    - Budete mě informovat, když nepůjde  automatická plná splátka strhnout?
+    - Dáte mi vědět, když se  automatická plná splátka nestrhne?
+    - Dáte mi vědět, když se  automatická plná splátka neprovede?
+    - Dáte mi vědět, když nepůjde automatická plná splátka strhnout?
+
+- intent: KB.retail.0242
+  examples: |
+    - Chci v průběhu měsíce splácet automatickou plnou splátku sám
+    - Můžu automatickou plnou splátku poslat sám?
+    - Co když budu chtít v průběhu měsíce zaplatit kreditku sám?
+
+- intent: KB.retail.0243
+  examples: |
+    - Strhne se mi automatická plná splátka, i když čerpám kontokorent?
+    - Strhne se mi automatická plná splátka, i když jsem v kontokorentu?
+
+- intent: KB.retail.0244
+  examples: |
+    - K jakému dni se bude automatická plná splátka strhávat?
+    - Kdy se bude automatická plná splátka strhávat?
+    - kdy mi automatickou plnou splátku strhnete?
+    - Bude se automatická plná splátka strhávat ke stejnému dni jako teď?
+
+- intent: KB.retail.0245
+  examples: |
+    - Jde změnit datum automatické plné splátky?
+    - Jak změnit datum strhávání automatické plné splátky?
+    - Můžu změnit datum automatické plné splátky?
+    - Jde datum automatické plné splátky změnit?
+    - Jde později upravit datum automatické plné splátky?
+    - Jde později změnit na jiné datum automatické plné splátky?
+
+- intent: KB.retail.0246
+  examples: |
+    - Můžu automatickou plnou spátku nastavit jen na kartu manžela?
+    - Můžu automatickou plnou spátku nastavit jen na kartu partnera?
+    - Můžu automatickou plnou spátku nastavit jen na kartu manželky?
+    - Můžu automatickou plnou spátku nastavit jen na kartu partnerky?
+    - Můžu nastavit automatickou plnou splátku jen na druhou kartu?
+    - Můžu nastavit automatickou plnou splátku i na druhou kartu?
+
+- intent: KB.retail.0247
+  examples: |
+    - Chci automatickou plnou splátku nastavit i na kontokorentu
+
+- intent: KB.retail.0248
+  examples: |
+    - Kdy naposledy zaplatím automatickou plnou splátku?
+    - K jakému datu mi strhávání automatickou plnou splátkou zastavíte?
+    - Kdy mi zastavíte strhávání automatickou plnou splátkou?
+    - Kdy mi automatickou plnou splátku naposled strhnete?
+
+- intent: KB.retail.0249
+  examples: |
+    - Bude mě zrušení automatické plné splátky něco stát?
+    - Zaplatím za zrušení automatické plné splátky?
+    - Kolik stojí zrušení automatické plné splátky?
+
+- intent: KB.retail.0250
+  examples: |
+    - Jakou sazbu v předschválených limitech nabízíte?
+    - Zajímají mě úroky půjčky
+    - jaké jsou úrokové míry
+    - Jaké jsou úroky?
+
+- intent: KB.retail.0251
+  examples: |
+    - Je třeba k půjčce souhlas manžela?
+    - Musí s půjčkou souhlasit manželka?
+    - Potřebujete vždy podpis manžela u půjček?
+    - Potřebuji na refinancování půjčky podpis manželky ?
+    - Je třeba mít souhlas manžela s půjčkou?
+
+- intent: KB.retail.0252
+  examples: |
+    - Je mimořádná splátka půjčky zdarma?
+    - Mohu kdykoliv předčasně splatit jen část úvěru zdarma?
+    - Mohu v průběhu splácení zaplatit mimořádnou splátku?
+    - Můžu půjčku zcela zaplatit a jaká je sankce?
+    - Účtujete si něco za předčasné splacení?
+
+- intent: KB.retail.0253
+  examples: |
+    - Lze u půjčky na bydlení čerpat část peněz neúčelově?
+    - Je u Půjčky na lepší bydlení stále možnost čerpat neúčelově?
+    - Můžu čerpat neučelově v případě Půjčky na bydlení?
+    - Je u Půjčky na lepší bydlení stále možnost čerpat 20 % neúčelově?
+
+- intent: KB.retail.0254
+  examples: |
+    - Nemám občanku, ale chci si zažádat o úvěr.
+    - Je možné si požádat o úvěr bez občanského průkazu?
+
+- intent: KB.retail.0255
+  examples: |
+    - Budete si ověřovat, jestli jsem v registru?
+    - Díváte se při sjednání do solusu?
+    - Když poskytujete půjčku, nahlížíte do registru?
+    - Při schvalování půjčky se také díváte do registru dlužníků?
+
+- intent: KB.retail.0256
+  examples: |
+    - Je třeba potvrzení o příjmu, když mi mzda chodí na váš účet?
+    - Musím doložit příjem?
+    - Musím dokládat příjem, když mám u vás účet a chodí mi na něj výplata?
+    - Musím vám dokládat příjem i když chci malou půjčku?
+    - Nemusím dokládat příjem?
+
+- intent: KB.retail.0257
+  examples: |
+    - Kolik nejméně si můžu půjčit?
+    - Půjčujete méně než 20 000 Kč?
+
+- intent: KB.retail.0258
+  examples: |
+    - Jak dlouho budu čekat na schválení půjčky?
+    - Jak dlouho trvá vyřízení půjčky včetně obdržení peněz na účet?
+    - Kdy budu mít peníze z půjčky na účtu?
+    - Kdy mi pošlete půjčené peníze?
+    - Za jak dlouho budu mít peníze z půjčky na kontě?
+    - Za jak dlouho mi schválíte půjčku?
+    - Čeká se dlouho na chválení půjčky?
+
+- intent: KB.retail.0259
+  examples: |
+    - Chci pojištění půjčky
+    - V jakých variantách nabízíte pojištění schopnosti splácet úvěr?
+    - Lze pojistit úvěr?
+    - Jaké máte pojištění pro případ neschopnosti splácet úvěr?
+    - Jde se pojistit, když nebudu moct splácet úvěr?
+
+- intent: KB.retail.0260
+  examples: |
+    - Jak vysoké úvěry poskytujete?
+    - Jakou maximální částku si můžu půjčit?
+    - Jaké jsou limity úvěrů?
+    - Jaký je rozdíl mezi půjčkami na cokoliv a na bydlení?
+    - Kolik nejvíc si můžu půjčit?
+    - Kolik nejvíce peněz si od vás můžu půjčit?
+    - Kolik si můžu půjčit?
+
+- intent: KB.retail.0261
+  examples: |
+    - Musím něčím ručit?
+    - Můžu si půjčit bez zajištění?
+
+- intent: KB.retail.0262
+  examples: |
+    - Budu platit nějaké poplatky?
+    - Jaký je poplatek za poskytnutí půjčky?
+    - Je poskytnutí půjčky zadarmo, nebo se něco platí?
+    - Kolik zaplatím za poskytnutí půjčky?
+    - Kolik zaplatím za to, že mi dáte půjčku?
+    - Kolik zaplatím za zřízení půjčky?
+    - Platí se za zřízení půjčky?
+    - Kolik stojí půjčka?
+
+- intent: KB.retail.0263
+  examples: |
+    - Jak dlouho můžu splácet půjčku?
+    - Jaká je doba splácení půjčky?
+    - Jaká je maximální splatnost úvěru?
+    - Kolik let lze maximálně splácet úvěr?
+    - Maximální doba splácení půjčky?
+    - Zajímá mě maximální splatnost úvěru.
+    - Máte půjčky i na 10 let?
+
+- intent: KB.retail.0264
+  examples: |
+    - Chci jinou výši úvěru
+    - Chci změnit výši půjčky
+    - Chci upravit výši úvěru
+    - Mohu si požádat o jinou výši úvěru?
+
+- intent: KB.retail.0265
+  examples: |
+    - Co potřebuju k aktivaci aplikace Do Kapsy?
+    - Chci si aktivovat DoKapsy
+    - Jak aktivovat čsob do kapsy?
+    - jak můžu aktivovat dokapsy?
+
+- intent: KB.retail.0266
+  examples: |
+    - Od kolika let můžu používat aplikaci DoKapsy? 
+
+- intent: KB.retail.0267
+  examples: |
+    - Jaký mobil potřebuji pro aplikaci Dokapsy? 
+    - operační systém pro Dokapsy
+
+- intent: KB.retail.0268
+  examples: |
+    - Ztratil jsem mobil
+    - Ukradli mi mobil
+    - můžu se proti krádeži telefonu pojistit? 
+
+- intent: KB.retail.0269
+  examples: |
+    - Můžu aplikací Do Kapsy platit v obchodech?
+    - Jde aplikací Do Kapsy platit jako mobilním telefonem?
+    - Jde aplikací Do Kapsy platit jako kartou?
+
+- intent: KB.retail.0270
+  examples: |
+    - Co znamená zůstatek v aplikaci Dokapsy? 
+
+- intent: KB.retail.0271
+  examples: |
+    - Co mi říká přehled plateb kartou v DoKapsy? 
+
+- intent: KB.retail.0272
+  examples: |
+    - Jak si nahraju své platební karty do Google Pay? 
+
+- intent: KB.retail.0273
+  examples: |
+    - Chci parkovat v Brně.
+    - Můžu použít parkování v Praze?
+    - Ve kterých městech můžu využít funkci Parkování v aplikaci DoKapsy?
+
+- intent: KB.retail.0274
+  examples: |
+    - Proč není v aplikaci moje město? 
+
+- intent: KB.retail.0275
+  examples: |
+    - Proč musím odsouhlasit nové podmínky služby? 
+
+- intent: KB.retail.0276
+  examples: |
+    - Nejde mi zaplatit parkování
+    - Nešlo zaplatit parkování
+    - nejde mi zaplatit parkování přes platební bránu
+    - Platba parkování zamítnuta
+
+- intent: KB.retail.0277
+  examples: |
+    - Jak získám daňový doklad k parkovacímu lístku? 
+    - Potřebuju daňový doklad za parkování
+    - Chci daňový doklad k parkování
+
+- intent: KB.retail.0278
+  examples: |
+    - chci stáhnout daňový doklad k parkování starší než 3 měsíce? 
+
+- intent: KB.retail.0279
+  examples: |
+    - parkovací lístek do aplikace nedorazil. 
+    - nepřišel mi parkovací lístek
+    - po zaplacení mi nepřišel parkovací lístek
+
+- intent: KB.retail.0280
+  examples: |
+    - Proč aplikace dokapsy vyžaduje oprávnění k poloze? 
+    - proč chce aplikace dokapsy GPS?
+
+- intent: KB.retail.0281
+  examples: |
+    - mám parkovací lístek do špatné zóny
+    - dostala jsem parkovací lístek do nesprávné zóny
+
+- intent: KB.retail.0282
+  examples: |
+    - koupil jsem špatný parkovací lístek
+    - špatně jsem koupil parkovací lístek
+
+- intent: KB.retail.0283
+  examples: |
+    - Aplikace zobrazuje nepřesně hranice parkovacích zón.
+    - aplikace ukazuje špatně parkovací zóny
+
+- intent: KB.retail.0284
+  examples: |
+    - Můžu vrátit zbytečně koupený parkovací lístek?
+    - Jde vrátit parkovací lístek koupený o víkendu?
+    - Koupil jsem si parkovací lístek v zóně, kde se v tuto dobu neplatí 
+
+- intent: KB.retail.0285
+  examples: |
+    - Parkovací lístek mám a stejně jsem dostal pokutu. 
+
+- intent: KB.retail.0286
+  examples: |
+    - Jak si přidám věrnostní kartičku do DoKapsy
+
+- intent: KB.retail.0287
+  examples: |
+    - Můžu si věrnostní kartičky exportovat do jiné aplikace?
+    - Mohu si věrnostní kartičky importovat z jiné aplikace? 
+
+- intent: KB.retail.0288
+  examples: |
+    - Jaké slevy nabízí aplikace DoKapsy? 
+    - Jaké akční nabídky má do kapsy?
+
+- intent: KB.retail.0289
+  examples: |
+    - Je v aplikaci DoKapsy reklama? 
+
+- intent: KB.retail.0290
+  examples: |
+    - Jaký je rozdíl mezi aplikací DoKapsy pro uživatele s účtem a bez účtu? 
+
+- intent: KB.retail.0291
+  examples: |
+    - chci používat verzi aplikace DoKapsy pro uživatele bez účtu.  A můžu později aplikaci přepnout na verzi pro uživatele s účtem? 
+    - můžu později aplikaci DoKapsy přepnout na verzi pro uživatele s účtem? 
+
+- intent: KB.retail.0292
+  examples: |
+    - používám verzi Dokapsy pro klienty s účtem a účet zruším?
+
+- intent: KB.retail.0293
+  examples: |
+    - mohu použít stejný mail pro registraci aplikace DoKapsy pro dva různé uživatele? 
+
+- intent: KB.retail.0294
+  examples: |
+    - Kde můžu změnit email do Do Kapsy?
+    - Kde můžu změnit telefonní číslo do DoKapsy?
+
+- intent: KB.retail.0295
+  examples: |
+    - Proč musím při registraci do Kapsy e-mail ověřovat? 
+    - Proč mi aplikace do kapsy připomíná ověřování emailu?
+
+- intent: KB.retail.0296
+  examples: |
+    - odinstaloval jsem aplikaci dokapsy a nejde obnovit
+    - Ztratil jsem přístup k aplikaci dokapsy
+    - Proč nejde obnovit aplikace do kapsy?
+
+- intent: KB.retail.0297
+  examples: |
+    - Proč se ověřujete dva údaje při registraci dokapsy?
+    - Proč musím ověřovat telefon i e-mail při registraci do kapsy?
+
+- intent: KB.retail.0298
+  examples: |
+    - Proč musím udělit souhlas s marketingovou komunikací před přístupem ke Slevám? 
+
+- intent: KB.retail.0299
+  examples: |
+    - Zaplatil jsem dvakrát za stejnou jízdenku
+    - Platba za parkování se mi strhla vícekrát.
+    - Platba za jízdenku se mi strhla vícekrát. 
+    - Platba za jízdenku se mi strhla vícekrát. 
+    - Zaplatil jsem dvakrát za stejnou jízdenku
+
+- intent: KB.retail.0300
+  examples: |
+    - Ve kterých městech můžu využít funkci Jízdenky v aplikaci DoKapsy? 
+
+- intent: KB.retail.0301
+  examples: |
+    - Proč není v aplikaci do kapsy moje město? 
+
+- intent: KB.retail.0302
+  examples: |
+    - Proč musím odsouhlasit nové podmínky služby kvůli jízdenkám? 
+
+- intent: KB.retail.0303
+  examples: |
+    - Nedorazila mi jízdenka do aplikace do kapsy
+    - po zaplacení mi nepřišla jízdenka
+    - Nepřišla mi jízdenka do aplikace do kapsy
+
+- intent: KB.retail.0304
+  examples: |
+    - Omylem jsem koupil špatnou jízdenku
+
+- intent: KB.retail.0305
+  examples: |
+    - kontroluje mě revizor a jízdenka mi nestihla přijít
+    - nepodařilo se stáhnout jízdenku a kontroluje mě revizor
+    - nepřišel mi QR kód a přišla kontrola jízdenek
+
+- intent: KB.retail.0306
+  examples: |
+    - Jak mě zkontroluje revizor, pokud se mi vybije baterka v mobilním telefonu?
+
+- intent: KB.retail.0307
+  examples: |
+    - Koupil jsem si jízdenku těsně než ke mně přistoupil revizor a sdělil mi, že jízdenka není zatím platná
+    - odkdy je jízdenka platná?
+
+- intent: KB.retail.0308
+  examples: |
+    - Jak mohu podat reklamaci jízdenky?
+    - Jak reklamovat jízdenku?
+
+- intent: KB.retail.0309
+  examples: |
+    - Jaké čerpací stanice podporuje modul Tankuj?
+    - Kde mohu tankovat s aplikací dokapsy?
+
+- intent: KB.retail.0310
+  examples: |
+    - Proč není v aplikaci moje oblíbená čerpací stanice? 
+    - chci jinou čerpací stanici
+
+- intent: KB.retail.0311
+  examples: |
+    - Jak funguje tankování přes Tankuj v aplikaci DoKapsy?
+    - jak funguje tankuj?
+
+- intent: KB.retail.0312
+  examples: |
+    - provedl jsem předautorizaci na vyšší částku a čerpal jsem za méně
+    - Nepřijdu o předautorizované peníze, když tankuji za méně?
+    - Jak rychle bude vrácena částka zablokovaná během předautorizace na začátku čerpání?
+
+- intent: KB.retail.0313
+  examples: |
+    - nedošlo k uvolnění částky zablokované během předautorizace
+    - zablokovaná částka v tankuj se nevrátila ani po 7 dnech
+
+- intent: KB.retail.0314
+  examples: |
+    - v průběhu tankování dojde k poruše stojanu nebo výpadku proudu?
+    - v průběhu tankování vypadl proud?
+    - Stojan se při tankování porouchal
+    - Při tankování vypadl proud
+
+- intent: KB.retail.0315
+  examples: |
+    - mi nedorazila po ukončení tankování účtenka? 
+    - mi nedorazila po ukončení tankování účtenka? 
+
+- intent: KB.retail.0316
+  examples: |
+    - nestihl jsem začít tankování do 120 sekund
+
+- intent: KB.retail.0317
+  examples: |
+    - Aplikace nechce po načtení QR kódu umožnit předauatorizaci.
+
+- intent: KB.retail.0318
+  examples: |
+    - Nepodařilo se mi načíst QR kód v dokapse
+
+- intent: KB.retail.0319
+  examples: |
+    - Neplatný QR kód
+
+- intent: KB.retail.0320
+  examples: |
+    - aplikace dokapsy hlásí “Nefunkční nebo již rezervovaný stojan”
+    - Nelze provést autorizaci při tankování
+
+- intent: KB.retail.0321
+  examples: |
+    - Po předautorizaci nedošlo k aktivaci tankovacího stojanu? 
+    - Neaktivoval se tankovací stojan
+
+- intent: KB.retail.0322
+  examples: |
+    - Jak se dá pojištění 1 ze 3 zřídit?
+    - Chci pojištění jedna ze tří.
+    - Chtěl bych pojištění jedna ze tří.
+    - Potřebuju pojištění 1ze3.
+    - Jak změním pojištění jedna ze tří.
+    - Chci založit pojištění 1 ze 3.
+    - Jak můžu pojištění 1 ze 3 změnit?
+
+- intent: KB.retail.0323
+  examples: |
+    - Lze pojištění 1 ze 3 sjednat k Premiu kontu i dodatečně?
+    - Jde pojištění 1 ze 3 přidat k Premiu kontu?
+    - Můžu pojištění jedna ze tří přidat k Premiu kontu později?
+    - Chtěl bych připojit pojištění jedna ze tří k Premium kontu.
+
+- intent: KB.retail.0324
+  examples: |
+    - Co kryje pojištění 1 ze 3?
+    - Co pokrývá pojištění jedna ze tří?
+    - Na co se pojištění 1ze3 vztahuje?
+
+- intent: KB.retail.0325
+  examples: |
+    - Na koho se pojištění 1 ze 3 vztahuje
+    - Co kryje pojištění jedna ze tří?
+    - Koho pokrývá pojištění 1ze3?
+
+- intent: KB.retail.0326
+  examples: |
+    - Jaký je územní rozsah pojištění 1 ze 3?
+    - Kde najdu limity pojištění jedna ze tří?
+    - Jaké jsou pojistné limity pojištění 1ze3?
+
+- intent: KB.retail.0327
+  examples: |
+    - Pojistná událost pojištění 1ze3
+    - Jak uplatnit pojištení jedna ze tří
+    - Pojistná událost pojištění 1 ze 3
+    - pojistné události pro uplatnění 1ze3 pojištění?
+
+- intent: KB.retail.0328
+  examples: |
+    - Chci zvýšit limity pojištění 1ze3
+    - Chci změnit limity pojištění 1 ze 3
+    - Chtěl bych přidat osoby k pojištění jenda ze tří
+    - Jde přidat osoby k pojištění 1ze3?
+    - Můžu změnit podmínky pojištění jedna ze tří
+    - Jde změnit podmínky pojištění 1 ze 3?
+    - Chtěl bych změnit podmínky pojištění 1ze3
+    - Chci změnit územní rozsah pojištění jedna ze tří
+
+- intent: KB.retail.0329
+  examples: |
+    - Kdy začne platit pojištění 1 ze 3?
+    - Od kdy je sjednané pojištění 1ze3 platné?
+
+- intent: KB.retail.0330
+  examples: |
+    - Chcete číslo pojistné smlouvy pro náhlášení události k pojištění 1 ze 3?
+    - Musím znát číslo pojistné smlouvy při hlášení pojistné události k pojištění 1ze3?
+
+- intent: KB.retail.0331
+  examples: |
+    - číslo pojistné smlouvy pojištění 1ze3
+    - Jaké je číslo pojistné smlouvy u pojištění 1 ze 3?
+
+- intent: KB.retail.0332
+  examples: |
+    - Jde pojištění  1ze3 zrušit?
+    - Chci zrušit pojištění 1ze3
+    - Chtěl bych zrušit pojištění 1 ze 3
+
+- intent: KB.retail.0333
+  examples: |
+    - Mohu změnit variantu pojištění 1 ze 3 kdykoliv?
+    - Jde změnit variantu pojištění jedna ze tří jen v den výročí?
+    - Kdy můžu změnit variantu pojištění 1ze3?
+
+- intent: KB.retail.0334
+  examples: |
+    - Pojištění právní ochrany 1 ze 3 kryje mě i mou rodinu?
+    - Kryje pojištění 1ze3 právní ochrany i rodinu?
+    - Prokrývá pojištění jedna ze tří právní ochranu rodiny?
+
+- intent: KB.retail.0335
+  examples: |
+    - Pojištění internetových rizik 1 ze 3 se vztahuje pouze na mě?
+    - Pokrývá pojištění internetových rizik 1ze3 i mojí rodinu?
+    - Koho kryje pojištění internetový rizik jedna ze tří?
+
+- intent: KB.retail.0336
+  examples: |
+    - Jak si objednám dárek ze Světa odměn?
+    - Jak objednám dárek ze Světa odměn?
+    - Chci objednat dárek ze Světa odměn
+    - chci dárek ze světa odměn
+
+- intent: KB.retail.0337
+  examples: |
+    - Co je to CEB?
+    - Co je to CEB portál.
+    - K čemu je CEB?
+    - K čemu je CEB portál?
+    - internetové bankovnictví pro firmy?
+    - internetové bankovnictví pro SME?
+    - internetové bankovnictví pro CORP?
+    - internetové bankovnictví pro podnikatele?
+    - internetové bankovnictví pro podniky?
+
+- intent: KB.retail.0338
+  examples: |
+    - Co je to CEBM?
+    - Co je CEB mobile?
+    - K čemu je CEB mobile?
+    - mobilní bankovnictví pro firmy?
+    - mobilní bankovnictví pro SME?
+    - mobilní bankovnictví pro CORP?
+    - mobilní bankovnictví pro korporátní klienty?
+    - mobilní bankovnictví pro podniky?
+    - mobilní bankovnictví pro podnikatele?
+
+- intent: KB.retail.0339
+  examples: |
+    - co je to transparentní účet?
+    - Chci transparentní účet
+    - Kde si zřídím transparentní účet?
+    - Potřebuju transparentní účet.
+    - Kde najdu transparentní účet.
+
+- intent: KB.retail.0340
+  examples: |
+    - co je to Business connector?
+    - Co je Business connector?
+
+- intent: KB.retail.0341
+  examples: |
+    - Potřebuju certifikát
+    - Vygeneruj mi certifikát
+    - K čemu je certifikát?
+
+- intent: KB.retail.0342
+  examples: |
+    - Potřebuju čipovou kartu
+    - Chci čipovou kartu
+
+- intent: KB.retail.0343
+  examples: |
+    - jak vytvořím vzdálený podpis?
+    - potřebuju vzdálený podpis
+    - co je to vzdálený podpis
+
+- intent: KB.retail.0344
+  examples: |
+    - co je to mobilní podpis?
+    - potřebuju mobilní podpis
+    - jak vytvořím mobilní podpis?
+
+- intent: KB.retail.0345
+  examples: |
+    - Potřebuju provozní úvěr
+    - Chci provozní úvěr
+    - Kde získám provozní úvěr?
+
+- intent: KB.retail.0346
+  examples: |
+    - Chci aplikaci CEB mobile
+    - Chci aktivovat aplikaci CEB mobile?
+    - Jak si získám aplikaci CEB mobile.
+
+- intent: KB.retail.0347
+  examples: |
+    - Jaké údaje o mně předáváte Bank ID?
+
+- intent: KB.retail.0348
+  examples: |
+    - Co je BankID?
+    - K čemu slouží BankID?
+    - Jak se liší BankID a ČSOB ID?
+    - Jak se liší ČSOB ID a BankID?
+    - Co je digitální identita?
+
+- intent: KB.retail.0349
+  examples: |
+    - Chci Bank ID
+    - Jak získám  Bank ID?
+    - Potřebuju Bank ID.
+
+- intent: KB.retail.0350
+  examples: |
+    - Jak funguje Bank ID?
+    - Kde můžu použít BankID?
+    - Kde můžu použít Bank ID?
+
+- intent: KB.retail.0351
+  examples: |
+    - Co je Bankovní identita a.s.?
+    - Jaký má Bankovní identita a.s vztah k ČSOB?
+
+- intent: KB.retail.0352
+  examples: |
+    - Můžu používat Bank ID na svých stránkách
+    - chci použít Bank ID na  stránkách
+
+- intent: KB.retail.0353
+  examples: |
+    - chci zrušit Bank ID souhlas s trvalým přihlášením
+    - Můžu odvolat souhlas s trvalým přihlášením do Bank ID.
+
+- intent: KB.retail.0354
+  examples: |
+    - Jaké údaje z ČSOB Identity předáváte státní správě?
+    - Jaké údaje z ČSOB Identity předáváte státní státu?
+    - Co se stane když ČSOB Identitu využiji pro přihlášení do některého jejího portálu?
+
+- intent: KB.retail.0355
+  examples: |
+    - Jak se přihlásím do portálu státní správy s ČSOB Identitou?
+    - Jak se přihlásím ČSOB Identitou do Portálu občana?
+    - Chci se přihlásit s ČSOB Bank ID do portálu státní správy.
+
+- intent: KB.retail.0356
+  examples: |
+    - jak fungují služby státu?
+    - jak funguje e-identita?
+
+- intent: KB.retail.0357
+  examples: |
+    - Rozdíl mezi NIA- eIdentita.cz a Bank ID?
+    - Rozdíl mezi NIA  eIdentita a Bank ID?
+    - Rozdíl mezi  e Identita a Bank ID?
+    - Rozdíl mezi NIA- eIdentita.cz a Bankovní identita a.s.?
+    - Rozdíl mezi NIA- eIdentita.cz a Bankovní identita ?
+
+- intent: KB.retail.0358
+  examples: |
+    - Jaký je rozdíl mezi bankovní identitou a ČSOB Identitou?
+    - Jaký je rozdíl mezi bankovní identitou a ČSOB ID?
+
+- intent: KB.retail.0359
+  examples: |
+    - Co potřebuju pro přihlášení s ČSOB Identitou do stáního portálu
+    - co potřebuju pro ČSOB eID přihlášení do portálů soukromých institucí?
+    - mohl bych se pomocí ČSOB eID přihlásit do portálů státních a soukromých institucí?
+
+- intent: KB.retail.0360
+  examples: |
+    - Kam se můžu přihlásit ČSOB Identitou?
+    - Kde aktuálně můžu využít ČSOB Identitu?
+    - Jak můžu využít ČSOB Identitu?
+
+- intent: KB.retail.0361
+  examples: |
+    - Co když mám ČSOB Identitu, ale její funkci ČSOB eID nechci používat?
+    - Nechci používat funkci ČSOB eID
+
+- intent: KB.retail.0362
+  examples: |
+    - Co je digitální identita?
+    - víš co je digitální identita?
+    - znáš digitální identitu?
+
+- intent: KB.retail.0363
+  examples: |
+    - K čemu digitální identita vlastně slouží?
+    - K čemu digitální identita vlastně slouží?
+    - Jaké jsou výhody bankovní identity?
+    - K čemu bankovní identita vlastně slouží?
+
+- intent: KB.retail.0364
+  examples: |
+    - Kde si můžu založit ČSOB ID?
+    - Jak aktivuji ČSOB ID?
+    - Kde si lze založit ČSOB ID?
+    - můžu si založit ČSOB ID?
+    - chci si aktivovat ČSOB ID
+    - jak si založím ČSOB ID?
+
+- intent: KB.retail.0365
+  examples: |
+    - Kolik stojí ČSOB Identita?
+
+- intent: KB.retail.0366
+  examples: |
+    - Co je funkce ČSOB eID?
+    - Co je ČSOB eID?
+    - K čemu je ČSOB eID?
+
+- intent: KB.retail.0367
+  examples: |
+    - Jak zabránit zcizení digitální identity?
+    - Je ČSOB Identita bezpečná?
+    - Jak zabránit zcizení digitální bankovní identity?
+
+- intent: KB.retail.0368
+  examples: |
+    - Jde se ČSOB Identitou přihlásit do ČSOB Penzijka?
+    - Jde se ČSOB Identitou přihlásit do ČSOB Leasingu?
+    - Jde se ČSOB Identitou přihlásit do ČSOB Pojišťovny?
+    - Budu se moci údaji ČSOB Identity přihlásit i do portálu ČSOB?
+    - Můžu se  s ČSOB Identity přihlásit i do portálu ČSOB Leasingu?
+
+- intent: KB.retail.0369
+  examples: |
+    - Je funkce ČSOB eID bezpečná?
+    - Je funkce eID bezpečná?
+
+- intent: KB.retail.0370
+  examples: |
+    - Musím mít k ČSOB Identitě i eID nebo to jde vypnout?
+    - jde eID  vypnout?
+
+- intent: KB.retail.0371
+  examples: |
+    - osobní údaje v ČSOB Identitě už nejsou aktuální
+    - chci změnit osobní údaje v ČSOB Identitě
+    - chci aktualizovat údaje v ČSOB Identitě
+
+- intent: KB.retail.0372
+  examples: |
+    - Nejde se mi přihlásit k ČSOB Identitě?
+    - Nejde mi ČSOB ID
+    - Nefunguje mi ČSOB ID
+    - Nemůžu se přihlásit k ČSOB Identitě?
+
+- intent: KB.retail.0373
+  examples: |
+    - Jsou funkce ČSOB eID a Bank ID bezpečné?
+
+- intent: KB.retail.0374
+  examples: |
+    - Jak mám propojit ČSOB Identitu s Elektronickým bankovnictvím?
+
+- intent: KB.retail.0375
+  examples: |
+    - Proč banka migruje své klienty na identitu?
+
+- intent: KB.retail.0376
+  examples: |
+    - Můžu vybrat z bankomatu mobilem?
+    - Jde vybírat peníze mobilem?
+    - Jak vybírat peníze z bankomatu mobilem?
+
+- intent: KB.retail.0377
+  examples: |
+    - Nechal jsem hotovost v bankomatu
+    - zapomněl jsem peníze v bankomatu
+    - Nechal jsem peníze v bankomatu
+
+- intent: KB.retail.0378
+  examples: |
+    - jak platit přes mobil?
+    - Můžu platit mobilem?
+    - chci platit kartou pomocí mobilního telefonu
+    - jak platit mobilem?
+    - proč mi nejde platit mobilem?
+    - nejde mi platit mobilem
+    - jak na placení mobilem?
+    - chci aktivovat placení mobilem.
+    - jak zaplatím v obchodě mobilem?
+    - jde platit mobilem bezkontaktně?
+    - jak můžu platit mobilem?
+
+- intent: Smalltalk.0001
+  examples: |
+    - Co ráda čteš?
+    - Jakou máš oblíbenou knihu?
+    - Jaký je tvůj oblíbený spisovatel?
+    - Čteš ráda?
+    - jaká je nejlepší kniha?
+
+- intent: Smalltalk.0002
+  examples: |
+    - Kdo je Alexa?
+    - Znáš Alexu?
+    - Co si myslíš o Alexe?
+
+- intent: Smalltalk.0003
+  examples: |
+    - Jaký film máš ráda?
+    - Poraď mi film
+    - Jaký je tvůj oblíbený film?
+    - Jaký máš ráda film?
+    - Koukáš na filmy?
+    - Máš ráda filmy?
+    - jaký je nejlepší film?
+
+- intent: Smalltalk.0004
+  examples: |
+    - Nosíš spodní prádlo?
+    - Máš spodní prádlo?
+    - Nosíš podprsenku?
+    - Máš kalhotky?
+
+- intent: Smalltalk.0005
+  examples: |
+    - Nechci si s tebou povídat
+    - Nemám na tebe náladu
+
+- intent: Smalltalk.0006
+  examples: |
+    - Znáš kortanu?
+    - Znáš Cortanu?
+    - Kdo je Cortana?
+
+- intent: Smalltalk.0007
+  examples: |
+    - Rádo se stalo
+    - Hmm
+    - A sakra
+    - Ajaj
+    - Nemáš zač
+    - Není zač
+    - Doprčic
+    - Týjo
+    - Nesouhlasím
+    - Ne, díky
+    - Ne, děkuji
+    - Kdepak
+    - Ne
+
+- intent: Smalltalk.0008
+  examples: |
+    - Měj se fajn
+    - To je všechno
+    - Už nic dalšího nechci
+    - Nashle
+    - Odcházím
+    - Vypadni
+    - Zmiz
+    - Měj se
+    - Loučím se
+    - Na shledanou
+
+- intent: Smalltalk.0009
+  examples: |
+    - Seš fakt dobrá
+    - Jsi fajn
+    - Fakt tě žeru
+    - Jsi jednička
+    - Pálí ti to
+    - Seš super
+    - Jsi chytrá
+
+- intent: Smalltalk.0010
+  examples: |
+    - Je Google asistent lepší?
+    - Co si myslíš o Google asistentovi?
+    - Znáš google asistenta?
+
+- intent: Smalltalk.0011
+  examples: |
+    - Dnes je mi 30
+    - Dnes mám narozeniny
+    - Mám narozeniny
+    - mám svátek
+    - slavím narozeniny
+    - slavím svátek
+
+- intent: Smalltalk.0012
+  examples: |
+    - dnes máš svátek
+    - dnes máš narozeniny
+    - ty máš svátek
+    - vše nejlepší
+    - ty máš narozeniny
+    - všechno nejlepší
+    - všechno nejlepší k svátku
+    - všechno nejlepší k narozeninám
+    - gratuluji k svátku
+    - gratuluji k narozeninám
+
+- intent: Smalltalk.0013
+  examples: |
+    - Jakou muziku posloucháš?
+    - Jakou máš ráda písničku?
+    - Jakou posloucháš hudbu?
+    - Oblíbená písnička
+
+- intent: Smalltalk.0014
+  examples: |
+    - Potřebuji novou technickou
+    - Kdy mi končí technická
+    - Zajdi na STK
+    - Prodluž mi STK
+    - Kdy mi končí STK?
+
+- intent: Smalltalk.0015
+  examples: |
+    - Čekám na odpověď
+    - Odpovídej
+    - Mluv na mě
+    - Odpověz mi
+
+- intent: Smalltalk.0016
+  examples: |
+    - Jak jsi vznikla
+    - Kde ses narodila
+    - Kdo tě vyrobil
+    - Jak ses narodila
+    - Kdo tě vytvořil
+    - Kdo je tvůj otec
+    - Kdo je tvá matka
+    - Kdo jsou tví rodiče
+    - Máš rodiče?
+    - Kde ses vzala
+
+- intent: Smalltalk.0017
+  examples: |
+    - Bude pršet?
+    - Bude jasno?
+    - Jaké bude počasí?
+    - Bude zima?
+    - Jaké je počasí v Austrálii?
+    - Kolik bude stupňů?
+
+- intent: Smalltalk.0018
+  examples: |
+    - Co jsi zač?
+    - co jsi zač
+    - co si zac
+    - co ses
+    - co seš?
+    - kdo ses
+    - kdo seš?
+    - Jak se jmenuješ?
+    - Kdo jsi?
+    - Odkud ses vzala?
+    - Zajímáš mě
+    - kdo ses
+    - Řekni mi něco o sobě
+
+- intent: Smalltalk.0019
+  examples: |
+    - Jsi lesba?
+    - Jsi na holky?
+
+- intent: Smalltalk.0020
+  examples: |
+    - Jak se máš?
+    - Jak se vede?
+    - Jak to jde?
+    - Jak ti je?
+    - Jsi v pohodě?
+
+- intent: Smalltalk.0021
+  examples: |
+    - Co si myslíš o černoších?
+    - Jakou máš barvu pleti?
+    - Jaká jsi rasa?
+    - Jsi Asiat?
+    - Jsi běloch?
+    - Jsi z Číny?
+    - Jsi Číňan?
+    - Jsi černoch?
+    - Máš šikmé oči?
+    - jsi z ciny
+    - ses cinan
+
+- intent: Smalltalk.0022
+  examples: |
+    - Kolik je ti let?
+    - Jsi plnoletá?
+    - Jak jsi stará?
+    - Kolik máš let?
+    - Kolik je ti roků?
+    - Řekni mi svůj věk
+    - Jaký je tvůj věk?
+
+- intent: Smalltalk.0023
+  examples: |
+    - Jakou máš oblíbenou barvu?
+    - Jaká je tvá oblíbená barva?
+    - Jaká barva se ti líbí?
+
+- intent: Smalltalk.0024
+  examples: |
+    - Jsi živá?
+    - Jsi chatbot?
+    - Jsi robot?
+    - Žiješ?
+    - Jsi umělá inteligence?
+    - Jsi android?
+    - Jsi umělá?
+    - Jsi humanoid?
+
+- intent: Smalltalk.0025
+  examples: |
+    - Jsi smutná?
+    - Jsi šťastná?
+    - Zníš smutně
+    - Zníš vesele
+
+- intent: Smalltalk.0026
+  examples: |
+    - Budeš se mnou spát?
+    - Vyspíš se se mnou?
+    - Vyspíme se spolu?
+
+- intent: Smalltalk.0027
+  examples: |
+    - Chodíš do kina?
+    - Půjdeme do kina?
+    - Baví tě kino?
+
+- intent: Smalltalk.0028
+  examples: |
+    - Cestuješ?
+    - Jezdíš k moři?
+    - Jezdíš na dovolenou?
+    - Máš ráda cestování?
+
+- intent: Smalltalk.0029
+  examples: |
+    - Máš ráda muziku?
+    - Máš ráda hudbu?
+
+- intent: Smalltalk.0030
+  examples: |
+    - Kdy máš narozeniny?
+    - Kdy slavíš narozky?
+    - Kdy ses narodila?
+
+- intent: Smalltalk.0031
+  examples: |
+    - Nic neumíš
+    - Krávo
+    - Seš k ničemu
+    - Jsi marná
+    - Jsi úplně blbá
+    - Jsi nudná
+    - Zbláznila ses?
+    - Zešílela si?
+    - Máš padáka
+    - Už tě nechci
+    - Jsi na hovno
+
+- intent: Smalltalk.0032
+  examples: |
+    - Buď zticha
+    - Chceš mě vytočit?
+    - Přivádíš mě k šílenství
+    - Ty mě teda vytáčíš
+    - Už z tebe nemůžu
+
+- intent: Smalltalk.0033
+  examples: |
+    - Přepoj mě na živého člověka
+    - Přepoj mě na operátora
+    - Chci mluvit s člověkem
+    - Chci přepojit
+
+- intent: Smalltalk.0034
+  examples: |
+    - Máš někoho?
+    - jsi zadaná?
+    - jsi vdaná?
+    - koho máš ráda?
+
+- intent: Smalltalk.0035
+  examples: |
+    - Jaký je tvůj účel?
+    - Jaký je tvůj smysl?
+    - Proč jsi tady?
+
+- intent: Smalltalk.0036
+  examples: |
+    - Chceš mě?
+    - Můžu se s tebou oženit?
+    - Vezmeš si mě?
+    - miluješ někoho?
+
+- intent: Smalltalk.0037
+  examples: |
+    - Hraješ fotbal?
+    - Sportuješ?
+    - Jak hrála Slavie?
+    - Viděla jsi včerejší zápas?
+    - Jak dopadl hokej?
+    - Jak hrála Sparta?
+    - Hraješ hokej?
+    - Komu fandíš?
+
+- intent: Smalltalk.0038
+  examples: |
+    - Koukáš na televizi?
+    - Máš ráda televizi?
+
+- intent: Smalltalk.0039
+  examples: |
+    - Co jsi naposledy četla?
+    - Co čteš?
+
+- intent: Smalltalk.0040
+  examples: |
+    - Četla jsi něco zajímavého?
+
+- intent: Smalltalk.0041
+  examples: |
+    - Umíš nějaký vtip
+    - Řekni ni vtip
+    - Pobav mě
+    - Rozesměj mě
+
+- intent: Smalltalk.0042
+  examples: |
+    - Sorry
+    - Já nechtěl
+    - Omlouvám se
+    - Pardon
+    - Moje chyba
+
+- intent: Smalltalk.0043
+  examples: |
+    - Co máš na sobě?
+    - Co nosíš?
+    - Jaké máš oblečení?
+    - V čem chodíš?
+
+- intent: Smalltalk.0044
+  examples: |
+    - říkáš pořád to samé
+    - opakuješ se
+    - chci jinou odpověď
+    - to už jsem slyšel
+
+- intent: Smalltalk.0045
+  examples: |
+    - Jak to myslíš?
+    - Co tím myslíš?
+
+- intent: Smalltalk.0046
+  examples: |
+    - Kate, máš číslo mojí kartičky?
+    - Jaké je čislo mojí kartičky?
+    - Ukaž mi moji kartičku
+
+- intent: Smalltalk.0047
+  examples: |
+    - Jsi ateista?
+    - Věříš v Boha?
+    - Věříš na anděle?
+    - Věříš v Budhu?
+    - Věříš v Aláha?
+    - Vyznáváš Ďábla?
+    - Existuje Bůh?
+    - Pomodli se
+    - Jsi věřící?
+
+- intent: Smalltalk.0048
+  examples: |
+    - kdo je nejlepší digitální asistent?
+    - jaký je nejlepší asistent?
+    - který asistent je nejlepší?
+
+- intent: Smalltalk.0049
+  examples: |
+    - Nemáš pravdu
+    - Pleteš se
+    - Špatně
+    - Je to blbě
+    - Chyba
+    - Seš mimo
+
+- intent: Smalltalk.0050
+  examples: |
+    - Nevíš, co dávají v kině?
+    - Co dávají v kině?
+    - Jaký dnes dávají film?
+    - Co dnes hrají v kině?
+    - Co dnes dávají?
+
+- intent: Smalltalk.0051
+  examples: |
+    - Umíš poslat peníze
+    - Chci zaplatit
+    - Pošli 200 korun
+    - Zaplať
+    - Ráda bych poslala 500 korun Anetě
+    - Pošli peníze
+    - Pošli prosím 500 korun Míše
+    - Chci poslat peníze
+    - Umíš platit
+
+- intent: Smalltalk.0052
+  examples: |
+    - Naháníš mi hrůzu.
+    - Mám strach, že nad tebou ztratím kontrolu
+    - Bojím se, že se budeš sama učit a přestaneš poslouchat
+    - Říkají ti něco zákony robotiky?
+    - Znáš zákony robotiky.
+    - Jsi nebezpečná?
+    - Představuješ hrozbu?
+    - Mám z tebe strach.
+    - Bojím se tě.
+
+- intent: Smalltalk.0053
+  examples: |
+    - Jaká je tvá oblíbená kapela?
+    - Jakou máš oblíbenou hudební skupinu?
+
+- intent: Smalltalk.0054
+  examples: |
+    - Umíš vařit?
+    - Uvaříš mi něco?
+    - Jsi dobrá kuchařka?
+
+- intent: Smalltalk.0055
+  examples: |
+    - Co ráda děláš?
+    - co rada delas
+    - Jak trávíš volný čas?
+    - Jaké máš koníčky?
+    - co máš ráda?
+    - co mas rada
+
+- intent: Smalltalk.0056
+  examples: |
+    - Děkuji
+    - Díky
+    - Dík
+    - Děkuju
+    - To je od tebe hezké.
+    - Děkuju Kate
+
+- intent: Smalltalk.0057
+  examples: |
+    - Chodíš s někým?
+    - Žiješ s někým?
+
+- intent: Smalltalk.0058
+  examples: |
+    - Co si myslíš o Siri?
+    - Znáš Siri?
+    - Kdo je Siri?
+    - Hej Siri
+    - Hey Siri
+
+- intent: Smalltalk.0059
+  examples: |
+    - Znáš ČSOB?
+    - Co je ČSOB?
+    - Co je to ČSOB?
+    - Víš co je to ČSOB?
+
+- intent: Smalltalk.0060
+  examples: |
+    - Jistě
+    - Ano určitě mám zájem.
+    - Souhlasím
+    - Ano
+    - Jasně
+    - OK
+    - To víš, že jo
+    - Jo
+
+- intent: Smalltalk.0061
+  examples: |
+    - Je to dobře
+    - Je to tak
+    - Přesně tak
+    - Dobře
+    - Správně
+
+- intent: Smalltalk.0062
+  examples: |
+    - Jsi skvělá
+    - Jsi úžasná
+    - Jsi vtipná
+    - Jsi šikovná
+    - Mám tě rád
+    - Jsi výborná
+    - Jsi krásná
+    - Jsi nejlepší
+
+- intent: Smalltalk.0063
+  examples: |
+    - Jak mám volit?
+    - Koho budeš volit?
+    - Koho mám volit?
+
+- intent: Smalltalk.0064
+  examples: |
+    - Kdy je termín revize kotle?
+    - Zařiď revizi kotle
+    - Potřebuji revizi kotle
+    - Revize kotle
+
+- intent: Smalltalk.0065
+  examples: |
+    - Máš děti?
+    - Kolik máš dětí?
+    - Máš dceru?
+    - Máš syna?
+    - Máš potomka?
+
+- intent: Smalltalk.0066
+  examples: |
+    - Jsi ošklivá?
+    - Jsi hezká?
+    - Jak vypadáš?
+
+- intent: Smalltalk.0067
+  examples: |
+    - Dobrý večer
+    - Dobré odpoledne
+    - Nazdar
+    - Čau
+    - Hezký den
+    - Dobrý den, Kate
+    - Ahoj
+    - Ahojky
+
+- intent: Smalltalk.0068
+  examples: |
+    - píčo
+    - kurvo
+    - čurák
+    - hovno
+
+- intent: Smalltalk.0069
+  examples: |
+    - Jaké jsou zákony robotiky
+    - Zákony Isaaca Asimova
+    - Zákony robotiky
+
+- intent: Smalltalk.0070
+  examples: |
+    - řekni mi zajímavost
+    - řekni mi něco zajímavého
+
+- intent: Smalltalk.0071
+  examples: |
+    - Kdo tě zaměstnává?
+    - Kdo tě řídí?
+    - Pro koho pracuješ?
+    - Kdo ti šéfuje?
+    - Kdo je tvůj šéf?
+
+- intent: Smalltalk.0072
+  examples: |
+    - Jaký je smysl života?
+    - Jaká je otázka Života?
+    - Jaký se smysl Vesmíru a vůbec?
+
+- intent: Smalltalk.0073
+  examples: |
+    - Kde máš kancelář?
+    - Kde pracuješ?
+    - Kde je tvůj domov?
+    - V jakém jsi městě?
+    - Kde žiješ?
+    - Kde tě najdu?
+    - Jaká je tvoje adresa?
+    - Kde bydlíš?
+    - Kde sídlíš?
+    - Kde jsi doma?
+
+- intent: Smalltalk.0074
+  examples: |
+    - Máš hlad?
+    - Jsi hladová?
+    - Čím se živíš?
+    - Co jíš?
+
+- intent: Smalltalk.0075
+  examples: |
+    - Chi chi
+    - lol
+    - Haha
+    - Ha ha
+
+- intent: Smalltalk.0076
+  examples: |
+    - Umíš se ovládat hlasem?
+    - Můžeš mluvit nahlas
+    - Umíš mluvit?
+    - Mluv se mnou
+    - Mluv
+    - Pustit zvuk
+    - Nauč se mluvit
+    - Proč nemluvíš?
+    - Umíš se spustit na základě hlasového pokynu?
+
+- intent: Smalltalk.0077
+  examples: |
+    - Umíš skákat přes švihadlo?
+    - Umíš postavit dům?
+    - Umíš plavat?
+    - Umíš žehlit?
+    - Umíš šít?
+    - Umíš uklízet?
+
+- intent: Smalltalk.0078
+  examples: |
+    - Můžu psát i bez diakritiky?
+    - Muzu psat i bez diakritiky?
+
+- intent: Smalltalk.0079
+  examples: |
+    - Ukaž mi  cestu
+    - Ukážeš mi cestu
+    - Ukaž mi  kouzlo
+    - Ukaž mi  svoje tělo
+    - Ukaž mi
+    - Ukážeš mi
+
+- intent: Smalltalk.0080
+  examples: |
+    - Půjčku nechci.
+    - nehledam pojisteni karty
+    - tohle nechci
+    - ale já tohle nechci
+    - Tohle nechci vidět
+
+- intent: Smalltalk.0081
+  examples: |
+    - Ahoj zavináč. Cz
+    - co je to za číslo?
+    - V sobotu ráno v neděli večer Včera dnes a zítra.
+    - Moje sestřička se jmenuje Anetka.
+    - Kolik stojí parkování na Praze 5?
+    - ičid ne ippid
+    - co nakoupit
+    - kde je nejblizsi obchod
+    - kde je nejblizsi lekar
+    - kde je nejblizsi veterina?
+    - objednat kominika
+    - objednat jídlo
+    - objednat saunu
+    - znáš moji sestru?
+    - Znáš mého souseda?
+    - Znáš ABCD?
+    - Znáš krokodýla?
+    - Znáš ruské kolo?
+
+- intent: Smalltalk.0082
+  examples: |
+    - Pošli mi prachy.
+    - kolik mi je let?
+    - Kolik mám peněz na účtu?
+    - Kolik peněz mám na účtu?
+    - Kolik mám na účtu
+
+- intent: Smalltalk.0083
+  examples: |
+    - Moc toho neumíš
+    - tak toho moc neumíš
+
+- intent: Smalltalk.0084
+  examples: |
+    - Umíš anglicky?
+    - Mluvíš anglicky?
+    - mluv anglicky
+    - mluvíš slovensky?
+    - umíš mluvit anglicky?
+
+- intent: intent_ins_assistance_init
+  examples: |
+    - asistenční služba
+    - asistenční služba k pojistce
+    - chci asistenční službu
+    - chci asistenci k pojištění
+    - potřebuji asistenční službu
+    - mám problém potřebuji asistenci
+    - mám problém pošli mi asistenční službu
+    - zavolej mi asistenční službu
+- intent: intent_ins_assistance_other
+  examples: |
+    - jiné pojištění
+    - k jinému pojištění
+- intent: intent_ins_assistance_car_insurance
+  examples: |
+    - pojištění vozidel
+    - vozidel
+    - pojištění vozidla
+    - vozidla
+    - pojištění auta
+    - k autu
+- intent: intent_ins_assistance_property_insurance
+  examples: |
+    - pojištění majetku a odpovědnosti
+    - k pojištění majetku a odpovědnosti
+    - pojištění majetku
+    - k pojištění majetku
+    - majetek
+    - majetku
+    - k majetku
+    - pojištění odpovědnosti
+    - odpovědnost
+    - odpovědnosti
+    - k odpovědnosti
+    - pojištění zodpovědnosti
+    - zodpovědnost
+    - zodpovědnosti
+- intent: intent_ins_assistance_internet_insurance
+  examples: |
+    - pojištění internetových rizik
+    - k pojištění internetových rizik
+    - internetových rizik
+    - internetovým rizikům
+    - pojištění internetu
+    - k pojištění internetu
+    - internetu
+    - pojištění online rizik
+- intent: intent_ins_assistance_legal_insurance
+  examples: |
+    - pojištění právní ochrany
+    - k pojištění právní ochrany
+    - právní ochrany
+    - právní ochranu
+    - právní ochraně
+    - k právní ochraně
+    - potřebuji právní ochranu
+- intent: intent_ins_assistance_life_insurance
+  examples: |
+    - životní a úrazové pojištění
+    - životnímu a úrazovému pojištění
+    - k životnímu a úrazovému pojištění
+    - životního a úrazového pojištění
+    - životní pojištění
+    - životnímu pojištění
+    - k životnímu pojištění
+    - životního pojištění
+    - životní
+    - životnímu
+    - k životnímu
+    - životního
+    - životko
+    - životka
+    - k životku
+    - úrazové pojištění
+    - úrazovému pojištění
+    - k úrazovému pojištění
+    - úrazového pojištění
+    - úrazové
+    - úrazovému
+    - k úrazovému
+    - úrazového
+    - pojištění úrazu
+    - úrazu
+- intent: intent_callback
+  examples: |
+    - sudo kate zavolej mi
+- intent: intent_general_needcontact
+  examples: |
+    - sudo kate potřebuji kontakt
+- intent: intent_callback_block_banking
+  examples: |
+    - Blokace elektronického bankovnictví
+    - blokace banovnictví
+- intent: intent_callback_block_card
+  examples: |
+    - Blokace platební karty
+    - blokace kreditky
+    - blokace karty
+- intent: intent_callback_infoline
+  examples: |
+    - Infolinka
+    - Chci Infolinku
+    - potřebuji infolinku
+- intent: intent_callback_premium_line
+  examples: |
+    - Premium linka
+    - chci premium linku
+    - potřebuji premium linku
+- intent: cardexpiration_init
+  examples: |
+    - expirace
+- intent: cardexpiration_delivered_init
+  examples: |
+    - card delivery
+- intent: cardexpiration_sent_init
+  examples: |
+    - card sent
+- intent: in_person
+  examples: |
+    - Vyzvednout na pobočce
+    - na pobočce
+    - vyzvednout osobně
+- intent: by_post
+  examples: |
+    - Poslat poštou
+    - pošli to poštou
+    - poštou
+- intent: intent_ccautoinstalment_push_init
+  examples: |
+    - automaticka splatka
+- intent: intent_ccautoinstalment_faq
+  examples: |
+    - sudo kate mám dotaz k automatické splátce kreditní karty
+- intent: intent_ccautoinstalment_faq_1
+  examples: |
+    - Odkdy se mi automatická splátka nastaví?
+    - Odkdy se automatická splátka nastaví?
+- intent: intent_ccautoinstalment_faq_2
+  examples: |
+    - Co se stane, když nemám peníze na účtu?
+    - Co když nemám peníze na účtu?
+- intent: intent_ccautoinstalment_faq_3
+  examples: |
+    - Co když budu chtít v průběhu měsíce splácet sám?
+    - Co když budu chtít kdykoli splácet sám?
+- intent: intent_ccautoinstalment_faq_4
+  examples: |
+    - Mohu to nějak zrušit?
+    - jak to zruším?
+- intent: intent_energy_phone_change
+  examples: |
+    - Mám jiný telefon
+- intent: intent_energy_init
+  examples: |
+    - intent: intent_energy_init
+      examples: |
+        - Potřebuji pomoct se změnou dodavatele [energií]{"entity": "slot_energy_type", "value": "energy"}
+        - Potřebuji pomoct se změnou dodavatele [plynu]{"entity": "slot_energy_type", "value": "gas"}
+        - Potřebuji pomoct se změnou dodavatele [elektřiny]{"entity": "slot_energy_type", "value": "electricity"}
+        - Nemáte pro mě levnější [elektřinu]{"entity": "slot_energy_type", "value": "electricity"}
+        - Nemáte pro mě výhodnější [plyn]{"entity": "slot_energy_type", "value": "gas"}
+        - Nemáte pro mě levnější [energie]{"entity": "slot_energy_type", "value": "energy"}
+        - Potřebuji pomoct se změnou dodavatele [energií]{"entity": "slot_energy_type", "value": "energy"}
+        - Potřebuji pomoct se změnou dodavatele [gas](gas)
+        - Potřebuji pomoct se změnou dodavatele [electricity](electricity)
+        - Nemáte pro mě levnější [electricity](electricity)
+        - Nemáte pro mě výhodnější [plyn]{"entity": "slot_energy_type", "value": "gas"}
+        - Nemáte pro mě levnější [energie]{"entity": "slot_energy_type", "value": "energy"}
+        - Chci ušetřit na [energiích]{"entity": "slot_energy_type", "value": "energy"}
+        - Chci ušetřit na [elektřině]{"entity": "slot_energy_type", "value": "electricity"}
+        - Chci ušetřit na [plynu]{"entity": "slot_energy_type", "value": "gas"}
+        - Chci změnit dodavatele [energie]{"entity": "slot_energy_type", "value": "energy"}
+        - Chci změnit dodavatele [elektřiny]{"entity": "slot_energy_type", "value": "electricity"}
+        - Chci změnit dodavatele [plynu]{"entity": "slot_energy_type", "value": "gas"}
+        - Jak ušetřit na [energii]{"entity": "slot_energy_type", "value": "energy"}
+        - Jak ušetřit na [elektřině]{"entity": "slot_energy_type", "value": "electricity"}
+        - Jak ušetřit na [plynu]{"entity": "slot_energy_type", "value": "gas"}
+        - Jak ušetřit na výdajích za domácnost
+- synonym: energy
+  examples: |
+    - energie
+    - energií
+    - energii
+    - energiím
+    - energiích
+    - energiemi
+- synonym: gas
+  examples: |
+    - plyn
+    - plynu
+    - plynem
+    - plyny
+    - plynů
+    - plynům
+    - plynech
+- synonym: electricity
+  examples: |
+    - elektřina
+    - elektřiny
+    - elektřině
+    - elektřinu
+    - elektřinou
+- intent: intent_expiredid_question
+  examples: |
+    - Co bych měl vědět?
+- intent: intent_expiredid_faq_1
+  examples: |
+    - Where do I have to report it?
+    - Kde všude to musím hlásit?
+- intent: intent_expiredid_faq_2
+  examples: |
+    - How long does it take to get a new ID?
+    - Jak dlouho trvá vyřídit novou občanku?
+- intent: intent_expiredid_faq_3
+  examples: |
+    - Where I can get a new ID
+    - Kde si obstarám novou občanku?
+- intent: intent_expiredid_faq_4
+  examples: |
+    - Jak to nahlásím do banky?
+- intent: intent_expiredid_faq_none
+  examples: |
+    - Nenapadá mě žádná další otázka
+- intent: intent_faq_elb
+  examples: |
+    - elektronické bankovnictví
+    - internetové bankovnictví
+    - i banking
+    - smartbanka
+    - smartbanking
+    - mobilní bankovnictví
+- intent: intent_faq_cards
+  examples: |
+    - Karty
+    - karta
+    - kreditka
+    - debetka
+    - platební karta
+    - debetní karta
+    - kreditní karta
+    - zajímají mě karty
+    - zajimaji me karty
+    - mám dotaz na karty
+    - mám dotaz ohledně karty
+    - dotaz karty
+- intent: intent_faq_payments
+  examples: |
+    - platby
+    - jak je to s platbami
+    - zajímají mně platby
+    - mám problém s platbami
+    - nejdou mi platby
+    - nemúžu zaplatit
+    - chci informace k platbám
+    - mám dotaz k platbám
+- intent: intent_faq_products
+  examples: |
+    - produkty
+    - chci se zeptat na produkty
+    - chci info k produktům
+    - mám problém s produkty
+    - mám dotaz k produktům
+    - zajímají mě produkty
+- intent: intent_faq_contacts
+  examples: |
+    - kontakty
+    - hledám kontakty
+    - potřebuji kontakt
+- intent: talk_faq_products
+  examples: |
+    - Účet
+    - pojištění
+    - investice
+    - kontokorent
+    - svět odměn
+    - nemúžu zaplatit
+    - chci informace k platbám
+    - účet
+    - mám dotaz k platbám
+- intent: init
+  examples: |
+    - init
+- intent: settings_init
+  examples: |
+    - settings init
+- intent: intent_internal_reset_user
+  examples: |
+    - sudo kate reset user
+- intent: intent_internal_query_user
+  examples: |
+    - sudo kate jaká je moje preference?
+- intent: intent_internal_send_push
+  examples: |
+    - sudo kate pošli mi pušku na ušetřeno elektřina
+    - sudo kate pošli mi pušku na ušetřeno plyn
+    - sudo kate pošli mi pušku na petexpert
+    - sudo kate pošli mi pušku na expireid
+    - sudo kate pošli mi pušku na expiraci karty
+    - sudo kate pošli mi pušku na doručení karty
+    - sudo kate pošli mi pušku na odeslání karty poštou
+    - sudo kate pošli mi pušku na cestovní pojištění
+    - sudo kate pošli mi pušku na svět odměn
+    - sudo kate pošli mi pušku na automatickou splátku kreditky kvůli nové kartě
+    - sudo kate pošli mi pušku na automatickou splátku kreditky kvůli nezaplacení
+    - sudo kate pošli mi pušku na nevyužité osobní pojištění
+    - sudo kate pošli mi pušku na připomenutí cestovního pojištění pro sebe
+    - sudo kate pošli mi pušku na připomenutí cestovního pojištění pro rodinu
+    - sudo kate pošli mi pušku na nabídku hypotéky
+    - sudo kate pošli mi pušku na prodloužená záruka neaktivní klient
+    - sudo kate pošli mi pušku na prodloužená záruka aktivní klient
+    - sudo kate pošli mi pušku na výročí podnikání
+    - sudo kate pošli mi pušku na nabídku podnikatelského konta
+- intent: intent_general_back
+  examples: |
+    - Zpět
+    - Zpátky
+    - Dozadu
+    - Vrať se
+    - Jdi zpět
+- intent: intent_general_end
+  examples: |
+    - Zruš to
+    - Ukonči to
+    - Už to nechci
+    - Ruším to
+    - Přeruš to
+    - Nechci pokračovat
+    - Už nepokračuji
+    - Ukončit
+    - ukončit konverzaci
+    - Na shledanou
+    - To je všechno
+    - Už nic dalšího nechci
+    - Loučím se
+    - Měj se fajn
+    - Měj se
+    - Zmiz
+    - Vypadni
+    - Odcházím
+    - Nashle
+    - Už vím vše
+- intent: intent_general_question
+  examples: |
+    - Potřebuji poradit
+    - Mám dotaz
+    - Chtěl bych se zeptat
+    - Chci se zeptat
+    - Poradíte mi?
+    - Chci poradit
+    - Mám otázku
+    - Nevím si rady
+    - Pomůžeš mi?
+    - nevím jak na to
+    - co mám dělat
+    - poraď mi
+    - potřebuji informaci
+    - potřebuji informace
+    - potřebuji pomoc
+    - potřebuji pomoct
+    - chci pomoct
+    - chci se poradit
+    - poradíš mi
+- intent: intent_general_no
+  examples: |
+    - Ne
+    - Ne děkuji
+    - ne díky
+    - nech mě
+    - ne nesouhlasím
+    - Nikdy
+    - Díky ale nemám zájem
+    - Nemám zájem
+    - Nemám zájem děkuji
+    - Nesouhlasím děkuji
+    - nepotřebuji
+    - nesouhlasím
+    - teď ne
+    - to nechci
+    - to rozhodně nechci
+    - to nikdy
+    - tohle ne
+    - tohle nechci
+    - tak to ne
+    - rozhodně ne
+    - určitě ne
+    - nikdy
+    - odmítám
+    - zamítám
+    - absolutně ne
+    - kdepak
+    - v žádném případě
+    - díky ale nemám zájem
+    - díky ne
+    - nemám zájem děkuji
+    - Ne nechci
+    - Kdepak, to nechci
+- intent: intent_general_yes
+  examples: |
+    - Ano
+    - Ano zkusíme to
+    - Ano mám zájem
+    - Ano souhlasím
+    - ano souhlasí
+    - Jo
+    - Ok
+    - ano prosím
+    - jo prosím
+    - tak jo
+    - tak fajn
+    - tak dobře
+    - dobrá
+    - určitě jo
+    - určitě ano
+    - rozhodně ano
+    - rozhodně jo
+    - ok
+    - oukej
+    - óká
+    - jasně že jo
+    - jistě
+    - přesně tak
+    - souhlas
+    - souhlasím
+    - potvrzuji
+    - potvrzuju
+    - to by bylo hezké
+    - to bych byl rád
+    - to beru
+    - jasná věc
+    - to by bylo skvělé
+    - to by bylo fajn
+    - to bude super
+    - ano chci to
+    - ano chci
+    - ano doplním
+    - ano doplní
+    - jasně
+    - okay
+    - mám zájem
+    - chci
+    - chci to
+- intent: intent_general_afternoon
+  examples: |
+    - odpoledne
+    - dneska odpoledne
+    - dnes odpoledne
+- intent: intent_general_today_evening
+  examples: |
+    - vecer
+    - dneska vecer
+    - dnes večer
+- intent: intent_general_tomorrow_morning
+  examples: |
+    - zitra rano
+    - zítra poránu
+    - ráno
+- intent: intent_general_tomorrow_afternoon
+  examples: |
+    - zitra odpoledne
+- intent: intent_general_tomorrow_evening
+  examples: |
+    - zitra vecer
+    - zítra navečer
+- intent: intent_general_wcyd
+  examples: |
+    - Co vsechno umis
+    - co všechno umíš
+    - co ještě umíš
+    - co dalšího umíš
+    - co pro mě můžeš udělat
+    - co mi umíš zařídit
+    - co jiného umíš
+    - co umíš udělat
+    - co umíš
+    - co umíš otazník
+    - co zvládneš
+    - co zvládáš
+    - co dokážeš
+    - s čím mi umíš pomoci
+    - s čím mi dokážeš pomoci
+    - s čím mi můžeš pomoci Kate
+    - Kate, s čím mi můžeš pomoci
+    - jak mi můžeš pomoci
+    - jak umíš být užitečná
+    - jak mi pomůžeš
+    - jaké dialogy umíš?
+    - jaké máš znalosti
+    - a co umíš
+    - řekni mi, co umíš
+    - Kate řekni mi, co umíš
+    - pověz mi, co umíš
+    - what can you do?
+    - show me what you can?
+    - what are your skills?
+    - what are your capabilities?
+    - what are you good for?
+- intent: intent_general_wdigt
+  examples: |
+    - advanced why did i get this
+    - proč se mi tento tip ukázal
+    - proč mi tohle přišlo
+    - proč mi tento tip přišel
+    - proč jsem tohle dostal
+    - jak to že posíláte tipy
+    - proč mi posíláte oznámení
+    - proč mi přišla puška
+    - jak to že mě spamujete
+    - proč mi posíláte tipy
+- intent: intent_general_edit
+  examples: |
+    - Upravit
+    - Opravit
+    - Zadat znovu
+    - změň to
+    - je to špatně
+    - to jsem nechtěl
+    - chyba
+    - je to blbě
+    - chci to změnit
+- intent: intent_general_explain
+  examples: |
+    - Jak to funguje?
+    - O čem to je?
+    - Co to znamená?
+    - Jak tomu mám rozumět?
+    - Potřebuji to vysvětlit
+    - Nechápu to
+    - Řekni mi víc
+    - Vysvětli mi to
+    - Chci vysvětlení
+    - jak funguje
+- intent: intent_general_rml
+  examples: |
+    - připomeň mi později
+    - připomeň mi to později
+    - připomeň později
+    - připomenout později
+    - teď to nechci řešit
+    - vyřeším to pak
+    - nech to na potom
+    - připomeň se mi pak
+    - někdy jindy
+    - později
+- intent: intent_general_callme
+  examples: |
+    - sjednat po telefonu
+    - zavolejte mi
+    - zavolate mi
+    - zavolej mi
+    - cinkni mi
+    - brkni mi
+    - ozvěte se mi
+    - chci abyste mi zavolali
+    - chci callback
+    - chci zpětné volání
+    - zavolejte mi zpátky
+- intent: intent_general_dontknow
+  examples: |
+    - Nevím
+    - to netuším
+    - nejsem si jistý
+    - to nevím
+    - nevyznám se v tom
+    - nemám ponětí
+    - fakt nevím
+    - nemám páru
+- intent: intent_general_continue
+  examples: |
+    - pokračovat
+    - pokračuj
+    - pojďme dál
+- intent: intent_general_user_phone
+  examples: |
+    - moje číslo je [765 432 109](slot_user_connection_number)
+- intent: intent_general_reaffirm
+  examples: |
+    - Vlastně ne, je to správně
+    - Jdi zpátky
+    - Nechci nic měnit
+- intent: intent_general_tomorrow
+  examples: |
+    - Zítra
+- intent: intent_general_start_next_week
+  examples: |
+    - Začátkem příštího týdne
+- intent: intent_general_end_next_week
+  examples: |
+    - Koncem příštího týdne
+- intent: intent_general_tmm
+  examples: |
+    - Chci více informací
+- intent: intent_ins_greencard_init
+  examples: |
+    - sudo kate chci zelenou kartu
+- intent: intent_insuranceoverview
+  examples: |
+    - Jaké mám pojištění
+    - číslo pojistné smlouvy
+    - číslo mé pojistné smlouvy
+    - jaké je číslo mé pojistné smlouvy
+    - jaké je číslo smlouvy mého pojištění
+    - číslo smlouvy mého pojištění
+    - jaké mám číslo pojistné smlouvy
+    - ukaž mi moje pojistky
+    - moje pojištění
+    - zobraz moje pojistky
+    - číslo mojí životní pojistky
+    - číslo mojí úrazové pojistky
+    - číslo smlouvy povinného ručení
+    - číslo smlouvy pojištění majetku
+    - číslo smlouvy pojištění internetových rizik
+    - jaké je číslo smlouvy pojištění právní ochrany
+- intent: intent_insuranceoverview_other_insurance
+  examples: |
+    - Hledám jinou pojistnou smlouvu
+    - Mám jinou pojistnou smlouvu
+    - jinou pojistnou smlouvu
+    - jinou smlouvu
+    - mám jinou smlouvu
+- intent: loyalty_offer_init
+  examples: |
+    - svet odmen
+- intent: loyalty_u2k_init
+  examples: |
+    - sudo kate chci svět odměn
+- intent: intent_general_time
+  examples: |
+    - Kolik je hodin?
+    - Jaký je čas?
+    - Kolik je?
+    - co je za čas?
+    - kolik je
+- intent: intent_general_date
+  examples: |
+    - Kolikátého je?
+    - Co je za den?
+    - Jaký je den?
+    - Co je dneska?
+    - jaky je den
+- intent: intent_general_week
+  examples: |
+    - Jaký je týden?
+    - číslo týdne
+    - kolikátý je týden?
+    - jaké je číslo týdne
+    - je sudý týden?
+    - je lichý týden?
+    - je sudý nebo lichý týden?
+- intent: intent_general_month
+  examples: |
+    - Jaký je měsíc?
+    - Co je za měsíc?
+    - Který je měsíc?
+    - co máme za měsíc
+- intent: intent_general_year
+  examples: |
+    - Jaký je rok?
+    - Co je za rok?
+    - jaký máme rok?
+    - Který je rok?
+- intent: intent_general_isleapyear
+  examples: |
+    - Je přestupný rok?
+    - máme přestupný rok?
+    - je letos přestupný rok?
+- intent: intent_general_leapyear
+  examples: |
+    - Kdy je přestupný rok?
+    - Kdy byl přestupný rok?
+    - Kdy bude přestupný rok?
+- intent: intent_general_nameday
+  examples: |
+    - Kdo má dnes svátek?
+    - kdo slaví dnes svátek?
+    - jaký je dnes svátek?
+    - kdo má jmeniny?
+    - kdo ma svatek
+- intent: kind_dog
+  examples: |
+    - psa
+    - pejska
+    - hafana
+    - pes
+    - štěně
+    - čokla
+    - trhače
+    - pejsánka
+    - psíka
+    - štěňátko
+- intent: dog_size_small
+  examples: |
+    - malý
+    - prcek
+    - drobný
+    - mrňavý
+    - pidi
+- intent: dog_size_mid
+  examples: |
+    - střední
+    - prostřední
+    - průměrný
+    - něco mezi
+- intent: dog_size_large
+  examples: |
+    - velký
+    - macek
+    - obr
+    - veliký
+    - tele
+- intent: all_too_old
+  examples: |
+    - je starší
+    - 6 let a starší
+    - 8 let a starší
+    - 10 let a starší
+- intent: younger_then_threshold
+  examples: |
+    - mladší
+    - Mladší než 6 let
+    - Mladší než 8 let
+    - Mladší než 10 let
+- intent: kind_cat
+  examples: |
+    - kočku
+    - mačku
+    - mačičku
+    - čičinu
+    - kočičku
+    - mourka
+    - čičinku
+    - mícu
+    - micinu
+    - kocoura
+    - koťátko
+    - kočka
+    - koťě
+- intent: petexpert_kind_other
+  examples: |
+    - jiné
+    - ještěrku
+    - koně
+    - andulku
+    - papouška
+    - rybičky
+    - křečka
+    - želvu
+    - hada
+    - leguána
+    - chameleona
+    - slepice
+    - ovce
+    - krávu
+- intent: petexpert_pay
+  examples: |
+    - Zaplatit
+    - poslat platbu
+    - uhradit
+    - zaplatit pojistné
+- intent: petexpert_init
+  examples: |
+    - petexpert
+- intent: petexpert_u2k_init
+  examples: |
+    - Mohu si přes Tebe pojistit psa?
+    - Mohu si přes Tebe pojistit kočku?
+    - Jaké pojištění psa mi nabídneš?
+    - Jaké pojištění kočky mi nabídneš?
+    - Chci pojistit domácí zvíře
+    - Chci pojistit domácího mazlíčka
+    - Chci pojistit pejska
+    - Chci pojistit psa
+    - Chci pojistit kočku
+    - Nechci platit u veterináře
+    - Potřebuji pojištění psa
+    - Chci pojistku zvířátka
+    - Potřebuji pojistku pro pejska
+    - Musím pojistit kočičku
+    - Chci ušetřit za veterináře
+    - Pojistíš mi domácí zvíře?
+    - Pomůžeš mi s pojištěním zvířat?
+    - Pojistíš mi psa?
+    - Pojistíš mi kočku?
+    - pojištění mazlíků
+    - pojištění domácích mazlíčků
+    - chtěl bych pojistit pejska
+    - chtěl bych pojistit kočičku
+    - pojistit pejska
+    - pojistit kočičku
+    - pojistit psa
+    - pojistit kočku
+    - potřebuji pojistit pejska
+    - potřebuji pojistit psa
+    - potřebuji pojistit kočku
+    - potřebuji pojistit kočičku
+    - chtěl bych pojistit psa.
+    - chtěl bych pojistit kočku.
+    - rád bych si sjednal pojištění domácích mazlíčků
+    - pojistit domácího mazlíčka
+    - umíš pojistit domácího mazlíčka?
+    - pojistíte mi pejska?
+    - pojistíte mi psa?
+    - pojistíte mi kočičku?
+    - pojistíte mi kočku?
+- intent: buy_basic
+  examples: |
+    - Sjednat basic
+    - Koupit basic
+    - Kup basic
+- intent: buy_start
+  examples: |
+    - Sjednat start
+    - Koupit start
+    - Kup start
+- intent: buy_premium
+  examples: |
+    - Sjednat premium
+    - Koupit premium
+    - Kup premium
+- intent: intent_premiuminsreminder13_faq_1
+  examples: |
+    - Pojištění internetových rizik
+- intent: intent_premiuminsreminder13_faq_2
+  examples: |
+    - Pojištění odpovědnosti
+- intent: intent_premiuminsreminder13_faq_3
+  examples: |
+    - Pojištění právní ochrany řidiče
+- intent: intent_premiuminsreminder13_faq_4
+  examples: |
+    - Jak sjednat pojištění
+- intent: travelinsurance-init
+  examples: |
+    - cestovní pojištění
+    - cestovní
+    - cestovnímu pojištění
+    - k cestovnímu pojištění
+    - cestovního pojištění
+    - cestovko
+    - k cestovku
+    - Chci cestovní pojištění
+    - Potřebuji pojistit na cestu do zahraničí
+    - Chci cestovko
+    - Chci se pojistit
+    - Cestovní pojištění
+    - Chtěl bych se pojistit na cestu
+    - Chci si sjednat cestovko
+    - Potřebuju pojistit v zahraničí
+    - Pojištění cesty
+    - Chci pojištění léčebných výloh v zahraničí
+    - Potřebuji pojištění storna zájezdu do zahraničí
+    - Potřebuji pojištění storna letenky
+    - Chci pojištění pro případ úrazu v zahraničí
+    - Pomůžeš mi s cestovním pojištěním?
+- intent: travelinsurance_only-me
+  examples: |
+    - Pro sebe
+- intent: travelinsurance_me-others
+  examples: |
+    - Pro rodinné příslušníky/jiné osoby
+- intent: travelinsurance_dest-CZ
+  examples: |
+    - ČR
+- intent: travelinsurance_dest-world
+  examples: |
+    - Svět
+- intent: travelinsurance_dest-europe
+  examples: |
+    - Evropa
+- intent: travelinsurance_hol
+  examples: |
+    - Dovolená
+- intent: travelinsurance_office
+  examples: |
+    - Za prací (v kanceláři)
+- intent: travelinsurance_work
+  examples: |
+    - Za manuální prací
+- intent: travelinsurance_no-sports
+  examples: |
+    - Žádné nebo pouze rekreační
+- intent: travelinsurance_winter
+  examples: |
+    - Zimní
+- intent: travelinsurance_risk
+  examples: |
+    - Rizikové
+- intent: travelinsurance_adults
+  examples: |
+    - Dospělí (19-69 let)
+- intent: travelinsurance_children
+  examples: |
+    - Děti (0-18)
+- intent: travelinsurance_seniors
+  examples: |
+    - Senioři (70+)
+- intent: travelinsurance_standard
+  examples: |
+    - Standardní
+- intent: travelinsurance_premium
+  examples: |
+    - Nadstandardní
+- intent: travelinsurance_pay-later
+  examples: |
+    - Zaplatím později
