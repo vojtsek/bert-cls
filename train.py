@@ -1,5 +1,4 @@
-import torch
-# from torchtext.data import Field, TabularDataset, BucketIterator, Iterator
+import os
 import transformers
 from tensorflow.keras import preprocessing
 from transformers import BertTokenizer, BertForSequenceClassification
@@ -10,17 +9,6 @@ from czert import CZERT
 import tensorflow_datasets as tfds
 SEQ_LEN=100
 batch_size = 4
-
-
-def predict_with_model(sentence, model, tokenizer):
-    bert_input = tokenizer(sentence, truncation=True, max_length=SEQ_LEN, padding='max_length')
-    bert_input = {
-        'input_ids': tf.constant(bert_input['input_ids']),
-        'token_type_ids': bert_input['token_type_ids'],
-        'attention_mask': tf.constant(bert_input['attention_mask'])
-    }
-    output = tf.argmax(model(bert_input))
-    return output.numpy()
 
 
 def load_dataset(path):
@@ -76,12 +64,11 @@ if __name__ == '__main__':
     # ds_test_encoded = encode_examples(ds_train, tokenizer, limit=100).batch(batch_size)
 
     learning_rate = 2e-5
-    number_of_epochs = 4
+    number_of_epochs = 3
     model = CZERT(args.model_dir, num_labels=578)
     optimizer = tf.keras.optimizers.Adam(learning_rate=learning_rate, epsilon=1e-08)
     loss = tf.keras.losses.SparseCategoricalCrossentropy(from_logits=True)
     metric = tf.keras.metrics.SparseCategoricalAccuracy('accuracy')
     model.compile(optimizer=optimizer, loss=loss, metrics=[metric])
     bert_history = model.fit(ds_train_encoded, epochs=number_of_epochs, validation_data=ds_train_encoded)
-    predicted = predict_with_model(['I fucking hate you'], model, tokenizer)
-    print(predicted)
+    model.save_weights('saved_model-pooler-3/model_weights')

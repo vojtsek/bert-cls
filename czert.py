@@ -11,7 +11,7 @@ class CZERT(tf.keras.Model):
 
     def __call__(self, example, *args, **kwargs):
         output = self.encoder(example['input_ids'])
-        # loss, logits , hidden_states, attentions = output[:4]
-        cls_tokens = output['last_hidden_state'][:, 0, :]
+        # cls_tokens = output['last_hidden_state'][:, 0, :]
+        cls_tokens = output['pooler_output']
         x = self.cls_layer(cls_tokens)
         return x

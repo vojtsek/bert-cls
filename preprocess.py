@@ -15,8 +15,9 @@ if __name__ == '__main__':
             for n, example in enumerate(intent_data['examples'].split('\n')):
                 c.update([intent_data['intent']])
                 total += 1
-                with open(os.path.join(dest, f'{n}.txt'), 'wt') as f:
-                    print(example.strip('- '), file=f)
+                if len(example.strip('-').strip()) > 0:
+                    with open(os.path.join(dest, f'{n}.txt'), 'wt') as f:
+                        print(example.strip('- '), file=f)
             i += 1
         except:
             print(intent_data)
